@@ -51,7 +51,6 @@
     <div class="col col-2">
       <div class="col-item">
         <h3><span>events</span></h3>
-
         <div class="col-wrapper">
           <div class="col-event">
             <h4>Sushi Class</h4>
