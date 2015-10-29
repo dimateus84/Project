@@ -9,6 +9,7 @@
   <div class="b-gallery">
     <div class="flexslider">
       <ul class="slides">
+
         <li><img src="theme/images/carusel/zal-fist.jpg"/></li>
         <li><img src="theme/images/carusel/lobby-sec.jpg"/></li>
         <li><img src="theme/images/carusel/g-th.jpg"/></li>

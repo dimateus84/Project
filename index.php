@@ -11,7 +11,6 @@
 <link href="index/css/preview.css" rel="stylesheet" type="text/css">
 <body>
 <div class="pages-wrapper">
-
     <div id="logo">
         <img src="theme/images/logo.png" alt=""/>
     </div>
