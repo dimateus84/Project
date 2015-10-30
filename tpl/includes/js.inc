@@ -47,6 +47,23 @@
         initFullWidthBlock();
     });
 </script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    var touch = $('#touch-menu');
+    var menu = $('nav ul.menu');
+
+    $(touch).on('click', function(e) {
+      e.preventDefault();
+      menu.slideToggle();
+    });
+    $(window).resize(function(){
+      var wid = $(window).width();
+      if(wid > 480 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+      }
+    });
+  });
+</script>
 <!--flex/end-->
 <!--fix placeholdr ie9-->
 <script src="theme/js/lib/placeholderie9.js"></script>

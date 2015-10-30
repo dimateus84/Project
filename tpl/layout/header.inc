@@ -23,6 +23,7 @@
             <a class="zw" href="#zw"></a>
         </div>
         <nav class="nav">
+          <a href="#" id="touch-menu">Menu</a>
             <ul class="menu">
                 <li><a href="#">Weddings</a></li>
                 <li><a href="#">special events</a></li>

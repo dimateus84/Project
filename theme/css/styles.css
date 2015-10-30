@@ -671,6 +671,9 @@ ul li {
   border-top: 1px solid #131d1d;
   border-bottom: 1px solid #4d4d2f;
 }
+.site-header .nav #touch-menu {
+  display: none;
+}
 .site-header .nav ul {
   margin: 0 auto;
   display: table;
@@ -777,14 +780,14 @@ ul li {
     display: table-cell;
     color: #fff;
     list-style: none;
-    padding: 0 25px;
+    padding: 0 3px;
   }
   .site-header .top-menu ul li.img {
     vertical-align: top;
   }
   .site-header .top-menu ul li a {
     color: #86827c;
-    font: 17px/41px Gotham;
+    font: 13px/41px Gotham;
     letter-spacing: 0.5px;
     text-decoration: none;
     text-transform: uppercase;
@@ -806,6 +809,10 @@ ul li {
     position: relative;
     top: 40px;
   }
+  .site-header .logo a img {
+    width: 100%;
+    height: auto;
+  }
   .site-header .logo a h1 {
     text-indent: -9999px;
     font-size: 0;
@@ -824,15 +831,28 @@ ul li {
     border-top: 1px solid #131d1d;
     border-bottom: 1px solid #4d4d2f;
   }
+  .site-header .nav #touch-menu {
+    display: block;
+    width: 100%;
+    height: 41px;
+    color: #fff;
+    padding: 12px 10px;
+    font: 12px Montserrat;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
   .site-header .nav ul {
     margin: 0 auto;
-    display: table;
+    display: none;
     padding: 0;
+    position: absolute;
+    z-index: 1;
     border-left: 1px solid #131d1d;
     border-right: 1px solid #4d4d2f;
   }
   .site-header .nav ul li {
-    display: table-cell;
+    display: list-item;
     color: #fff;
     list-style: none;
     border-color: transparent #131d1d transparent #4d4d2f;
@@ -840,13 +860,14 @@ ul li {
     border-width: 0 1px;
     margin: 0;
     padding: 0;
+    background: url('../images/bg/menu-wood.jpg');
   }
   .site-header .nav ul li a {
     color: #FFF;
     display: block;
-    padding: 11px 35px;
+    padding: 12px 10px;
     letter-spacing: 3px;
-    font: 14px Montserrat;
+    font: 12px Montserrat;
     text-decoration: none;
     text-transform: uppercase;
     -moz-transition: all 0.3s;
