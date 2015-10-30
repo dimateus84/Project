@@ -10,7 +10,20 @@
 @import "forms/forms";
 @import "forms/_newsletter";
 //layout
-@import "layout/header";
+@import "layout/header/_header";
+@media (max-width: $width-tablet - 1) {
+  //layout
+  @import "layout/header/_header-s";
+}
+@media (min-width: $width-tablet) and (max-width: $width + 29) {
+  //layout
+  @import "layout/header/_header-m";
+}
+@media (min-width: $width + 30) {
+  //layout
+  @import "layout/header/_header-l";
+}
+
 @import "layout/wrappers";
 @import "layout/content";
 @import "layout/footer";
