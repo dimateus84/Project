@@ -17,7 +17,10 @@
 @import "layout/site-container";
 @import "layout/btn";
 //blocks
-@import "blocks/_cols";
+@import "blocks/cols/_cols";
+@import "blocks/cols/_cols-l"
+@import "blocks/cols/_cols-m";
+@import "blocks/cols/_cols-s";
 @import "blocks/_gallery";
 //pages
 //modules

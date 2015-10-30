@@ -1,0 +1,101 @@
+_cols.scss.cols {
+	@include clearfix();
+
+	.col {
+		float: left;
+		margin-right: 46px;
+		width: 342px;
+
+		&.col-3 {
+			margin: 0;
+			border: none;
+
+			.col-item {
+				border: none;
+				background: none;
+
+				.col-wrapper {
+					padding: 20px 0;
+				}
+			}
+		}
+
+		.col-wrapper {
+			padding: 25px 25px 0 30px;
+		}
+
+		.col-item {
+			background: #fff;
+			height: 100%;
+			border: 1px solid #314c4e;
+			@include border-radius(20px);
+
+			h3 {
+				padding: 5px 0 6px;
+				background: image_url("bg/bg-colum-h.png") repeat-x;
+				@include border-radius(18px 18px 0 0);
+				border-bottom: 1px solid #000;
+				overflow: hidden;
+				text-align: center;
+
+				span {
+					color: #fff;
+					font: normal 30px/45px $voltaire;
+					text-transform: uppercase;
+					display: inline-block;
+					height: 40px;
+					min-width: 186px;
+					background: #5f1717;
+				}
+			}
+
+			.wrapper-face {
+				padding: 20px;
+			}
+
+			.col-cont {
+				padding: 20px 5px 9px 66px;
+				width: 282px;
+				margin: 0 auto 11px;
+				background: image_url("bg/WR.png") no-repeat;
+				border-bottom: 1px solid #fff5f5;
+
+				p {
+					margin: 0;
+				}
+
+				&:last-child {
+					background: image_url("bg/face.png") no-repeat;
+					margin-bottom: 0;
+				}
+			}
+			.col-event {
+				border-bottom: 1px solid #c2c2c2;
+				margin-bottom: 15px;
+
+				&:last-child {
+					border-bottom: none;
+				}
+
+				h4 {
+					font: 24px/24px $Montserrat-bold;
+					color: #336666;
+					margin: 0 0 2px;
+				}
+
+				span {
+					font: 15px/20px $Montserrat;
+					color: #7e7e7e;
+					text-transform: uppercase;
+					margin-bottom: 10px;
+					display: block;
+				}
+
+				p {
+					color: #7e7e7e;
+					line-height: 22px;
+				}
+			}
+		}
+	}
+}
