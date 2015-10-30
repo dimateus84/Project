@@ -14,15 +14,27 @@
 @import "layout/wrappers";
 @import "layout/content";
 @import "layout/footer";
-@import "layout/site-container";
+@import "layout/site-container/_site-container";
 @import "layout/btn";
 //blocks
+
 @import "blocks/cols/_cols";
-@import "blocks/cols/_cols-l";
-@import "blocks/cols/_cols-m";
-@import "blocks/cols/_cols-s";
+@media (max-width: $width-tablet - 1) {
+  //blocks
+  @import "blocks/cols/_cols-s";
+}
+@media (min-width: $width-tablet) and (max-width: $width + 29) {
+  //blocks
+  @import "blocks/cols/_cols-m";
+}
+@media (min-width: $width + 30) {
+  //blocks
+  @import "blocks/cols/_cols-l";
+}
+
 @import "blocks/_gallery";
 //pages
 //modules
 @import "modules/flexslider";
 @import "modules/select2";
+
