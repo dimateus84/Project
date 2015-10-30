@@ -1,5 +1,6 @@
 .cols {
 	@include clearfix();
+  margin: 0 auto;
 
 	.col {
 		float: left;

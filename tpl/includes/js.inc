@@ -24,7 +24,7 @@
 <script type="text/javascript" charset="utf-8">
     function initFullWidthBlock() {
         var $elements = $('.content-top'),
-            minWidth = 1300;
+            minWidth = 0;
 
         $(window).on('resize', setPosition);
         setPosition();
