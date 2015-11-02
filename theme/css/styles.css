@@ -1230,6 +1230,7 @@ ul li {
 @media (max-width: 767px) {
   .think-us {
     width: 100%;
+    position: static;
     height: auto;
   }
   .think-us .think-wrapper {
@@ -1251,6 +1252,17 @@ ul li {
   height: 504px;
 }
 
+@media (max-width: 767px) {
+  .b-gallery {
+    height: auto;
+  }
+  .b-gallery .flexslider {
+    margin: 0;
+  }
+  .b-gallery .flexslider .slides img {
+    height: auto;
+  }
+}
 /*
  * jQuery FlexSlider v2.5.0
  * http://www.woothemes.com/flexslider/

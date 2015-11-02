@@ -64,7 +64,11 @@
   @import "blocks/think-us/_think-us-s";
 }
 
-@import "blocks/_gallery";
+@import "blocks/gallery/_gallery";
+@media (max-width: $width-tablet - 1) {
+  //blocks
+  @import "blocks/gallery/_gallery-s";
+}
 //pages
 //modules
 @import "modules/flexslider";
