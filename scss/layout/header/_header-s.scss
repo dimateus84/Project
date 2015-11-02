@@ -1,46 +1,58 @@
 .site-header {
-  background: image_url("bg/header-bg.jpg") no-repeat 0 40px;
-  height: 324px;
-  @include background-size(100% 80%);
-  position: relative;
 
   .top-menu {
-    height: 41px;
-    background: black;
-    @include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
+
+    #touch-top-menu {
+      display: block;
+      width: 100%;
+      height: 41px;
+      color: #86827c;
+      padding: 0 10px;
+      font: 17px/41px $Gotham;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
 
     ul {
-      margin: 0 auto;
-      padding-left: 75px;
-      display: table;
+      position: absolute;
+      display: none;
+      z-index: 1;
+      padding-left: 0;
+
 
       li {
-        display: table-cell;
+        display: list-item;
         color: #fff;
         list-style: none;
-        padding: 0 3px; //pravka
+        padding: 0 15px;
+        background: black;
 
         &.img {
-          vertical-align: top;
+
+          img {
+            display: none;
+            vertical-align: top;
+          }
+
+          span {
+            text-indent: 0;
+            font-size: 17px;
+            line-height: 41px;
+          }
         }
 
         &.active-trail {
         }
 
         a {
-          color: #86827c;
-          font: 13px/41px $Gotham; //pravka
-          letter-spacing: 0.5px;
-          text-decoration: none;
-          text-transform: uppercase;
-          @include transition(all 0.3s);
 
           &:hover {
-            color: #fff;
+
           }
 
           &.active-trail {
-            color: #fff;
+
           }
         }
       }
@@ -48,33 +60,22 @@
   }
 
   .logo {
-    text-align: center;
 
     a {
-      position: relative;
-      top: 40px;
+
       img{
         width: 100%;
         height: auto;
       }
 
       h1 {
-        @include text-hide();
+
       }
     }
   }
 
 
   .nav {
-    position: absolute;
-    bottom: 0;
-    height: 41px;
-    margin: 0;
-    background: image_url("bg/menu-wood.jpg");
-    @include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
-    width: 100%;
-    border-top: 1px solid #131d1d;
-    border-bottom: 1px solid #4d4d2f;
 
     #touch-menu {
       display: block;
@@ -89,73 +90,25 @@
     }
 
     ul {
-      margin: 0 auto;
       display: none;
-      padding: 0;
       position: absolute;
       z-index: 1;
-      border-left: 1px solid #131d1d;
-      border-right: 1px solid #4d4d2f;
 
       li {
         display: list-item;
-        color: #fff;
-        list-style: none;
-        border-color: transparent #131d1d transparent #4d4d2f;
-        border-style: solid;
-        border-width: 0 1px;
-        margin: 0;
-        padding: 0;
         background: image_url("bg/menu-wood.jpg");
 
         a {
-          color: #FFF;
-          display: block;
           padding: 12px 10px;
-          letter-spacing: 3px;
           font: 12px $Montserrat;
-          text-decoration: none;
-          text-transform: uppercase;
-          @include transition(all 0.3s);
 
           &:hover {
-            color: gray;
+
           }
 
           &.active-trail {
-            background: #FFF url('../images/bg/menu-wood.jpg') no-repeat 60%;
-            background-blend-mode: hard-light;
+
           }
-        }
-      }
-    }
-  }
-
-  .social-share {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 5px auto;
-    background: image_url("bg/social-wood-menu.png");
-    width: 282px;
-    height: 85px;
-    padding: 15px;
-
-    a {
-      display: inline-block;
-      margin-left: 5px;
-      @include transition(all 0.3s);
-
-      &:hover {
-        opacity: 0.6;
-      }
-
-      $sprs: colo, facebook, twitter, zw;
-      @each $spr in $sprs {
-
-        &.#{$spr} {
-          @include oneline-sprite-box($icons, $spr);
         }
       }
     }

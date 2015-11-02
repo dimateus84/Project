@@ -9,6 +9,8 @@
 		background: black;
 		@include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
 
+    #touch-top-menu {display: none;}
+
 		ul {
 			margin: 0 auto;
 			padding-left: 75px;
@@ -22,6 +24,11 @@
 
 				&.img {
 					vertical-align: top;
+
+          span {
+          display: block;
+          @include text-hide();
+          }
 				}
 
 				&.active-trail {

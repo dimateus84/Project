@@ -1,11 +1,12 @@
 <header id="site-header" class="site-header">
     <!--<div class="site-container">-->
         <div class="top-menu">
+          <a href="#" id="touch-top-menu">Link menu</a>
             <ul class="menu">
                 <li><a href="#">Sushi Neko</a></li>
                 <li><a href="#">Musashi’s</a></li>
                 <li><a href="#">Will Rogers Theatre</a></li>
-                <li class="img"><a href="#"><img src="theme/images/bg/top-men-centr.png"></a></li>
+                <li class="img"><a href="#"><img src="theme/images/bg/top-men-centr.png"><span>Western Concept</span></a></li>
                 <li><a href="#">The Lobby Cafe & Bar</a></li>
                 <li><a href="#">The Coach House</a></li>
                 <li><a href="#">The Tasting Room</a></li>
@@ -23,7 +24,7 @@
             <a class="zw" href="#zw"></a>
         </div>
         <nav class="nav">
-          <a href="#" id="touch-menu">Menu</a>
+          <a href="#" id="touch-menu">Navigation Menu</a>
             <ul class="menu">
                 <li><a href="#">Weddings</a></li>
                 <li><a href="#">special events</a></li>
