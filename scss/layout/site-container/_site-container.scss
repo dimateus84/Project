@@ -1,8 +1,5 @@
 .site-container {
 	margin: 0 auto;
+  position: relative;
 	@include clearfix;
-	width: $width;
-
-
-
 }

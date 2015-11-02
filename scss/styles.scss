@@ -1,4 +1,5 @@
 @import "compass";
+
 //base styles
 @import "common/mixins";
 @import "common/fonts";
@@ -6,71 +7,58 @@
 @import "common/normalize";
 @import "common/helpers";
 @import "common/defaults";
+
 //forms
 @import "forms/forms";
-@import "forms/_newsletter";
-//layout
-@import "layout/header/_header";
-@media (max-width: $width-tablet - 1) {
-  //layout
-  @import "layout/header/_header-s";
-}
-@media (min-width: $width-tablet) and (max-width: $width + 29) {
-  //layout
-  @import "layout/header/_header-m";
-}
-@media (min-width: $width + 30) {
-  //layout
-  @import "layout/header/_header-l";
-}
+@import "forms/newsletter";
 
+//layout
+@import "layout/header/header";
 @import "layout/wrappers";
 @import "layout/content";
 @import "layout/footer";
-@import "layout/site-container/_site-container";
-@media (max-width: $width-tablet - 1) {
-  //layout
-  @import "layout/site-container/_site-container-s";
-}
-@media (min-width: $width-tablet) and (max-width: $width + 29) {
-  //layout
-  @import "layout/site-container/_site-container-m";
-}
-@media (min-width: $width + 30) {
-  //layout
-  @import "layout/site-container/_site-container-l";
-}
-
+@import "layout/site-container/site-container";
 @import "layout/btn";
+
 //blocks
+@import "blocks/cols/cols";
+@import "blocks/think-us/think-us";
+@import "blocks/gallery/gallery";
 
-@import "blocks/cols/_cols";
-@media (max-width: $width-tablet - 1) {
-  //blocks
-  @import "blocks/cols/_cols-s";
-}
-@media (min-width: $width-tablet) and (max-width: $width + 29) {
-  //blocks
-  @import "blocks/cols/_cols-m";
-}
-@media (min-width: $width + 30) {
-  //blocks
-  @import "blocks/cols/_cols-l";
-}
-
-@import "blocks/think-us/_think-us";
-@media (max-width: $width-tablet - 1) {
-  //blocks
-  @import "blocks/think-us/_think-us-s";
-}
-
-@import "blocks/gallery/_gallery";
-@media (max-width: $width-tablet - 1) {
-  //blocks
-  @import "blocks/gallery/_gallery-s";
-}
 //pages
+
 //modules
 @import "modules/flexslider";
 @import "modules/select2";
 
+@media (max-width: $width-tablet - 1) {
+
+  //layout
+  @import "layout/header/header-s";
+  @import "layout/site-container/site-container-s";
+
+  //blocks
+  @import "blocks/think-us/think-us-s";
+  @import "blocks/gallery/gallery-s";
+  @import "blocks/cols/cols-s";
+}
+
+@media (min-width: $width-tablet) and (max-width: $width + 29) {
+
+  //layout
+  @import "layout/site-container/site-container-m";
+  @import "layout/header/header-m";
+
+  //blocks
+  @import "blocks/cols/cols-m";
+}
+
+@media (min-width: $width + 30) {
+
+  //layout
+  @import "layout/header/header-l";
+  @import "layout/site-container/site-container-l";
+
+  //blocks
+  @import "blocks/cols/cols-l";
+}

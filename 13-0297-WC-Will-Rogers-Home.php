@@ -10,11 +10,11 @@
     <div class="flexslider">
       <ul class="slides">
 
-        <li><img src="theme/images/carusel/zal-fist.jpg"/></li>
-        <li><img src="theme/images/carusel/lobby-sec.jpg"/></li>
-        <li><img src="theme/images/carusel/g-th.jpg"/></li>
-        <li><img src="theme/images/carusel/d-4.jpg"/></li>
-        <li><img src="theme/images/carusel/b-5.jpg"/></li>
+        <li><img src="theme/images/tmp/zal-fist.jpg" alt=""/></li>
+        <li><img src="theme/images/tmp/lobby-sec.jpg" alt=""/></li>
+        <li><img src="theme/images/tmp/g-th.jpg" alt=""/></li>
+        <li><img src="theme/images/tmp/d-4.jpg" alt=""/></li>
+        <li><img src="theme/images/tmp/b-5.jpg" alt=""/></li>
       </ul>
     </div>
   </div>
@@ -38,9 +38,9 @@
         <!--Для вставки FaceBook
         <iframe src="//www.facebook.com/></iframe>-->
         <div class="col-wrapper">
-          <div class="col-cont"><p><img src="theme/images/tmp/Facebook-widget-sample.jpg"></p></div>
-          <div class="col-cont"><p><img src="theme/images/tmp/f2.jpg"></p></div>
-          <div class="col-cont"><p><img src="theme/images/tmp/f3.jpg"></p></div>
+          <div class="col-cont"><p><img src="theme/images/tmp/Facebook-widget-sample.jpg" alt=""></p></div>
+          <div class="col-cont"><p><img src="theme/images/tmp/f2.jpg" alt=""></p></div>
+          <div class="col-cont"><p><img src="theme/images/tmp/f3.jpg" alt=""></p></div>
           <div class="col-cont"></div>
         </div>
       </div>
@@ -168,7 +168,7 @@
 
                 <div class="captcha-img-container">
                   <a href="#">Generate new captcha</a>
-                  <img src="theme/images/tmp/captcha.jpg">
+                  <img src="theme/images/tmp/captcha.jpg" alt="">
                 </div>
 
                 <div class="form-item form-type-text">
