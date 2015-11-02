@@ -764,6 +764,10 @@ ul li {
 }
 
 @media (max-width: 767px) {
+  .site-header {
+    height: 270px;
+    text-align: center;
+  }
   .site-header .top-menu #touch-top-menu {
     display: block;
     width: 100%;
@@ -796,6 +800,13 @@ ul li {
     text-indent: 0;
     font-size: 17px;
     line-height: 41px;
+  }
+  .site-header .logo {
+    display: inline;
+    line-height: 230px;
+  }
+  .site-header .logo a {
+    top: 0px;
   }
   .site-header .logo a img {
     width: 100%;

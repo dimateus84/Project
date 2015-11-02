@@ -1,4 +1,6 @@
 .site-header {
+  height: 270px;
+  text-align: center;
 
   .top-menu {
 
@@ -60,9 +62,11 @@
   }
 
   .logo {
+    display: inline;
+    line-height: 230px;
 
     a {
-
+      top: 0px;
       img{
         width: 100%;
         height: auto;
