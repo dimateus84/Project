@@ -28,10 +28,10 @@
     initSelect();
     initMobileNav($('.nav'), '.btn-nav', 'nav-active', 'nav-processed');
     initMobileNav($('.top-menu'), '.btn-top-menu', 'top-menu-active', 'top-menu-processed');
-    initPretendTo();
+    initLogoTopMenuClone();
   }
 
-  function initPretendTo() {
+  function initLogoTopMenuClone() {
     $('.top-menu li.img').clone().prependTo('.top-menu ul.menu').addClass('tablet');
   }
 
