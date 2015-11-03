@@ -1809,7 +1809,6 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     background-color: #fff;
   }
   .site-header .top-menu ul {
-    clear: both;
     top: 41px;
     position: absolute;
     z-index: 1;
