@@ -1,156 +1,156 @@
 .site-header {
-	background: image_url("bg/header-bg.jpg") no-repeat 0 40px;
-	height: 324px;
-	@include background-size(100% 80%);
-	position: relative;
+  background: image_url("bg/header-bg.jpg") no-repeat 0 40px;
+  height: 324px;
+  @include background-size(100% 80%);
+  position: relative;
 
-	.top-menu {
-		height: 41px;
-		background: black;
-		@include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
+  .top-menu {
+    height: 41px;
+    background: black;
+    @include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
 
     .btn-top-menu {
       display: none;
     }
 
-		ul {
-			margin: 0 auto;
-			padding-left: 75px;
-			display: table;
+    ul {
+      margin: 0 auto;
+      padding-left: 75px;
+      display: table;
 
-			li {
-				display: table-cell;
-				color: #fff;
-				list-style: none;
-				padding: 0 25px;
+      li {
+        display: table-cell;
+        color: #fff;
+        list-style: none;
+        padding: 0 25px;
 
         &.img.tablet {
           display: none;
         }
 
-				&.img {
+        &.img {
           background: image_url("bg/top-men-centr.png") no-repeat 0 0;
           width: 193px;
           height: 64px;
 
           a {
-          @include text-hide();
+            @include text-hide();
           }
-				}
+        }
 
-				&.active-trail {
-				}
+        &.active-trail {
+        }
 
-				a {
-					color: #86827c;
-					font: 17px/41px $Gotham;
-					letter-spacing: 0.5px;
-					text-decoration: none;
-					text-transform: uppercase;
-					@include transition(all 0.3s);
+        a {
+          color: #86827c;
+          font: 17px/41px $Gotham;
+          letter-spacing: 0.5px;
+          text-decoration: none;
+          text-transform: uppercase;
+          @include transition(all 0.3s);
 
-					&:hover {
-						color: #fff;
-					}
+          &:hover {
+            color: #fff;
+          }
 
-					&.active-trail {
-						color: #fff;
-					}
-				}
-			}
-		}
-	}
+          &.active-trail {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
 
-	.logo {
-		text-align: center;
+  .logo {
+    text-align: center;
 
-		a {
-			position: relative;
-			top: 40px;
+    a {
+      position: relative;
+      top: 40px;
 
-			h1 {
-				@include text-hide();
-			}
-		}
-	}
+      h1 {
+        @include text-hide();
+      }
+    }
+  }
 
-	.nav {
-		position: absolute;
-		bottom: 0;
-		height: 41px;
-		margin: 0;
-		background: image_url("bg/menu-wood.jpg");
-		@include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
-		width: 100%;
-		border-top: 1px solid #131d1d;
-		border-bottom: 1px solid #4d4d2f;
+  .nav {
+    position: absolute;
+    bottom: 0;
+    height: 41px;
+    margin: 0;
+    background: image_url("bg/menu-wood.jpg");
+    @include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
+    width: 100%;
+    border-top: 1px solid #131d1d;
+    border-bottom: 1px solid #4d4d2f;
 
     .btn-nav {
       display: none;
     }
 
-		ul {
-			margin: 0 auto;
-			display: table;
-			padding: 0;
-			border-left: 1px solid #131d1d;
-			border-right: 1px solid #4d4d2f;
+    ul {
+      margin: 0 auto;
+      display: table;
+      padding: 0;
+      border-left: 1px solid #131d1d;
+      border-right: 1px solid #4d4d2f;
 
-			li {
-				display: table-cell;
-				color: #fff;
-				list-style: none;
-				border-color: transparent #131d1d transparent #4d4d2f;
-				border-style: solid;
-				border-width: 0 1px;
-				margin: 0;
-				padding: 0;
+      li {
+        display: table-cell;
+        color: #fff;
+        list-style: none;
+        border-color: transparent #131d1d transparent #4d4d2f;
+        border-style: solid;
+        border-width: 0 1px;
+        margin: 0;
+        padding: 0;
 
-				a {
-					color: #FFF;
-					display: block;
-					padding: 11px 35px;
-					letter-spacing: 3px;
-					font: 14px $Montserrat;
-					text-decoration: none;
-					text-transform: uppercase;
-					@include transition(all 0.3s);
+        a {
+          color: #FFF;
+          display: block;
+          padding: 11px 35px;
+          letter-spacing: 3px;
+          font: 14px $Montserrat;
+          text-decoration: none;
+          text-transform: uppercase;
+          @include transition(all 0.3s);
 
-					&:hover {
-						color: gray;
-					}
+          &:hover {
+            color: gray;
+          }
 
-					&.active-trail {
-						background: #FFF url('../images/bg/menu-wood.jpg') no-repeat 60%;
-						background-blend-mode: hard-light;
-					}
-				}
-			}
-		}
-	}
+          &.active-trail {
+            background: #FFF url('../images/bg/menu-wood.jpg') no-repeat 60%;
+            background-blend-mode: hard-light;
+          }
+        }
+      }
+    }
+  }
 
-	.social-share {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		margin: 5px auto;
-		background: image_url("bg/social-wood-menu.png");
-		width: 282px;
-		height: 85px;
-		padding: 15px;
+  .social-share {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 5px auto;
+    background: image_url("bg/social-wood-menu.png");
+    width: 282px;
+    height: 85px;
+    padding: 15px;
 
-		a {
-			display: inline-block;
-			margin-left: 5px;
-			@include transition(all 0.3s);
+    a {
+      display: inline-block;
+      margin-left: 5px;
+      @include transition(all 0.3s);
 
-			&:hover {
-				opacity: 0.6;
-			}
+      &:hover {
+        opacity: 0.6;
+      }
 
       &.colo {
-       @include oneline-sprite-box($icons, colo);
+        @include oneline-sprite-box($icons, colo);
       }
 
       &.facebook {
@@ -164,6 +164,6 @@
       &.zw {
         @include oneline-sprite-box($icons, zw);
       }
-		}
-	}
+    }
+  }
 }

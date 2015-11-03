@@ -1,7 +1,7 @@
 <header id="site-header" class="site-header">
     <!--<div class="site-container">-->
         <div class="top-menu">
-          <a class="btn-top-menu" href="#" ">Link menu</a>
+          <a class="btn-top-menu" href="#" "><span></span></a>
             <ul class="menu">
                 <li><a href="#">Sushi Neko</a></li>
                 <li><a href="#">Musashi’s</a></li>

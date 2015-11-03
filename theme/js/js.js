@@ -26,8 +26,8 @@
     initFlexslider();
     initFullWidthBlock();
     initSelect();
-    initMobileNav($('.nav'),'.btn-nav','nav-active','nav-processed');
-    initMobileNav($('.top-menu'),'.btn-top-menu','top-menu-active','top-menu-processed');
+    initMobileNav($('.nav'), '.btn-nav', 'nav-active', 'nav-processed');
+    initMobileNav($('.top-menu'), '.btn-top-menu', 'top-menu-active', 'top-menu-processed');
     initPretendTo();
   }
 
@@ -35,18 +35,18 @@
     $('.top-menu li.img').clone().prependTo('.top-menu ul.menu').addClass('tablet');
   }
 
-  function initMobileNav($navWrapper,btn,activ,processed ) {
+  function initMobileNav($navWrapper, btn, activ, processed) {
     var $body = $('body');
     var $btn = $navWrapper.find(btn);
 
-    if($body.hasClass(processed)) return;
+    if ($body.hasClass(processed)) return;
 
     $body.addClass(processed);
 
     $btn.on('click touch', checkNav);
 
-    $('html').on('click touch', function(e) {
-      if(!$(e.target).closest($navWrapper).length && $body.hasClass(activ)) {
+    $('html').on('click touch', function (e) {
+      if (!$(e.target).closest($navWrapper).length && $body.hasClass(activ)) {
         $body.removeClass(activ);
       }
     });
@@ -54,7 +54,7 @@
     function checkNav(e) {
       e.preventDefault();
 
-      if($body.hasClass(activ)) {
+      if ($body.hasClass(activ)) {
         $body.removeClass(activ);
       } else {
         $body.addClass(activ);
