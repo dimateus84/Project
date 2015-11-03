@@ -24,11 +24,16 @@
 				list-style: none;
 				padding: 0 25px;
 
-				&.img {
-					vertical-align: top;
+        &.img.tablet {
+          display: none;
+        }
 
-          span {
-          display: block;
+				&.img {
+          background: image_url("bg/top-men-centr.png") no-repeat 0 0;
+          width: 193px;
+          height: 64px;
+
+          a {
           @include text-hide();
           }
 				}

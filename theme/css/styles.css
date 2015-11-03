@@ -621,11 +621,15 @@ ul li {
   list-style: none;
   padding: 0 25px;
 }
-.site-header .top-menu ul li.img {
-  vertical-align: top;
+.site-header .top-menu ul li.img.tablet {
+  display: none;
 }
-.site-header .top-menu ul li.img span {
-  display: block;
+.site-header .top-menu ul li.img {
+  background: url('../images/bg/top-men-centr.png') no-repeat 0 0;
+  width: 193px;
+  height: 64px;
+}
+.site-header .top-menu ul li.img a {
   text-indent: -9999px;
   font-size: 0;
   line-height: 0;
@@ -1813,15 +1817,16 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     list-style: none;
     padding: 0 15px;
     background: black;
+    margin: 0;
   }
-  .site-header .top-menu ul li.img img {
+  .site-header .top-menu ul li.img.tablet {
+    display: block;
+    background-color: black;
+    width: 100%;
+    background-position: 50%;
+  }
+  .site-header .top-menu ul li.img {
     display: none;
-    vertical-align: top;
-  }
-  .site-header .top-menu ul li.img span {
-    text-indent: 0;
-    font-size: 17px;
-    line-height: 41px;
   }
   .site-header .logo {
     display: inline;

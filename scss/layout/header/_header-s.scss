@@ -33,19 +33,17 @@
         list-style: none;
         padding: 0 15px;
         background: black;
+        margin: 0;
+
+        &.img.tablet {
+          display: block;
+          background-color: black;
+          width: 100%;
+          background-position: 50%;
+        }
 
         &.img {
-
-          img {
-            display: none;
-            vertical-align: top;
-          }
-
-          span {
-            text-indent: 0;
-            font-size: 17px;
-            line-height: 41px;
-          }
+          display: none;
         }
 
         &.active-trail {

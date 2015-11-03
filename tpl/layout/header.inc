@@ -6,7 +6,7 @@
                 <li><a href="#">Sushi Neko</a></li>
                 <li><a href="#">Musashi’s</a></li>
                 <li><a href="#">Will Rogers Theatre</a></li>
-                <li class="img"><a href="#"><img src="theme/images/bg/top-men-centr.png" alt=""><span>Western Concept</span></a></li>
+                <li class="img"><a href="#">Western Concept</a></li>
                 <li><a href="#">The Lobby Cafe & Bar</a></li>
                 <li><a href="#">The Coach House</a></li>
                 <li><a href="#">The Tasting Room</a></li>
