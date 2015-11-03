@@ -30,11 +30,12 @@
 
         &.img {
           background: image_url("bg/top-men-centr.png") no-repeat 0 0;
-          width: 193px;
-          height: 64px;
 
           a {
             @include text-hide();
+            width: 143px;
+            height: 64px;
+            display: block;
           }
         }
 

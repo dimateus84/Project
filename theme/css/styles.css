@@ -626,13 +626,14 @@ ul li {
 }
 .site-header .top-menu ul li.img {
   background: url('../images/bg/top-men-centr.png') no-repeat 0 0;
-  width: 193px;
-  height: 64px;
 }
 .site-header .top-menu ul li.img a {
   text-indent: -9999px;
   font-size: 0;
   line-height: 0;
+  width: 143px;
+  height: 64px;
+  display: block;
 }
 .site-header .top-menu ul li a {
   color: #86827c;
@@ -1837,6 +1838,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     width: 100%;
     background-position: 50%;
   }
+  .site-header .top-menu ul li.img.tablet a {
+    width: 100%;
+  }
   .site-header .top-menu ul li.img {
     display: none;
   }
@@ -1947,6 +1951,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
 
   .site-header .top-menu ul li {
     padding: 0 3px;
+  }
+  .site-header .top-menu ul li.img a {
+    width: 195px;
   }
   .site-header .top-menu ul li a {
     font: 13px/41px Gotham;
