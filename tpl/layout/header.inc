@@ -1,7 +1,7 @@
 <header id="site-header" class="site-header">
     <!--<div class="site-container">-->
         <div class="top-menu">
-          <a href="#" id="touch-top-menu">Link menu</a>
+          <a class="btn-top-menu" href="#" ">Link menu</a>
             <ul class="menu">
                 <li><a href="#">Sushi Neko</a></li>
                 <li><a href="#">Musashi’s</a></li>
@@ -24,7 +24,7 @@
             <a class="zw" href="#zw"></a>
         </div>
         <nav class="nav">
-          <a href="#" id="touch-menu">Navigation Menu</a>
+          <a class="btn-nav" href="#">Navigation Menu</a>
             <ul class="menu">
                 <li><a href="#">Weddings</a></li>
                 <li><a href="#">special events</a></li>
