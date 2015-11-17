@@ -600,34 +600,38 @@ ul li {
   background-size: 100% 80%;
   position: relative;
 }
-.site-header .top-menu {
+.site-header .site-container {
+  width: 100%;
+  position: static;
+}
+.site-header .site-container .top-menu {
   height: 41px;
   background: black;
   -moz-box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.35);
   box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.35);
 }
-.site-header .top-menu .btn-top-menu {
+.site-header .site-container .top-menu .btn-top-menu {
   display: none;
 }
-.site-header .top-menu ul {
+.site-header .site-container .top-menu ul {
   margin: 0 auto;
   padding-left: 75px;
   display: table;
 }
-.site-header .top-menu ul li {
+.site-header .site-container .top-menu ul li {
   display: table-cell;
   color: #fff;
   list-style: none;
   padding: 0 25px;
 }
-.site-header .top-menu ul li.img.tablet {
+.site-header .site-container .top-menu ul li.img.tablet {
   display: none;
 }
-.site-header .top-menu ul li.img {
+.site-header .site-container .top-menu ul li.img {
   background: url('../images/bg/top-men-centr.png') no-repeat 0 0;
 }
-.site-header .top-menu ul li.img a {
+.site-header .site-container .top-menu ul li.img a {
   text-indent: -9999px;
   font-size: 0;
   line-height: 0;
@@ -635,7 +639,7 @@ ul li {
   height: 64px;
   display: block;
 }
-.site-header .top-menu ul li a {
+.site-header .site-container .top-menu ul li a {
   color: #86827c;
   font: 17px/41px Gotham;
   letter-spacing: 0.5px;
@@ -646,27 +650,28 @@ ul li {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.site-header .top-menu ul li a:hover {
+.site-header .site-container .top-menu ul li a:hover {
   color: #fff;
 }
-.site-header .top-menu ul li a.active-trail {
+.site-header .site-container .top-menu ul li a.active-trail {
   color: #fff;
 }
-.site-header .logo {
+.site-header .site-container .logo {
   text-align: center;
 }
-.site-header .logo a {
+.site-header .site-container .logo a {
   position: relative;
   top: 40px;
 }
-.site-header .logo a h1 {
+.site-header .site-container .logo a h1 {
   text-indent: -9999px;
   font-size: 0;
   line-height: 0;
 }
-.site-header .nav {
+.site-header .site-container .nav {
   position: absolute;
   bottom: 0;
+  left: 0;
   height: 41px;
   margin: 0;
   background: url('../images/bg/menu-wood.jpg');
@@ -677,17 +682,17 @@ ul li {
   border-top: 1px solid #131d1d;
   border-bottom: 1px solid #4d4d2f;
 }
-.site-header .nav .btn-nav {
+.site-header .site-container .nav .btn-nav {
   display: none;
 }
-.site-header .nav ul {
+.site-header .site-container .nav ul {
   margin: 0 auto;
   display: table;
   padding: 0;
   border-left: 1px solid #131d1d;
   border-right: 1px solid #4d4d2f;
 }
-.site-header .nav ul li {
+.site-header .site-container .nav ul li {
   display: table-cell;
   color: #fff;
   list-style: none;
@@ -697,7 +702,7 @@ ul li {
   margin: 0;
   padding: 0;
 }
-.site-header .nav ul li a {
+.site-header .site-container .nav ul li a {
   color: #FFF;
   display: block;
   padding: 11px 35px;
@@ -710,25 +715,24 @@ ul li {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.site-header .nav ul li a:hover {
+.site-header .site-container .nav ul li a:hover {
   color: gray;
 }
-.site-header .nav ul li a.active-trail {
+.site-header .site-container .nav ul li a.active-trail {
   background: #FFF url("../images/bg/menu-wood.jpg") no-repeat 60%;
   background-blend-mode: hard-light;
 }
-.site-header .social-share {
+.site-header .site-container .social-share {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 5px auto;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -141px;
   background: url('../images/bg/social-wood-menu.png');
   width: 282px;
   height: 85px;
   padding: 15px;
 }
-.site-header .social-share a {
+.site-header .site-container .social-share a {
   display: inline-block;
   margin-left: 5px;
   -moz-transition: all 0.3s;
@@ -736,25 +740,25 @@ ul li {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.site-header .social-share a:hover {
+.site-header .site-container .social-share a:hover {
   opacity: 0.6;
 }
-.site-header .social-share a.colo {
+.site-header .site-container .social-share a.colo {
   height: 24px;
   width: 99px;
   background:  url('../images/icons-saa6e852492.png') 0 0 no-repeat;
 }
-.site-header .social-share a.facebook {
+.site-header .site-container .social-share a.facebook {
   height: 24px;
   width: 36px;
   background:  url('../images/icons-saa6e852492.png') -36px -48px no-repeat;
 }
-.site-header .social-share a.twitter {
+.site-header .site-container .social-share a.twitter {
   height: 24px;
   width: 36px;
   background:  url('../images/icons-saa6e852492.png') 0 -48px no-repeat;
 }
-.site-header .social-share a.zw {
+.site-header .site-container .social-share a.zw {
   height: 24px;
   width: 36px;
   background:  url('../images/icons-saa6e852492.png') 0 -24px no-repeat;
@@ -965,10 +969,6 @@ ul li {
   font-weight: bold;
 }
 
-.b-gallery {
-  height: 504px;
-}
-
 /*
  * jQuery FlexSlider v2.5.0
  * http://www.woothemes.com/flexslider/
@@ -1055,10 +1055,6 @@ html[xmlns] .flexslider .slides {
 /* ====================================================================================================================
  * DEFAULT THEME
  * ====================================================================================================================*/
-.flexslider .slides img {
-  height: 504px;
-}
-
 .flex-control-nav {
   width: 100%;
   position: absolute;
@@ -1787,21 +1783,22 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     height: 270px;
     text-align: center;
   }
-  .site-header .top-menu .btn-top-menu {
+  .site-header .site-container .top-menu .btn-top-menu {
     display: block;
     position: relative;
     float: right;
     padding: 9px 10px;
     margin: 2px 15px 2px 0;
     border-radius: 4px;
+    z-index: 2;
   }
-  .site-header .top-menu .btn-top-menu:before, .site-header .top-menu .btn-top-menu:after {
+  .site-header .site-container .top-menu .btn-top-menu:before, .site-header .site-container .top-menu .btn-top-menu:after {
     content: "";
   }
-  .site-header .top-menu .btn-top-menu:before {
+  .site-header .site-container .top-menu .btn-top-menu:before {
     margin-top: 0;
   }
-  .site-header .top-menu .btn-top-menu span, .site-header .top-menu .btn-top-menu:before, .site-header .top-menu .btn-top-menu:after {
+  .site-header .site-container .top-menu .btn-top-menu span, .site-header .site-container .top-menu .btn-top-menu:before, .site-header .site-container .top-menu .btn-top-menu:after {
     margin-top: 4px;
     display: block;
     width: 22px;
@@ -1809,8 +1806,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     border-radius: 1px;
     background-color: #fff;
   }
-  .site-header .top-menu ul {
-    top: 41px;
+  .site-header .site-container .top-menu ul {
     position: absolute;
     z-index: 1;
     padding-left: 0;
@@ -1824,7 +1820,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     width: 100%;
     text-align: center;
   }
-  .site-header .top-menu ul li {
+  .site-header .site-container .top-menu ul li {
     display: list-item;
     color: #fff;
     list-style: none;
@@ -1832,30 +1828,30 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     background: black;
     margin: 0;
   }
-  .site-header .top-menu ul li.img.tablet {
+  .site-header .site-container .top-menu ul li.img.tablet {
     display: block;
     background-color: black;
     width: 100%;
     background-position: 50%;
   }
-  .site-header .top-menu ul li.img.tablet a {
+  .site-header .site-container .top-menu ul li.img.tablet a {
     width: 100%;
   }
-  .site-header .top-menu ul li.img {
+  .site-header .site-container .top-menu ul li.img {
     display: none;
   }
-  .site-header .logo {
+  .site-header .site-container .logo {
     display: inline;
     line-height: 230px;
   }
-  .site-header .logo a {
+  .site-header .site-container .logo a {
     top: 0px;
   }
-  .site-header .logo a img {
+  .site-header .site-container .logo a img {
     width: 100%;
     height: auto;
   }
-  .site-header .nav .btn-nav {
+  .site-header .site-container .nav .btn-nav {
     display: block;
     width: 100%;
     height: 41px;
@@ -1866,29 +1862,29 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     text-transform: uppercase;
     letter-spacing: 3px;
   }
-  .site-header .nav ul {
+  .site-header .site-container .nav ul {
     position: absolute;
     z-index: 1;
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s;
-    -moz-transform: translate(0, 5px);
-    -ms-transform: translate(0, 5px);
-    -webkit-transform: translate(0, 5px);
-    transform: translate(0, 5px);
+    -moz-transform: translate(0, -5px);
+    -ms-transform: translate(0, -5px);
+    -webkit-transform: translate(0, -5px);
+    transform: translate(0, -5px);
     width: 100%;
     text-align: center;
   }
-  .site-header .nav ul li {
+  .site-header .site-container .nav ul li {
     display: list-item;
     background: url('../images/bg/menu-wood.jpg');
   }
-  .site-header .nav ul li a {
+  .site-header .site-container .nav ul li a {
     padding: 12px 10px;
     font: 12px Montserrat;
   }
 
-  .nav-active .nav ul {
+  .nav-active .site-header .site-container .nav ul {
     visibility: visible;
     opacity: 1;
     -moz-transform: translate(0, 0);
@@ -1897,7 +1893,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     transform: translate(0, 0);
   }
 
-  .top-menu-active .top-menu ul {
+  .top-menu-active .site-header .site-container .top-menu ul {
     visibility: visible;
     opacity: 1;
     -moz-transform: translate(0, 0);
@@ -1949,16 +1945,16 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     width: 728px;
   }
 
-  .site-header .top-menu ul li {
+  .site-header .site-container .top-menu ul li {
     padding: 0 3px;
   }
-  .site-header .top-menu ul li.img a {
+  .site-header .site-container .top-menu ul li.img a {
     width: 195px;
   }
-  .site-header .top-menu ul li a {
+  .site-header .site-container .top-menu ul li a {
     font: 13px/41px Gotham;
   }
-  .site-header .nav ul li a {
+  .site-header .site-container .nav ul li a {
     padding: 12px 10px;
     font: 12px Montserrat;
   }

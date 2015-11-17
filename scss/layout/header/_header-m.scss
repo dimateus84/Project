@@ -1,64 +1,39 @@
 .site-header {
 
-	.top-menu {
+  .site-container {
 
-		ul {
+    .top-menu {
 
-			li {
-				padding: 0 3px; //pravka
+      ul {
 
-				&.img {
-          a{
-            width: 195px;
+        li {
+          padding: 0 3px;
+
+          &.img {
+            a {
+              width: 195px;
+            }
           }
-				}
 
-				&.active-trail {
-				}
+          a {
+            font: 13px/41px $Gotham;
+          }
+        }
+      }
+    }
 
-				a {
-					font: 13px/41px $Gotham; //pravka
+    .nav {
 
+      ul {
 
-					&:hover {
-					}
+        li {
 
-					&.active-trail {
-					}
-				}
-			}
-		}
-	}
-
-	.logo {
-
-		a {
-
-			h1 {
-
-			}
-		}
-	}
-
-	.nav {
-
-		ul {
-
-			li {
-
-				a {
-					padding: 12px 10px;
-					font: 12px $Montserrat;
-
-					&:hover {
-
-					}
-
-					&.active-trail {
-
-					}
-				}
-			}
-		}
-	}
+          a {
+            padding: 12px 10px;
+            font: 12px $Montserrat;
+          }
+        }
+      }
+    }
+  }
 }

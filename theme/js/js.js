@@ -68,7 +68,8 @@
         animation: "slade",
         animationLoop: true,
         slideshow: true,
-        slideshowSpeed: 3000,
+        slideshowSpeed: 6000,
+        pauseOnHover: true,
         directionNav: false
       });
     });

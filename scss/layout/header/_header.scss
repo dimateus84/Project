@@ -4,166 +4,171 @@
   @include background-size(100% 80%);
   position: relative;
 
-  .top-menu {
-    height: 41px;
-    background: black;
-    @include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
+  .site-container {
+    width: 100%;
+    position: static;
 
-    .btn-top-menu {
-      display: none;
-    }
+    .top-menu {
+      height: 41px;
+      background: black;
+      @include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
 
-    ul {
-      margin: 0 auto;
-      padding-left: 75px;
-      display: table;
+      .btn-top-menu {
+        display: none;
+      }
 
-      li {
-        display: table-cell;
-        color: #fff;
-        list-style: none;
-        padding: 0 25px;
+      ul {
+        margin: 0 auto;
+        padding-left: 75px;
+        display: table;
 
-        &.img.tablet {
-          display: none;
-        }
+        li {
+          display: table-cell;
+          color: #fff;
+          list-style: none;
+          padding: 0 25px;
 
-        &.img {
-          background: image_url("bg/top-men-centr.png") no-repeat 0 0;
+          &.img.tablet {
+            display: none;
+          }
+
+          &.img {
+            background: image_url("bg/top-men-centr.png") no-repeat 0 0;
+
+            a {
+              @include text-hide();
+              width: 143px;
+              height: 64px;
+              display: block;
+            }
+          }
+
+          &.active-trail {
+          }
 
           a {
-            @include text-hide();
-            width: 143px;
-            height: 64px;
-            display: block;
-          }
-        }
+            color: #86827c;
+            font: 17px/41px $Gotham;
+            letter-spacing: 0.5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            @include transition(all 0.3s);
 
-        &.active-trail {
-        }
+            &:hover {
+              color: #fff;
+            }
 
-        a {
-          color: #86827c;
-          font: 17px/41px $Gotham;
-          letter-spacing: 0.5px;
-          text-decoration: none;
-          text-transform: uppercase;
-          @include transition(all 0.3s);
-
-          &:hover {
-            color: #fff;
-          }
-
-          &.active-trail {
-            color: #fff;
+            &.active-trail {
+              color: #fff;
+            }
           }
         }
       }
     }
-  }
 
-  .logo {
-    text-align: center;
+    .logo {
+      text-align: center;
 
-    a {
-      position: relative;
-      top: 40px;
+      a {
+        position: relative;
+        top: 40px;
 
-      h1 {
-        @include text-hide();
+        h1 {
+          @include text-hide();
+        }
       }
     }
-  }
 
-  .nav {
-    position: absolute;
-    bottom: 0;
-    height: 41px;
-    margin: 0;
-    background: image_url("bg/menu-wood.jpg");
-    @include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
-    width: 100%;
-    border-top: 1px solid #131d1d;
-    border-bottom: 1px solid #4d4d2f;
+    .nav {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 41px;
+      margin: 0;
+      background: image_url("bg/menu-wood.jpg");
+      @include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
+      width: 100%;
+      border-top: 1px solid #131d1d;
+      border-bottom: 1px solid #4d4d2f;
 
-    .btn-nav {
-      display: none;
-    }
+      .btn-nav {
+        display: none;
+      }
 
-    ul {
-      margin: 0 auto;
-      display: table;
-      padding: 0;
-      border-left: 1px solid #131d1d;
-      border-right: 1px solid #4d4d2f;
-
-      li {
-        display: table-cell;
-        color: #fff;
-        list-style: none;
-        border-color: transparent #131d1d transparent #4d4d2f;
-        border-style: solid;
-        border-width: 0 1px;
-        margin: 0;
+      ul {
+        margin: 0 auto;
+        display: table;
         padding: 0;
+        border-left: 1px solid #131d1d;
+        border-right: 1px solid #4d4d2f;
 
-        a {
-          color: #FFF;
-          display: block;
-          padding: 11px 35px;
-          letter-spacing: 3px;
-          font: 14px $Montserrat;
-          text-decoration: none;
-          text-transform: uppercase;
-          @include transition(all 0.3s);
+        li {
+          display: table-cell;
+          color: #fff;
+          list-style: none;
+          border-color: transparent #131d1d transparent #4d4d2f;
+          border-style: solid;
+          border-width: 0 1px;
+          margin: 0;
+          padding: 0;
 
-          &:hover {
-            color: gray;
-          }
+          a {
+            color: #FFF;
+            display: block;
+            padding: 11px 35px;
+            letter-spacing: 3px;
+            font: 14px $Montserrat;
+            text-decoration: none;
+            text-transform: uppercase;
+            @include transition(all 0.3s);
 
-          &.active-trail {
-            background: #FFF url('../images/bg/menu-wood.jpg') no-repeat 60%;
-            background-blend-mode: hard-light;
+            &:hover {
+              color: gray;
+            }
+
+            &.active-trail {
+              background: #FFF url('../images/bg/menu-wood.jpg') no-repeat 60%;
+              background-blend-mode: hard-light;
+            }
           }
         }
       }
     }
-  }
 
-  .social-share {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 5px auto;
-    background: image_url("bg/social-wood-menu.png");
-    width: 282px;
-    height: 85px;
-    padding: 15px;
+    .social-share {
+      position: absolute;
+      bottom: 5px;
+      left: 50%;
+      margin-left: -141px;
+      background: image_url("bg/social-wood-menu.png");
+      width: 282px;
+      height: 85px;
+      padding: 15px;
 
-    a {
-      display: inline-block;
-      margin-left: 5px;
-      @include transition(all 0.3s);
+      a {
+        display: inline-block;
+        margin-left: 5px;
+        @include transition(all 0.3s);
 
-      &:hover {
-        opacity: 0.6;
-      }
+        &:hover {
+          opacity: 0.6;
+        }
 
-      &.colo {
-        @include oneline-sprite-box($icons, colo);
-      }
+        &.colo {
+          @include oneline-sprite-box($icons, colo);
+        }
 
-      &.facebook {
-        @include oneline-sprite-box($icons, facebook);
-      }
+        &.facebook {
+          @include oneline-sprite-box($icons, facebook);
+        }
 
-      &.twitter {
-        @include oneline-sprite-box($icons, twitter);
-      }
+        &.twitter {
+          @include oneline-sprite-box($icons, twitter);
+        }
 
-      &.zw {
-        @include oneline-sprite-box($icons, zw);
+        &.zw {
+          @include oneline-sprite-box($icons, zw);
+        }
       }
     }
   }
