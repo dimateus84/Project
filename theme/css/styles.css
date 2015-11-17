@@ -625,9 +625,6 @@ ul li {
   list-style: none;
   padding: 0 25px;
 }
-.site-header .site-container .top-menu ul li.img.tablet {
-  display: none;
-}
 .site-header .site-container .top-menu ul li.img {
   background: url('../images/bg/top-men-centr.png') no-repeat 0 0;
 }
@@ -1813,12 +1810,13 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s;
-    -moz-transform: translate(0, 5px);
-    -ms-transform: translate(0, 5px);
-    -webkit-transform: translate(0, 5px);
-    transform: translate(0, 5px);
+    -moz-transform: translate(0, -5px);
+    -ms-transform: translate(0, -5px);
+    -webkit-transform: translate(0, -5px);
+    transform: translate(0, -5px);
     width: 100%;
     text-align: center;
+    background: black;
   }
   .site-header .site-container .top-menu ul li {
     display: list-item;
@@ -1828,17 +1826,15 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     background: black;
     margin: 0;
   }
-  .site-header .site-container .top-menu ul li.img.tablet {
-    display: block;
-    background-color: black;
-    width: 100%;
-    background-position: 50%;
-  }
-  .site-header .site-container .top-menu ul li.img.tablet a {
-    width: 100%;
+  .site-header .site-container .top-menu ul li:first-child {
+    margin-top: 64px;
   }
   .site-header .site-container .top-menu ul li.img {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -90px;
+    width: 100%;
   }
   .site-header .site-container .logo {
     display: inline;
