@@ -128,7 +128,6 @@
       position: absolute;
       bottom: 5px;
       left: 50%;
-      /*margin-left: -141px;*/
       @include transform(translate(-50%, 0));
       background: image_url("bg/social-wood-menu.png");
       width: 282px;
