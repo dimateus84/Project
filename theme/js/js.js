@@ -65,6 +65,7 @@
         slideshow: true,
         slideshowSpeed: 6000,
         pauseOnHover: true,
+        controlNav: false,
         directionNav: false
       });
     });

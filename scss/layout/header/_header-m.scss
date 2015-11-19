@@ -2,38 +2,21 @@
 
   .site-container {
 
-    .top-menu {
+    .top-menu ul li {
+      padding: 0 3px;
 
-      ul {
+      &.img a {
+        width: 195px;
+      }
 
-        li {
-          padding: 0 3px;
-
-          &.img {
-            a {
-              width: 195px;
-            }
-          }
-
-          a {
-            font: 13px/41px $Gotham;
-          }
-        }
+      a {
+        font: 13px/41px $gothamhtf-mediumcondenced;
       }
     }
 
-    .nav {
-
-      ul {
-
-        li {
-
-          a {
-            padding: 12px 10px;
-            font: 12px $Montserrat;
-          }
-        }
-      }
+    .nav ul li a {
+      padding: 12px 10px;
+      font: 12px $montserrat-regular;
     }
   }
 }

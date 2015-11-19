@@ -13,11 +13,11 @@
  * FONT-FACE
  * ====================================================================================================================*/
 @font-face {
-	font-family: 'flexslider-icon';
-	src: url('../fonts/flexslider-icon.eot');
-	src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../fonts/flexslider-icon.woff') format('woff'), url('../fonts/flexslider-icon.ttf') format('truetype'), url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'flexslider-icon';
+  src: url('../fonts/flexslider-icon.eot');
+  src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../fonts/flexslider-icon.woff') format('woff'), url('../fonts/flexslider-icon.ttf') format('truetype'), url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* ====================================================================================================================
@@ -27,110 +27,71 @@
 .flex-slider a:hover,
 .flex-container a:focus,
 .flex-slider a:focus {
-	outline: none;
+  outline: none;
 }
 
 .slides,
 .slides > li,
 .flex-control-nav,
 .flex-direction-nav {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .flex-pauseplay span {
-	text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 /* ====================================================================================================================
  * BASE STYLES
  * ====================================================================================================================*/
 .flexslider {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .flexslider .slides > li {
-	display: none;
-	-webkit-backface-visibility: hidden;
+  display: none;
+  -webkit-backface-visibility: hidden;
 }
 
 .flexslider .slides img {
-	width: 100%;
-	display: block;
+  width: 100%;
+  display: block;
 }
 
 .flexslider .slides:after {
-	content: "\0020";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
+  content: "\0020";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 html[xmlns] .flexslider .slides {
-	display: block;
+  display: block;
 }
 
 * html .flexslider .slides {
-	height: 1%;
+  height: 1%;
 }
 
 .no-js .flexslider .slides > li:first-child {
-	display: block;
-}
-
-/* ====================================================================================================================
- * DEFAULT THEME
- * ====================================================================================================================*/
-.flexslider .slides img {
-
-}
-
-.flex-control-nav {
-	width: 100%;
-	position: absolute;
-	top: 10px;
-	text-align: center;
-	z-index: 0;
-}
-
-.flex-control-nav li {
-	margin: 0 6px;
-	display: inline-block;
-}
-
-.flex-control-paging li a {
-	width: 11px;
-	height: 11px;
-	display: block;
-	background: #fff;
-	cursor: pointer;
-	text-indent: -9999px;
-  @include border-radius(20px);
-}
-
-.flex-control-paging li a:hover {
-	background: red;
-}
-
-.flex-control-paging li a.flex-active {
-	background: red;
-	cursor: default;
+  display: block;
 }
 
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
 @media screen and (max-width: 860px) {
-	.flex-direction-nav .flex-prev {
-		opacity: 1;
-		left: 10px;
-	}
-	.flex-direction-nav .flex-next {
-		opacity: 1;
-		right: 10px;
-	}
+  .flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 10px;
+  }
+  .flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 10px;
+  }
 }

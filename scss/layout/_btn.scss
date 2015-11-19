@@ -1,6 +1,6 @@
 .btn-wrapper {
-	margin: 30px 0;
   text-align: center;
+  margin-bottom: 30px;
 
 
 	.btn {
@@ -8,15 +8,14 @@
 		margin: 0 auto;
 		@include border-radius(5px);
 		@include background(linear-gradient(bottom, #2f9295, #45d0d0));
-		@include box-shadow(0px 3px 4px 0px rgba(0, 0, 0, 0.5));
-		background-color: #45d0d0;
+    @include box-shadow(0px 3px 4px 0px rgba(0, 0, 0, 0.5));
 		text-align: center;
 		min-width: 160px;
 		height: 35px;
 		padding: 0 10px;
 		border: 0;
 		text-decoration: none;
-		font: 12px $Montserrat;
+		font: 12px $montserrat-regular;
 		color: #fff;
 		@include text-shadow(-0.707px 0.707px 1px rgba(0, 0, 0, 0.25));
 		text-transform: uppercase;

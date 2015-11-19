@@ -29,7 +29,7 @@
           padding: 0 25px;
 
           &.img {
-            background: image_url("bg/top-men-centr.png") no-repeat 0 0;
+            background: image_url("bg/top-menu-logo.png") no-repeat 0 0;
 
             a {
               @include text-hide();
@@ -41,17 +41,13 @@
 
           a {
             color: #86827c;
-            font: 17px/41px $Gotham;
+            font: 17px/41px $gothamhtf-mediumcondenced;
             letter-spacing: 0.5px;
             text-decoration: none;
             text-transform: uppercase;
             @include transition(all 0.3s);
 
-            &:hover {
-              color: #fff;
-            }
-
-            &.active-trail {
+            &:hover,&.active-trail {
               color: #fff;
             }
           }
@@ -110,7 +106,7 @@
             display: block;
             padding: 11px 35px;
             letter-spacing: 3px;
-            font: 14px $Montserrat;
+            font: 14px $montserrat-regular;
             text-decoration: none;
             text-transform: uppercase;
             @include transition(all 0.3s);
@@ -120,7 +116,7 @@
             }
 
             &.active-trail {
-              background: #FFF url('../images/bg/menu-wood.jpg') no-repeat 60%;
+              background: #FFF image_url("bg/menu-wood.jpg") no-repeat 60%;
               background-blend-mode: hard-light;
             }
           }
@@ -132,7 +128,8 @@
       position: absolute;
       bottom: 5px;
       left: 50%;
-      margin-left: -141px;
+      /*margin-left: -141px;*/
+      @include transform(translate(-50%, 0));
       background: image_url("bg/social-wood-menu.png");
       width: 282px;
       height: 85px;
