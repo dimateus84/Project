@@ -24,6 +24,15 @@
         <a href="index/13-0297-WC-Will-Rogers-Home.jpg">Preview</a>
       </p>
     </li>
+    <li>
+      <a href="13-0297-WC-Will-Rogers-Menu.php"><img src="index/13-0297-WC-Will-Rogers-Menu-s.jpg"
+                                                     alt="13-0297-WC-Will-Rogers-Menu"/></a>
+
+      <p>
+        13-0297-WC-Will-Rogers-Home
+        <a href="index/13-0297-WC-Will-Rogers-Menu.jpg">Preview</a>
+      </p>
+    </li>
   </ul>
 </div>
 </body>
