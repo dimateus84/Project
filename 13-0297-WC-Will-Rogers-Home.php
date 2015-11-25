@@ -34,7 +34,7 @@
       </div>
       <div class="content-bottom">
 
-        <div class="cols col-three">
+        <div class="b-cols col-three">
 
           <div class="col col-1">
             <div class="col-item">
@@ -53,6 +53,8 @@
               <a class="btn" href="#">Follow us</a>
             </div>
           </div>
+
+
           <div class="col col-2">
             <div class="col-item">
 
