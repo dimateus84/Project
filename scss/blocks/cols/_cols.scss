@@ -101,3 +101,24 @@
 		}
 	}
 }
+
+.b-cols.col-two.style-a{
+
+  .col {
+    float: left;
+    margin-right: 31px;
+    width: 545px;
+
+    &.col-2 {
+      margin: 0;
+    }
+
+    p {
+      font-size: 14px;
+      font-family: arial;
+      font-style: italic;
+      color: #7e7e7e;
+    }
+
+  }
+}

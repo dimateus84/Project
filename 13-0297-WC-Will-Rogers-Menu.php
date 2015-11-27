@@ -27,8 +27,23 @@
         </div>
       </div>
       <div class="content-bottom">
+        <div class="b-text-img">
+          <div class="text">
+            <h2>Inspired by Chef Kurt Fleischfresser</h2>
 
-        <div class="b-cols col-three">
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit
+              amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+              massa justo sit amet risus. Donec sed odio dui. Maecenas faucibus mollis interdum. Cum sociis natoque
+              penatibus et am eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod
+              semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+              Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros.
+            </p>
+          </div>
+          <div class="img"><img src="theme/images/tmp/cooker.jpg" alt=""/></div>
+        </div>
+
+        <div class="b-cols col-two style-a">
 
           <div class="col col-1">
             <div class="col-item">
@@ -36,18 +51,24 @@
               <h3><span>weddings</span></h3>
 
               <div class="col-wrapper">
-                <div class="col-cont"><p>Raesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi
-                    leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis
-                    in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget
-                    urna mollis ornare vel eu leo.
-                  </p></div>
+
+                <p>Raesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi
+                  leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                </p>
+
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis
+                  in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget
+                  urna mollis ornare vel eu leo.
+                </p>
+
+                <div class="btn-wrapper">
+                  <a class="btn" href="#">Download Menu</a>
+                </div>
+
               </div>
             </div>
-            <div class="btn-wrapper">
-              <a class="btn" href="#">Download Menu</a>
-            </div>
+
           </div>
 
           <div class="col col-2">
@@ -56,26 +77,29 @@
               <h3><span>special events</span></h3>
 
               <div class="col-wrapper">
-                <div class="col-cont"><p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio,
-                    dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.
-                    Nullam quis risus eget urna mollis ornare vel eu leo.
-                    Raesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac
-                    consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio,
+                  dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.
+                  Nullam quis risus eget urna mollis ornare vel eu leo.</p>
 
-                  </p></div>
+                <p>Raesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac
+                  consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                </p>
+
+              <div class="btn-wrapper">
+                <a class="btn" href="#">Download Menu</a>
               </div>
-            </div>
-            <div class="btn-wrapper">
-              <a class="btn" href="#">Download Menu</a>
+              </div>
             </div>
           </div>
 
         </div>
+
       </div>
     </div>
   </div>
-  <?php include 'tpl/layout/footer.inc'; ?>
+</div>
+<?php include 'tpl/layout/footer.inc'; ?>
 </div>
 </body>
 </html>
