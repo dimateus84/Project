@@ -802,9 +802,6 @@ ul li {
   border-bottom: 5px solid #3e636b;
   border-top: 1px solid #000;
 }
-.content-wrapper .content-bottom {
-  padding-top: 66px;
-}
 
 .site-container {
   margin: 0 auto;
@@ -1014,11 +1011,16 @@ ul li {
   font-weight: bold;
 }
 
-.b-text-img {
+.text-img-wrapper {
+  position: relative;
+  left: 50%;
+  padding-top: 66px;
+}
+.text-img-wrapper .b-text-img {
   margin: 0 auto 66px;
   width: 1110px;
 }
-.b-text-img:after {
+.text-img-wrapper .b-text-img:after {
   content: " ";
   display: block;
   height: 0;
@@ -1026,25 +1028,25 @@ ul li {
   overflow: hidden;
   visibility: hidden;
 }
-.b-text-img .text {
+.text-img-wrapper .b-text-img .text {
   float: left;
-  width: 70%;
+  width: 69%;
   color: #818181;
   font-family: "Arial";
   line-height: 30px;
   padding-right: 50px;
 }
-.b-text-img .text h2 {
+.text-img-wrapper .b-text-img .text h2 {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
 }
-.b-text-img .text p {
+.text-img-wrapper .b-text-img .text p {
   font-size: 15px;
   text-align: justify;
 }
-.b-text-img .img {
-  width: 30%;
+.text-img-wrapper .b-text-img .img {
+  width: 31%;
   float: right;
 }
 

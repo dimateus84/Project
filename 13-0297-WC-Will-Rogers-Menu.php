@@ -27,20 +27,23 @@
         </div>
       </div>
       <div class="content-bottom">
-        <div class="b-text-img">
-          <div class="text">
-            <h2>Inspired by Chef Kurt Fleischfresser</h2>
+        <div class="text-img-wrapper">
+          <div class="b-text-img">
+            <div class="text">
+              <h2>Inspired by Chef Kurt Fleischfresser</h2>
 
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit
-              amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-              massa justo sit amet risus. Donec sed odio dui. Maecenas faucibus mollis interdum. Cum sociis natoque
-              penatibus et am eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod
-              semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Morbi leo risus, porta ac
-              consectetur ac, vestibulum at eros.
-            </p>
+              <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus
+                sit
+                amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
+                massa justo sit amet risus. Donec sed odio dui. Maecenas faucibus mollis interdum. Cum sociis natoque
+                penatibus et am eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod
+                semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Morbi leo risus, porta ac
+                consectetur ac, vestibulum at eros.
+              </p>
+            </div>
+            <div class="img"><img src="theme/images/tmp/cooker.jpg" alt=""/></div>
           </div>
-          <div class="img"><img src="theme/images/tmp/cooker.jpg" alt=""/></div>
         </div>
 
         <div class="b-cols col-two style-a">
@@ -86,9 +89,9 @@
                   Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
                 </p>
 
-              <div class="btn-wrapper">
-                <a class="btn" href="#">Download Menu</a>
-              </div>
+                <div class="btn-wrapper">
+                  <a class="btn" href="#">Download Menu</a>
+                </div>
               </div>
             </div>
           </div>
