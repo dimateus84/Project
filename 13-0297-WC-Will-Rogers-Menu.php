@@ -1,6 +1,6 @@
 <?php $title = '13-0297-WC-Will-Rogers-Menu'; ?>
 <?php include 'tpl/includes/head.inc'; ?>
-<body class="front page page-menu">
+<body class="page page-menu">
 <div class="outer-wrapper">
   <?php include 'tpl/layout/header.inc'; ?>
   <div class="inner-wrapper site-container">

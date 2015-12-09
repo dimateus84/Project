@@ -41,4 +41,31 @@
   }
 }
 
+.b-text-img.style-b {
+
+  .text {
+    width: 41%;
+
+    h2 {
+      text-transform: none;
+    }
+
+    .btn-wrapper {
+      text-align: left;
+    }
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+
+  .img {
+    width: 59%;
+
+    img {
+      @include border-radius(25px);
+    }
+  }
+}
+
 

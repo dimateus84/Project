@@ -29,8 +29,17 @@
                                                      alt="13-0297-WC-Will-Rogers-Menu"/></a>
 
       <p>
-        13-0297-WC-Will-Rogers-Home
+        13-0297-WC-Will-Rogers-Menu
         <a href="index/13-0297-WC-Will-Rogers-Menu.jpg">Preview</a>
+      </p>
+    </li>
+    <li>
+      <a href="13-0297-WC-Will-Rogers-Layout.php"><img src="index/13-0297-WC-Will-Rogers-Layout-s.jpg"
+                                                     alt="13-0297-WC-Will-Rogers-Layout"/></a>
+
+      <p>
+        13-0297-WC-Will-Rogers-Layout
+        <a href="index/13-0297-WC-Will-Rogers-Layout.jpg">Preview</a>
       </p>
     </li>
   </ul>
