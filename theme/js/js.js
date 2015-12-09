@@ -24,11 +24,11 @@
 
   function init() {
     initFlexslider();
-    initFullWidthBlock();
+    initFullWidthBlock('.content-top');
+    initFullWidthBlock('.text-img-wrapper');
     initSelect();
     initMobileNav($('.nav'), '.btn-nav', 'nav-active', 'nav-processed');
     initMobileNav($('.top-menu'), '.btn-top-menu', 'top-menu-active', 'top-menu-processed');
-    initFullWidthBlockImg();
   }
 
   function initMobileNav($navWrapper, btn, activ, processed) {
@@ -72,30 +72,8 @@
     });
   }
 
-  function initFullWidthBlock() {
-    var $elements = $('.content-top'),
-      minWidth = 0;
-
-    $(window).on('resize', setPosition);
-    setPosition();
-
-    function setPosition() {
-      var $winWidth = $(window).outerWidth(),
-        width;
-
-      if ($winWidth > minWidth) {
-        width = $winWidth;
-      } else {
-        width = minWidth;
-      }
-
-      $elements.width(width);
-      $elements.css('margin-left', '-' + width / 2 + 'px');
-    }
-  }
-
-  function initFullWidthBlockImg() {
-    var $elements = $('.text-img-wrapper'),
+  function initFullWidthBlock(blok) {
+    var $elements = $(blok),
       minWidth = 0;
 
     $(window).on('resize', setPosition);

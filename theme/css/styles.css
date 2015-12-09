@@ -1015,9 +1015,12 @@ ul li {
   position: relative;
   left: 50%;
   padding-top: 66px;
+  background: url('../images/bg/text-img-bg.jpg') 0% 100%;
+  margin-bottom: 50px;
+  border-bottom: 2px gray solid;
 }
 .text-img-wrapper .b-text-img {
-  margin: 0 auto 66px;
+  margin: 0 auto 20px;
   width: 1110px;
 }
 .text-img-wrapper .b-text-img:after {

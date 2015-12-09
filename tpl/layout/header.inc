@@ -29,7 +29,7 @@
         <li><a href="#">Weddings</a></li>
         <li><a href="#">special events</a></li>
         <li><a href="#">Gallery</a></li>
-        <li><a href="#">Menu</a></li>
+        <li><a href="13-0297-WC-Will-Rogers-Menu.php" class="active active-trail">Menu</a></li>
         <li><a href="#">about</a></li>
         <li><a href="#">Layout</a></li>
         <li><a href="#">Contact</a></li>
