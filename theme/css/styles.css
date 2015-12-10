@@ -862,26 +862,37 @@ ul li {
   overflow: hidden;
   visibility: hidden;
 }
-.b-cols .col {
+.b-cols.col-one .col {
+  width: 1122px;
+}
+.b-cols.col-two .col {
+  float: left;
+  margin-right: 31px;
+  width: 545px;
+}
+.b-cols.col-two .col.col-2 {
+  margin: 0;
+}
+.b-cols.col-three .col {
   float: left;
   margin-right: 46px;
   width: 342px;
 }
-.b-cols .col.col-3 {
+.b-cols.col-three .col.col-3 {
   margin: 0;
   border: none;
 }
-.b-cols .col.col-3 .col-item {
+.b-cols.col-three .col.col-3 .col-item {
   border: none;
   background: none;
 }
-.b-cols .col.col-3 .col-item .col-wrapper {
+.b-cols.col-three .col.col-3 .col-item .col-wrapper {
   padding: 20px 0;
 }
-.b-cols .col .col-wrapper {
+.b-cols.style-a .col-wrapper, .b-cols.style-b .col-wrapper, .b-cols.style-c .col-wrapper {
   padding: 25px 25px 0 30px;
 }
-.b-cols .col .col-item {
+.b-cols.style-a .col-item, .b-cols.style-b .col-item, .b-cols.style-c .col-item {
   background: #fff;
   height: 100%;
   border: 1px solid #314c4e;
@@ -890,7 +901,7 @@ ul li {
   border-radius: 20px;
   margin-bottom: 30px;
 }
-.b-cols .col .col-item h3 {
+.b-cols.style-a .col-item h3, .b-cols.style-b .col-item h3, .b-cols.style-c .col-item h3 {
   padding: 5px 0 6px;
   background: url('../images/bg/bg-colum-h.png') repeat-x;
   -moz-border-radius: 18px 18px 0 0;
@@ -900,7 +911,7 @@ ul li {
   overflow: hidden;
   text-align: center;
 }
-.b-cols .col .col-item h3 span {
+.b-cols.style-a .col-item h3 span, .b-cols.style-b .col-item h3 span, .b-cols.style-c .col-item h3 span {
   color: #fff;
   font: normal 30px/45px voltaire-regular;
   text-transform: uppercase;
@@ -909,81 +920,84 @@ ul li {
   min-width: 186px;
   background: #5f1717;
 }
-.b-cols .col .col-item .wrapper-face {
+.b-cols.style-a .col-item .wrapper-face {
   padding: 20px;
 }
-.b-cols .col .col-item .col-cont {
+.b-cols.style-a .col-item .col-cont {
   padding: 20px 5px 9px 66px;
   width: 282px;
   margin: 0 auto 11px;
   background: url('../images/bg/WR.png') no-repeat;
   border-bottom: 1px solid #fff5f5;
 }
-.b-cols .col .col-item .col-cont p {
+.b-cols.style-a .col-item .col-cont p {
   margin: 0;
 }
-.b-cols .col .col-item .col-cont:last-child {
+.b-cols.style-a .col-item .col-cont:last-child {
   background: url('../images/bg/face.png') no-repeat;
   margin-bottom: 0;
 }
-.b-cols .col .col-item .col-event {
+.b-cols.style-a .col-item .col-event {
   border-bottom: 1px solid #c2c2c2;
   margin-bottom: 15px;
 }
-.b-cols .col .col-item .col-event:last-child {
+.b-cols.style-a .col-item .col-event:last-child {
   border-bottom: none;
 }
-.b-cols .col .col-item .col-event h4 {
+.b-cols.style-a .col-item .col-event h4 {
   font: 24px/24px montserrat-bold;
   color: #336666;
   margin: 0 0 2px;
 }
-.b-cols .col .col-item .col-event span {
+.b-cols.style-a .col-item .col-event span {
   font: 15px/20px montserrat-regular;
   color: #7e7e7e;
   text-transform: uppercase;
   margin-bottom: 10px;
   display: block;
 }
-.b-cols .col .col-item .col-event p {
+.b-cols.style-a .col-item .col-event p {
   color: #7e7e7e;
   line-height: 22px;
 }
-
-.b-cols.col-two.style-a .col {
-  float: left;
-  margin-right: 31px;
-  width: 545px;
-}
-.b-cols.col-two.style-a .col.col-2 {
-  margin: 0;
-}
-.b-cols.col-two.style-a .col p {
+.b-cols.style-b p {
   font-size: 14px;
   font-family: arial;
   font-style: italic;
   color: #7e7e7e;
 }
-
-.b-cols.col-one.style-b .col {
-  width: 1122px;
-}
-.b-cols.col-one.style-b .col .col-wrapper {
+.b-cols.style-c .col .col-wrapper {
   padding: 0;
+  position: relative;
+  overflow: hidden;
 }
-.b-cols.col-one.style-b .col .col-wrapper img {
+.b-cols.style-c .col .col-wrapper:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+  right: 10px;
+  top: -1px;
+  border: 1px solid #999190;
+  -moz-border-radius: 0 0 20px 20px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 20px 20px;
+}
+.b-cols.style-c .col .col-wrapper img {
   -moz-border-radius: 0 0 25px 25px;
   -webkit-border-radius: 0;
   border-radius: 0 0 25px 25px;
 }
-.b-cols.col-one.style-b .col .col-item {
+.b-cols.style-c .col .col-item {
   border: none;
 }
-.b-cols.col-one.style-b .col .col-item h3 {
+.b-cols.style-c .col .col-item h3 {
   background: url('../images/bg/bg-colum-h-style-b.png') repeat-x;
 }
-.b-cols.col-one.style-b .col .col-item h3 span {
+.b-cols.style-c .col .col-item h3 span {
   background: #37a8a6;
+  min-width: 250px;
 }
 
 .think-us {

@@ -46,7 +46,7 @@
           </div>
         </div>
 
-        <div class="b-cols col-two style-a">
+        <div class="b-cols col-two style-b">
 
           <div class="col col-1">
             <div class="col-item">

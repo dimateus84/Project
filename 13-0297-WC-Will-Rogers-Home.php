@@ -34,7 +34,7 @@
       </div>
       <div class="content-bottom">
 
-        <div class="b-cols col-three">
+        <div class="b-cols col-three style-a">
 
           <div class="col col-1">
             <div class="col-item">
