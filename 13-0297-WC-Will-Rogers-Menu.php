@@ -46,9 +46,9 @@
           </div>
         </div>
 
-        <div class="b-cols col-two style-b">
+        <div class="b-cols col-two style-a">
 
-          <div class="col col-1">
+          <div class="col col-a col-1">
             <div class="col-item">
 
               <h3><span>weddings</span></h3>
@@ -74,7 +74,7 @@
 
           </div>
 
-          <div class="col col-2">
+          <div class="col col-a col-2">
             <div class="col-item">
 
               <h3><span>special events</span></h3>

@@ -45,7 +45,7 @@
           </div>
         </div>
 
-        <div class="b-cols col-one style-c">
+        <div class="b-cols col-one style-b">
 
           <div class="col col-1">
             <div class="col-item">

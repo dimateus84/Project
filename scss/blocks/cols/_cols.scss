@@ -46,11 +46,7 @@
     }
   }
 
-  &.style-a, &.style-b, &.style-c {
-
-    .col-wrapper {
-      padding: 25px 25px 0 30px;
-    }
+  &.style-a, &.style-b {
 
     .col-item {
       background: #fff;
@@ -61,9 +57,7 @@
 
       h3 {
         padding: 5px 0 6px;
-        background: image_url("bg/bg-colum-h.png") repeat-x;
         @include border-radius(18px 18px 0 0);
-        border-bottom: 1px solid #000;
         overflow: hidden;
         text-align: center;
 
@@ -73,8 +67,6 @@
           text-transform: uppercase;
           display: inline-block;
           height: 40px;
-          min-width: 186px;
-          background: #5f1717;
         }
       }
     }
@@ -82,7 +74,21 @@
 
   &.style-a {
 
+    .col-wrapper {
+      padding: 25px 25px 0 30px;
+    }
+
     .col-item {
+
+      h3 {
+        background: image_url("bg/bg-colum-h.png") repeat-x;
+        border-bottom: 1px solid #000;
+
+        span {
+          min-width: 186px;
+          background: #5f1717;
+        }
+      }
 
       .wrapper-face {
         padding: 20px;
@@ -134,25 +140,23 @@
       }
     }
 
-  }
+    .col-a {
 
-  &.style-b {
-
-    p {
-      font-size: 14px;
-      font-family: arial;
-      font-style: italic;
-      color: #7e7e7e;
+      p {
+        font-size: 14px;
+        font-family: arial;
+        font-style: italic;
+        color: #7e7e7e;
+      }
     }
 
   }
 
-  &.style-c {
+  &.style-b {
 
     .col {
 
       .col-wrapper {
-        padding: 0;
         position: relative;
         overflow: hidden;
 

@@ -889,10 +889,7 @@ ul li {
 .b-cols.col-three .col.col-3 .col-item .col-wrapper {
   padding: 20px 0;
 }
-.b-cols.style-a .col-wrapper, .b-cols.style-b .col-wrapper, .b-cols.style-c .col-wrapper {
-  padding: 25px 25px 0 30px;
-}
-.b-cols.style-a .col-item, .b-cols.style-b .col-item, .b-cols.style-c .col-item {
+.b-cols.style-a .col-item, .b-cols.style-b .col-item {
   background: #fff;
   height: 100%;
   border: 1px solid #314c4e;
@@ -901,22 +898,29 @@ ul li {
   border-radius: 20px;
   margin-bottom: 30px;
 }
-.b-cols.style-a .col-item h3, .b-cols.style-b .col-item h3, .b-cols.style-c .col-item h3 {
+.b-cols.style-a .col-item h3, .b-cols.style-b .col-item h3 {
   padding: 5px 0 6px;
-  background: url('../images/bg/bg-colum-h.png') repeat-x;
   -moz-border-radius: 18px 18px 0 0;
   -webkit-border-radius: 18px;
   border-radius: 18px 18px 0 0;
-  border-bottom: 1px solid #000;
   overflow: hidden;
   text-align: center;
 }
-.b-cols.style-a .col-item h3 span, .b-cols.style-b .col-item h3 span, .b-cols.style-c .col-item h3 span {
+.b-cols.style-a .col-item h3 span, .b-cols.style-b .col-item h3 span {
   color: #fff;
   font: normal 30px/45px voltaire-regular;
   text-transform: uppercase;
   display: inline-block;
   height: 40px;
+}
+.b-cols.style-a .col-wrapper {
+  padding: 25px 25px 0 30px;
+}
+.b-cols.style-a .col-item h3 {
+  background: url('../images/bg/bg-colum-h.png') repeat-x;
+  border-bottom: 1px solid #000;
+}
+.b-cols.style-a .col-item h3 span {
   min-width: 186px;
   background: #5f1717;
 }
@@ -960,18 +964,17 @@ ul li {
   color: #7e7e7e;
   line-height: 22px;
 }
-.b-cols.style-b p {
+.b-cols.style-a .col-a p {
   font-size: 14px;
   font-family: arial;
   font-style: italic;
   color: #7e7e7e;
 }
-.b-cols.style-c .col .col-wrapper {
-  padding: 0;
+.b-cols.style-b .col .col-wrapper {
   position: relative;
   overflow: hidden;
 }
-.b-cols.style-c .col .col-wrapper:before {
+.b-cols.style-b .col .col-wrapper:before {
   content: '';
   display: block;
   position: absolute;
@@ -984,18 +987,18 @@ ul li {
   -webkit-border-radius: 0;
   border-radius: 0 0 20px 20px;
 }
-.b-cols.style-c .col .col-wrapper img {
+.b-cols.style-b .col .col-wrapper img {
   -moz-border-radius: 0 0 25px 25px;
   -webkit-border-radius: 0;
   border-radius: 0 0 25px 25px;
 }
-.b-cols.style-c .col .col-item {
+.b-cols.style-b .col .col-item {
   border: none;
 }
-.b-cols.style-c .col .col-item h3 {
+.b-cols.style-b .col .col-item h3 {
   background: url('../images/bg/bg-colum-h-style-b.png') repeat-x;
 }
-.b-cols.style-c .col .col-item h3 span {
+.b-cols.style-b .col .col-item h3 span {
   background: #37a8a6;
   min-width: 250px;
 }
