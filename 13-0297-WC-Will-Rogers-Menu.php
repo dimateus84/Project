@@ -101,8 +101,8 @@
       </div>
     </div>
   </div>
-</div>
-<?php include 'tpl/layout/footer.inc'; ?>
+
+  <?php include 'tpl/layout/footer.inc'; ?>
 </div>
 </body>
 </html>
