@@ -53,7 +53,7 @@
               <h3><span>View Gallery</span></h3>
 
               <div class="col-wrapper">
-                <img src="theme/images/tmp/view-gallery.jpg" alt=""/>
+                <a href="#"><img src="theme/images/tmp/view-gallery.jpg" alt=""/></a>
 
 
               </div>

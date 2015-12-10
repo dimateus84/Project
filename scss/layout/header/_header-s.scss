@@ -123,7 +123,7 @@
 .nav-active .site-header .site-container .nav ul {
   visibility: visible;
   opacity: 1;
-  @include transform(translate(0, 0));
+  @include transform(translate(0, -1px));
 }
 
 .top-menu-active .site-header .site-container .top-menu ul {
