@@ -13,7 +13,7 @@
       </ul>
     </div>
     <div class="logo">
-      <a href="#"><img src="theme/images/logo.png" alt="logo"/>
+      <a href="13-0297-WC-Will-Rogers-Home.php"><img src="theme/images/logo.png" alt="logo"/>
 
         <h1>Will Rogers Theatre</h1></a>
     </div>
@@ -29,9 +29,9 @@
         <li><a href="#">Weddings</a></li>
         <li><a href="#">special events</a></li>
         <li><a href="#">Gallery</a></li>
-        <li><a href="13-0297-WC-Will-Rogers-Menu.php" class="active active-trail">Menu</a></li>
+        <li><a href="13-0297-WC-Will-Rogers-Menu.php">Menu</a></li>
         <li><a href="#">about</a></li>
-        <li><a href="#">Layout</a></li>
+        <li><a href="13-0297-WC-Will-Rogers-Layout.php">Layout</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
