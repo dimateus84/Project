@@ -1066,44 +1066,49 @@ ul li {
   overflow: hidden;
   visibility: hidden;
 }
-.text-img-wrapper .b-text-img .text {
+.text-img-wrapper .b-text-img.style-a .text, .text-img-wrapper .b-text-img.style-b .text {
   float: left;
-  width: 69%;
   color: #818181;
   font-family: "Arial";
   line-height: 30px;
   padding-right: 50px;
 }
-.text-img-wrapper .b-text-img .text h2 {
+.text-img-wrapper .b-text-img.style-a .text h2, .text-img-wrapper .b-text-img.style-b .text h2 {
   font-size: 16px;
   font-weight: bold;
-  text-transform: uppercase;
 }
-.text-img-wrapper .b-text-img .text p {
+.text-img-wrapper .b-text-img.style-a .text p, .text-img-wrapper .b-text-img.style-b .text p {
   font-size: 15px;
   text-align: justify;
 }
-.text-img-wrapper .b-text-img .img {
-  width: 31%;
+.text-img-wrapper .b-text-img.style-a .img, .text-img-wrapper .b-text-img.style-b .img {
   float: right;
 }
-
-.b-text-img.style-b .text {
+.text-img-wrapper .b-text-img.style-a .text {
+  width: 69%;
+}
+.text-img-wrapper .b-text-img.style-a .text h2 {
+  text-transform: uppercase;
+}
+.text-img-wrapper .b-text-img.style-a .img {
+  width: 31%;
+}
+.text-img-wrapper .b-text-img.style-b .text {
   width: 41%;
 }
-.b-text-img.style-b .text h2 {
+.text-img-wrapper .b-text-img.style-b .text h2 {
   text-transform: none;
 }
-.b-text-img.style-b .text .btn-wrapper {
+.text-img-wrapper .b-text-img.style-b .text .btn-wrapper {
   text-align: left;
 }
-.b-text-img.style-b .text p {
+.text-img-wrapper .b-text-img.style-b .text p {
   margin-bottom: 30px;
 }
-.b-text-img.style-b .img {
+.text-img-wrapper .b-text-img.style-b .img {
   width: 59%;
 }
-.b-text-img.style-b .img img {
+.text-img-wrapper .b-text-img.style-b .img img {
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
