@@ -27,12 +27,13 @@
     initFullWidthBlock('.content-top');
     initFullWidthBlock('.text-img-wrapper');
     initSelect();
-    initMobileNav($('.nav'), '.btn-nav', 'nav-active', 'nav-processed');
-    initMobileNav($('.top-menu'), '.btn-top-menu', 'top-menu-active', 'top-menu-processed');
+    initMobileNav('.nav', '.btn-nav', 'nav-active', 'nav-processed');
+    initMobileNav('.top-menu', '.btn-top-menu', 'top-menu-active', 'top-menu-processed');
   }
 
-  function initMobileNav($navWrapper, btn, activ, processed) {
+  function initMobileNav(navWrapper, btn, activ, processed) {
     var $body = $('body');
+    var $navWrapper = $(navWrapper);
     var $btn = $navWrapper.find(btn);
 
     if ($body.hasClass(processed)) return;
