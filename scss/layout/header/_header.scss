@@ -13,7 +13,7 @@
       background: black;
       @include box-shadow(0px 5px 14px 0px rgba(0, 0, 0, 0.35));
 
-      .btn-top-menu {
+      >a {
         display: none;
       }
 
@@ -80,7 +80,7 @@
       border-top: 1px solid #131d1d;
       border-bottom: 1px solid #4d4d2f;
 
-      .btn-menu {
+      >a {
         display: none;
       }
 
