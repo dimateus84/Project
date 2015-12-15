@@ -98,34 +98,3 @@
   }
 
 })(jQuery);
-
-
-/*
-function initMobileNav(navWrapper) {
-
-  var $body = $('body');
-  var $navWrapper = $('.'+navWrapper);
-
-  var btn = ".btn-" + navWrapper;
-  var $btn = $navWrapper.find(btn);
-
-  var active = navWrapper + "-active";
-
-  $btn.on('click touch', checkNav);
-
-  $('html').on('click touch', function (e) {
-    if (!$(e.target).closest($navWrapper).length && $body.hasClass(active)) {
-      $body.removeClass(active);
-    }
-  });
-
-  function checkNav(e) {
-    e.preventDefault();
-
-    if ($body.hasClass(active)) {
-      $body.removeClass(active);
-    } else {
-      $body.addClass(active);
-    }
-  }
-}*/
