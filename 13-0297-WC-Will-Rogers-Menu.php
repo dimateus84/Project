@@ -30,7 +30,7 @@
         <div class="text-img-wrapper">
           <div class="b-text-img style-a">
             <div class="text">
-              <h2>Inspired by Chef Kurt Fleischfresser</h2>
+              <h3>Inspired by Chef Kurt Fleischfresser</h3>
 
               <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus
                 sit

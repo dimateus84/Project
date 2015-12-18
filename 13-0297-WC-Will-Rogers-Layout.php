@@ -9,29 +9,29 @@
         <div class="text-img-wrapper">
           <div class="b-text-img style-b">
             <div class="text">
-              <h2>Banquet Room</h2>
+              <h3>Banquet Room</h3>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel
                 eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna.
               </p>
 
-              <h2>Stage</h2>
+              <h3>Stage</h3>
 
               <p>Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nullam quis risus eget urna mollis ornare vel eu leo.</p>
 
-              <h2>Tasting Room</h2>
+              <h3>Tasting Room</h3>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel
                 eu leo. </p>
 
-              <h2>Lobby Bar </h2>
+              <h3>Lobby Bar </h3>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare
                 vel eu leo.
               </p>
 
-              <h2>Sushi Neko</h2>
+              <h3>Sushi Neko</h3>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare
                 vel eu leo.

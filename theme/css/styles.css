@@ -889,7 +889,7 @@ ul li {
 .b-cols.col-three .col.col-3 .col-item .col-wrapper {
   padding: 20px 0;
 }
-.b-cols.style-a .col-item, .b-cols.style-b .col-item {
+.b-cols.style-a .col-item, .b-cols.style-b .col-item, .b-cols.style-c .col-item {
   background: #fff;
   height: 100%;
   border: 1px solid #314c4e;
@@ -964,11 +964,21 @@ ul li {
   color: #7e7e7e;
   line-height: 22px;
 }
-.b-cols.style-a .col-a p {
-  font-size: 14px;
+.b-cols.style-a .col-a, .b-cols.style-a .col-b {
   font-family: arial;
   font-style: italic;
+}
+.b-cols.style-a .col-a p {
+  font-size: 14px;
   color: #7e7e7e;
+}
+.b-cols.style-a .col-b p {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto 20px;
+  width: 60%;
+  color: #666666;
 }
 .b-cols.style-b .col .col-wrapper {
   position: relative;
@@ -1043,7 +1053,7 @@ ul li {
   line-height: 80px;
   color: #009999;
   height: 80px;
-  letter-spacing: 15px;
+  letter-spacing: 11px;
   text-transform: uppercase;
   margin-bottom: 20px;
   border-bottom: 1px solid #0e2c2e;
@@ -1072,28 +1082,37 @@ ul li {
   overflow: hidden;
   visibility: hidden;
 }
-.text-img-wrapper .b-text-img.style-a .text, .text-img-wrapper .b-text-img.style-b .text {
-  float: left;
+.text-img-wrapper .b-text-img.style-a, .text-img-wrapper .b-text-img.style-b, .text-img-wrapper .b-text-img.style-c {
   color: #818181;
   font-family: "Arial";
   line-height: 30px;
+}
+.text-img-wrapper .b-text-img.style-a h2, .text-img-wrapper .b-text-img.style-b h2, .text-img-wrapper .b-text-img.style-c h2 {
+  font-family: montserrat-bold;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 25px;
+  color: #336666;
+}
+.text-img-wrapper .b-text-img.style-a .text, .text-img-wrapper .b-text-img.style-b .text, .text-img-wrapper .b-text-img.style-c .text {
+  float: left;
   padding-right: 50px;
 }
-.text-img-wrapper .b-text-img.style-a .text h2, .text-img-wrapper .b-text-img.style-b .text h2 {
+.text-img-wrapper .b-text-img.style-a .text h3, .text-img-wrapper .b-text-img.style-b .text h3, .text-img-wrapper .b-text-img.style-c .text h3 {
   font-size: 16px;
   font-weight: bold;
 }
-.text-img-wrapper .b-text-img.style-a .text p, .text-img-wrapper .b-text-img.style-b .text p {
+.text-img-wrapper .b-text-img.style-a .text p, .text-img-wrapper .b-text-img.style-b .text p, .text-img-wrapper .b-text-img.style-c .text p {
   font-size: 15px;
   text-align: justify;
 }
-.text-img-wrapper .b-text-img.style-a .img, .text-img-wrapper .b-text-img.style-b .img {
+.text-img-wrapper .b-text-img.style-a .img, .text-img-wrapper .b-text-img.style-b .img, .text-img-wrapper .b-text-img.style-c .img {
   float: right;
 }
 .text-img-wrapper .b-text-img.style-a .text {
   width: 69%;
 }
-.text-img-wrapper .b-text-img.style-a .text h2 {
+.text-img-wrapper .b-text-img.style-a .text h3 {
   text-transform: uppercase;
 }
 .text-img-wrapper .b-text-img.style-a .img {
@@ -1102,7 +1121,7 @@ ul li {
 .text-img-wrapper .b-text-img.style-b .text {
   width: 41%;
 }
-.text-img-wrapper .b-text-img.style-b .text h2 {
+.text-img-wrapper .b-text-img.style-b .text h3 {
   text-transform: none;
 }
 .text-img-wrapper .b-text-img.style-b .text .btn-wrapper {
@@ -1118,6 +1137,46 @@ ul li {
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
+}
+.text-img-wrapper .b-text-img.style-c .text {
+  width: 50%;
+  border-right: 2px #c2c2c2 solid;
+  padding: 0;
+}
+.text-img-wrapper .b-text-img.style-c .text ul {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.text-img-wrapper .b-text-img.style-c .text ul.no-disc {
+  list-style-type: none;
+  padding: 0;
+}
+.text-img-wrapper .b-text-img.style-c .text ul li {
+  margin: 0;
+}
+.text-img-wrapper .b-text-img.style-c .text .link-view {
+  display: block;
+  font-size: 12px;
+  font-family: "Montserrat-regular";
+  letter-spacing: 2px;
+  color: #339999;
+  text-transform: uppercase;
+}
+.text-img-wrapper .b-text-img.style-c .img {
+  width: 50%;
+  padding-left: 50px;
+}
+.text-img-wrapper .b-text-img.style-c .img ul {
+  width: 480px;
+  font-size: 15px;
+  margin-bottom: 50px;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  padding: 0;
+}
+.text-img-wrapper .b-text-img.style-c .img ul li {
+  margin: 0 0 0 20px;
 }
 
 /*

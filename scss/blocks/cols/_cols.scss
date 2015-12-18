@@ -46,7 +46,7 @@
     }
   }
 
-  &.style-a, &.style-b {
+  &.style-a, &.style-b, &.style-c {
 
     .col-item {
       background: #fff;
@@ -54,6 +54,13 @@
       border: 1px solid #314c4e;
       @include border-radius(20px);
       margin-bottom: 30px;
+    }
+
+  }
+
+  &.style-a, &.style-b {
+
+    .col-item {
 
       h3 {
         padding: 5px 0 6px;
@@ -139,14 +146,28 @@
         }
       }
     }
+    .col-a,.col-b {
+      font-family: arial;
+      font-style: italic;
+    }
 
     .col-a {
 
       p {
         font-size: 14px;
-        font-family: arial;
-        font-style: italic;
         color: #7e7e7e;
+      }
+    }
+
+    .col-b {
+
+      p {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 auto 20px;
+        width: 60%;
+        color: #666666;
       }
     }
 
