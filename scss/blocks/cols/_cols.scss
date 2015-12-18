@@ -1,6 +1,6 @@
 .b-cols {
   @include clearfix();
-  margin: 66px auto 0;
+  margin: 0 auto;
 
   &.col-one {
 
@@ -146,7 +146,7 @@
         }
       }
     }
-    .col-a,.col-b {
+    .col-a, .col-b {
       font-family: arial;
       font-style: italic;
     }
@@ -215,6 +215,80 @@
           }
         }
       }
+    }
+  }
+
+  &.style-c {
+
+    .col-wrapper {
+      padding: 20px;
+      @include clearfix();
+    }
+
+    .col-item {
+
+      h3 {
+        font-family: montserrat-bold;
+        font-size: 30px;
+        margin: 0 20px;
+        color: #336666;
+        border-bottom: 2px solid #c6c6c6;
+        text-align: center;
+        padding: 5px 0;
+      }
+    }
+  }
+
+  .col-inner-tree {
+    @include clearfix;
+
+    .col-inner-1, .col-inner-2, .col-inner-3 {
+      float: left;
+      width: 32%;
+      margin-right: 2%;
+      font-family: arial;
+      font-size: 14px;
+
+      p, li, h5, div {
+        color: #7e7e7e;
+      }
+
+      h4 {
+        font-weight: bold;
+        margin: 0;
+      }
+
+      p, ul {
+        margin: 0 0 15px 0;
+      }
+
+      h5 {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+      }
+
+      h5+p, li li, div {
+        font-style: italic;
+      }
+
+      li {
+        margin: 0;
+
+        li {
+          list-style-type: none;
+          padding-left: 20px;
+
+          &:before {
+            content: "- ";
+          }
+        }
+      }
+    }
+
+    .col-inner-3 {
+      margin: 0;
     }
   }
 }

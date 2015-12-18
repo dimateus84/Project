@@ -801,6 +801,7 @@ ul li {
   left: 50%;
   border-bottom: 5px solid #3e636b;
   border-top: 1px solid #000;
+  margin-bottom: 50px;
 }
 
 .site-container {
@@ -852,7 +853,7 @@ ul li {
 }
 
 .b-cols {
-  margin: 66px auto 0;
+  margin: 0 auto;
 }
 .b-cols:after {
   content: " ";
@@ -1016,6 +1017,73 @@ ul li {
   background: #37a8a6;
   min-width: 250px;
 }
+.b-cols.style-c .col-wrapper {
+  padding: 20px;
+}
+.b-cols.style-c .col-wrapper:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.b-cols.style-c .col-item h3 {
+  font-family: montserrat-bold;
+  font-size: 30px;
+  margin: 0 20px;
+  color: #336666;
+  border-bottom: 2px solid #c6c6c6;
+  text-align: center;
+  padding: 5px 0;
+}
+.b-cols .col-inner-tree:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.b-cols .col-inner-tree .col-inner-1, .b-cols .col-inner-tree .col-inner-2, .b-cols .col-inner-tree .col-inner-3 {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+  font-family: arial;
+  font-size: 14px;
+}
+.b-cols .col-inner-tree .col-inner-1 p, .b-cols .col-inner-tree .col-inner-1 li, .b-cols .col-inner-tree .col-inner-1 h5, .b-cols .col-inner-tree .col-inner-1 div, .b-cols .col-inner-tree .col-inner-2 p, .b-cols .col-inner-tree .col-inner-2 li, .b-cols .col-inner-tree .col-inner-2 h5, .b-cols .col-inner-tree .col-inner-2 div, .b-cols .col-inner-tree .col-inner-3 p, .b-cols .col-inner-tree .col-inner-3 li, .b-cols .col-inner-tree .col-inner-3 h5, .b-cols .col-inner-tree .col-inner-3 div {
+  color: #7e7e7e;
+}
+.b-cols .col-inner-tree .col-inner-1 h4, .b-cols .col-inner-tree .col-inner-2 h4, .b-cols .col-inner-tree .col-inner-3 h4 {
+  font-weight: bold;
+  margin: 0;
+}
+.b-cols .col-inner-tree .col-inner-1 p, .b-cols .col-inner-tree .col-inner-1 ul, .b-cols .col-inner-tree .col-inner-2 p, .b-cols .col-inner-tree .col-inner-2 ul, .b-cols .col-inner-tree .col-inner-3 p, .b-cols .col-inner-tree .col-inner-3 ul {
+  margin: 0 0 15px 0;
+}
+.b-cols .col-inner-tree .col-inner-1 h5, .b-cols .col-inner-tree .col-inner-2 h5, .b-cols .col-inner-tree .col-inner-3 h5 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+.b-cols .col-inner-tree .col-inner-1 h5 + p, .b-cols .col-inner-tree .col-inner-1 li li, .b-cols .col-inner-tree .col-inner-1 div, .b-cols .col-inner-tree .col-inner-2 h5 + p, .b-cols .col-inner-tree .col-inner-2 li li, .b-cols .col-inner-tree .col-inner-2 div, .b-cols .col-inner-tree .col-inner-3 h5 + p, .b-cols .col-inner-tree .col-inner-3 li li, .b-cols .col-inner-tree .col-inner-3 div {
+  font-style: italic;
+}
+.b-cols .col-inner-tree .col-inner-1 li, .b-cols .col-inner-tree .col-inner-2 li, .b-cols .col-inner-tree .col-inner-3 li {
+  margin: 0;
+}
+.b-cols .col-inner-tree .col-inner-1 li li, .b-cols .col-inner-tree .col-inner-2 li li, .b-cols .col-inner-tree .col-inner-3 li li {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.b-cols .col-inner-tree .col-inner-1 li li:before, .b-cols .col-inner-tree .col-inner-2 li li:before, .b-cols .col-inner-tree .col-inner-3 li li:before {
+  content: "- ";
+}
+.b-cols .col-inner-tree .col-inner-3 {
+  margin: 0;
+}
 
 .think-us {
   position: absolute;
@@ -1070,6 +1138,7 @@ ul li {
   background: url('../images/bg/text-img-bg.jpg') 0% 100%;
   margin-bottom: 50px;
   border-bottom: 2px #c2c2c2 solid;
+  margin-top: -50px;
 }
 .text-img-wrapper .b-text-img {
   margin: 0 auto 20px;
@@ -1101,6 +1170,7 @@ ul li {
 .text-img-wrapper .b-text-img.style-a .text h3, .text-img-wrapper .b-text-img.style-b .text h3, .text-img-wrapper .b-text-img.style-c .text h3 {
   font-size: 16px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .text-img-wrapper .b-text-img.style-a .text p, .text-img-wrapper .b-text-img.style-b .text p, .text-img-wrapper .b-text-img.style-c .text p {
   font-size: 15px;
@@ -1167,13 +1237,12 @@ ul li {
   padding-left: 50px;
 }
 .text-img-wrapper .b-text-img.style-c .img ul {
-  width: 480px;
   font-size: 15px;
   margin-bottom: 50px;
-  -moz-column-count: 2;
-  -webkit-column-count: 2;
-  column-count: 2;
   padding: 0;
+}
+.text-img-wrapper .b-text-img.style-c .img ul .last {
+  padding-left: 30px;
 }
 .text-img-wrapper .b-text-img.style-c .img ul li {
   margin: 0 0 0 20px;

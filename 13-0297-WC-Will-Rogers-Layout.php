@@ -5,6 +5,7 @@
   <?php include 'tpl/layout/header.inc'; ?>
   <div class="inner-wrapper site-container">
     <div class="content-wrapper">
+      <div class="content-top"></div>
       <div class="content-bottom">
         <div class="text-img-wrapper">
           <div class="b-text-img style-b">

@@ -5,6 +5,7 @@
   background: image_url("bg/text-img-bg.jpg") 0% 100%;
   margin-bottom: 50px;
   border-bottom: 2px #c2c2c2 solid;
+  margin-top: -50px;
 
   .b-text-img {
     @include clearfix();
@@ -30,6 +31,7 @@
         h3 {
           font-size: 16px;
           font-weight: bold;
+          text-transform: uppercase;
         }
 
         p {
@@ -121,12 +123,13 @@
         padding-left: 50px;
 
         ul {
-          width: 480px;
           font-size: 15px;
           margin-bottom: 50px;
-          @include column-count(2);
           padding: 0;
 
+          .last  {
+            padding-left: 30px;
+          }
 
           li {
             margin: 0 0 0 20px;

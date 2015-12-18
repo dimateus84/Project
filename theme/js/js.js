@@ -29,6 +29,11 @@
     initSelect();
     initMobileNav('.nav');
     initMobileNav('.top-menu');
+    initColum();
+  }
+
+  function initColum() {
+    $('.img ul').columnize({width:260, columns:2, height : 350});
   }
 
   function initMobileNav(navWrapper) {
