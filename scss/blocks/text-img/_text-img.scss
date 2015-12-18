@@ -92,7 +92,7 @@
       .text {
         width: 50%;
         border-right: 2px #c2c2c2 solid;
-        padding: 0;
+        padding: 0 30px 0 0;
 
         ul {
           font-size: 15px;
@@ -124,7 +124,6 @@
 
         ul {
           font-size: 15px;
-          margin-bottom: 50px;
           padding: 0;
 
           .last  {

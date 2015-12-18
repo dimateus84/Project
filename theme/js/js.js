@@ -33,7 +33,7 @@
   }
 
   function initColum() {
-    $('.img ul').columnize({width:260, columns:2, height : 350});
+    $('.img ul').columnize({width:260, columns:2});
   }
 
   function initMobileNav(navWrapper) {

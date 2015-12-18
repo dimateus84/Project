@@ -26,7 +26,7 @@
     <nav class="nav">
       <a class="btn-nav" href="#">Navigation Menu</a>
       <ul class="menu">
-        <li><a href="#">Weddings</a></li>
+        <li><a href="13-0297-WC-Will-Rogers-Weddings.php">Weddings</a></li>
         <li><a href="13-0297-WC-Will-Rogers-Special-Events.php">special events</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="13-0297-WC-Will-Rogers-Menu.php">Menu</a></li>
