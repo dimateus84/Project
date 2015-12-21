@@ -60,6 +60,15 @@
         <a href="index/13-0297-WC-Will-Rogers-Weddings.jpg">Preview</a>
       </p>
     </li>
+    <li>
+      <a href="13-0297-WC-Will-Rogers-About.php"><img src="index/13-0297-WC-Will-Rogers-About-s.jpg"
+                                                         alt="13-0297-WC-Will-Rogers-About"/></a>
+
+      <p>
+        13-0297-WC-Will-Rogers-About
+        <a href="index/13-0297-WC-Will-Rogers-About.jpg">Preview</a>
+      </p>
+    </li>
   </ul>
 </div>
 </body>

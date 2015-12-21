@@ -54,6 +54,12 @@
     .col-inner-1, .col-inner-2, .col-inner-3 {
 
       font-family: arial;
+
+      &.col-in-b {
+        p {
+          margin: 0 0 7px 0;
+        }
+      }
     }
   }
 
@@ -70,6 +76,13 @@
         font-family: "montserrat-bold";
       }
     }
+  }
+
+  p.info {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px 0 20px;
   }
 
 }

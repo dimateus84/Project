@@ -30,7 +30,7 @@
         <li><a href="13-0297-WC-Will-Rogers-Special-Events.php">special events</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="13-0297-WC-Will-Rogers-Menu.php">Menu</a></li>
-        <li><a href="#">about</a></li>
+        <li><a href="13-0297-WC-Will-Rogers-About.php">about</a></li>
         <li><a href="13-0297-WC-Will-Rogers-Layout.php">Layout</a></li>
         <li><a href="#">Contact</a></li>
       </ul>

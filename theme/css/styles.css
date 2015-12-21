@@ -803,6 +803,18 @@ ul li {
   border-top: 1px solid #000;
   margin-bottom: 50px;
 }
+.content-wrapper h3.wedding {
+  font-family: montserrat-bold;
+  color: #009999;
+  font-size: 35px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #c6c6c6;
+  text-align: center;
+  width: 1122px;
+  margin: -20px auto 50px;
+  letter-spacing: 6px;
+  line-height: 80px;
+}
 
 .site-container {
   margin: 0 auto;
@@ -1132,6 +1144,10 @@ ul li {
 .text-img-wrapper .b-text-img.style-a .img, .text-img-wrapper .b-text-img.style-b .img, .text-img-wrapper .b-text-img.style-c .img {
   float: right;
 }
+.text-img-wrapper .b-text-img.style-a .img p, .text-img-wrapper .b-text-img.style-b .img p, .text-img-wrapper .b-text-img.style-c .img p {
+  font-size: 15px;
+  text-align: justify;
+}
 .text-img-wrapper .b-text-img.style-a .text {
   width: 69%;
 }
@@ -1312,6 +1328,15 @@ ul li {
 .b-tabs .tabs_content.active.gold {
   border-top: 4px solid #bdc01f;
 }
+.b-tabs .tabs_content.active.platinum {
+  border-top: 4px solid #d5d1d1;
+}
+.b-tabs .tabs_content.active.diamond {
+  border-top: 4px solid #d4d4d4;
+}
+.b-tabs .tabs_content.active.grand-dinner {
+  border-top: 4px solid #be6a6a;
+}
 
 .b-col-inner-tree:after {
   content: " ";
@@ -1362,12 +1387,21 @@ ul li {
 .b-col-inner-tree.style-a .col-inner-1, .b-col-inner-tree.style-a .col-inner-2, .b-col-inner-tree.style-a .col-inner-3 {
   font-family: arial;
 }
+.b-col-inner-tree.style-a .col-inner-1.col-in-b p, .b-col-inner-tree.style-a .col-inner-2.col-in-b p, .b-col-inner-tree.style-a .col-inner-3.col-in-b p {
+  margin: 0 0 7px 0;
+}
 .b-col-inner-tree.style-b .col-inner-1 p, .b-col-inner-tree.style-b .col-inner-2 p, .b-col-inner-tree.style-b .col-inner-3 p {
   margin: 0 0 7px 0;
 }
 .b-col-inner-tree.style-b .col-inner-1 h4, .b-col-inner-tree.style-b .col-inner-2 h4, .b-col-inner-tree.style-b .col-inner-3 h4 {
   margin-top: 30px;
   font-family: "montserrat-bold";
+}
+.b-col-inner-tree p.info {
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 20px 0 20px;
 }
 
 /*

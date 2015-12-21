@@ -103,9 +103,9 @@
 
               <div class="col-wrapper">
 
-                <div class="col-inner-tree">
+                <div class="b-col-inner-tree style-a">
 
-                  <div class="col col-inner-1">
+                  <div class="col-inner-1">
                     <h4>Cash Bar</h4>
 
                     <p>Includes One Bartender </p>
@@ -135,7 +135,7 @@
                       Hours
                     </p>
                   </div>
-                  <div class="col col-inner-2">
+                  <div class="col-inner-2">
 
                     <h4>Grand Dinner Buffet </h4>
                     <ul>
@@ -165,7 +165,7 @@
                     </ul>
 
                   </div>
-                  <div class="col col-inner-3">
+                  <div class="col-inner-3">
                     <h4>Continental Breakfast</h4>
                     <ul>
                       <li>Assortment of Patisseries, Mini Fruit Danish, Mini Muffins and Mini Bagels with Cream Cheese and Fruit Jams</li>
