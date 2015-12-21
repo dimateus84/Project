@@ -30,7 +30,19 @@
     initMobileNav('.nav');
     initMobileNav('.top-menu');
     initColum();
+    initTabs();
   }
+
+
+  function initTabs() {
+
+    $('ul.tabs_caption').on('click', 'li:not(.active)', function () {
+      $(this)
+        .addClass('active').siblings().removeClass('active')
+        .closest('div.b-tabs').find('div.tabs_content').removeClass('active').eq($(this).index()).addClass('active');
+    });
+  }
+
 
   function initColum() {
     $('.img ul').columnize({width:260, columns:2});

@@ -1,0 +1,20 @@
+.site-container {
+  width: 99%;
+
+  .b-cols {
+    width: 100%;
+
+    .col {
+      margin-right: 0px;
+      width: 100%;
+
+      .col-item .col-cont {
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

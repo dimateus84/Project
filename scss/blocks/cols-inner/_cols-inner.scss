@@ -1,0 +1,75 @@
+.b-col-inner-tree {
+  @include clearfix;
+
+  .col-inner-1, .col-inner-2, .col-inner-3 {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    font-size: 14px;
+
+    p, li, h5, div {
+      color: #7e7e7e;
+    }
+
+    h4 {
+      font-weight: bold;
+      margin: 0;
+    }
+
+    p, ul {
+      margin: 0 0 15px 0;
+    }
+
+    h5 {
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    h5 + p, li li, div {
+      font-style: italic;
+    }
+
+    li {
+      margin: 0;
+
+      li {
+        list-style-type: none;
+        padding-left: 20px;
+
+        &:before {
+          content: "- ";
+        }
+      }
+    }
+  }
+
+  .col-inner-3 {
+    margin: 0;
+  }
+
+  &.style-a {
+
+    .col-inner-1, .col-inner-2, .col-inner-3 {
+
+      font-family: arial;
+    }
+  }
+
+  &.style-b {
+
+    .col-inner-1, .col-inner-2, .col-inner-3 {
+
+      p {
+        margin: 0 0 7px 0;
+      }
+
+      h4 {
+        margin-top: 30px;
+        font-family: "montserrat-bold";
+      }
+    }
+  }
+
+}

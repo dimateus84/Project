@@ -1,0 +1,104 @@
+.b-tabs {
+  margin-bottom: 30px;
+
+  .tabs_caption {
+    margin: 0 auto;
+    display: table;
+    padding: 0;
+    width: 1122px;
+
+    li {
+      display: table-cell;
+      width: 225px;
+      list-style: none;
+      margin: 0;
+      text-align: center;
+      padding: 5px 0 6px;
+      @include border-radius(18px 18px 0 0);
+      overflow: hidden;
+      background: image_url("bg/bg-colum-tabs-no-active.png") repeat-x;
+      cursor: pointer;
+
+      span {
+        @include background(linear-gradient(bottom, #575757, #858585));
+        min-width: 185px;
+        color: #b2afaf;
+        font: normal 30px/45px voltaire-regular;
+        text-transform: uppercase;
+        display: inline-block;
+        height: 40px;
+      }
+
+      &.active {
+        cursor: auto;
+
+        span {
+          color: #fff;
+        }
+
+        &.silver {
+          background: image_url("bg/bg-colum-tabs.png") repeat-x;
+
+          span {
+            @include background(linear-gradient(bottom, #bdbdbd, #515151));
+          }
+        }
+
+        &.gold {
+          background: image_url("bg/bg-colum-tabs-gold.png") repeat-x;
+
+          span {
+            @include background(linear-gradient(bottom, #bdc01f, #4e301b));
+          }
+        }
+
+        &.platinum {
+          background: image_url("bg/bg-colum-tabs-platinum.png") repeat-x;
+
+          span {
+            @include background(linear-gradient(bottom, #d5d1d1, #4c2c2b));
+          }
+        }
+
+        &.diamond {
+          background: image_url("bg/bg-colum-tabs-diamond.png") repeat-x;
+
+          span {
+            @include background(linear-gradient(bottom, #d4d4d4, #898989));
+          }
+        }
+
+        &.grand-dinner {
+          background: image_url("bg/bg-colum-tabs-grand.png") repeat-x;
+
+          span {
+            @include background(linear-gradient(bottom, #be6a6a, #651414));
+          }
+        }
+      }
+    }
+  }
+
+  .tabs_content {
+    display: none;
+    width: 1122px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #314c4e;
+    @include border-radius(0 0 18px 18px);
+    background: #fff;
+
+    &.active {
+      display: block;
+
+      &.silver {
+        border-top: 4px solid #bdbdbd;
+      }
+
+      &.gold {
+        border-top: 4px solid #bdc01f;
+      }
+
+    }
+  }
+}

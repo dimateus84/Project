@@ -1,0 +1,21 @@
+.b-cols {
+
+  &.col-three {
+  width: 342px;
+  }
+
+  &.col-one {
+    width: 100%;
+
+    .col {
+      width: 100%;
+    }
+  }
+
+  &.col-two {
+
+    .col {
+      width: 100%;
+    }
+  }
+}
