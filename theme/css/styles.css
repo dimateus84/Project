@@ -1237,7 +1237,7 @@ ul li {
   list-style: none;
   margin: 0;
   text-align: center;
-  padding: 5px 0 6px;
+  padding: 5px 0 5px;
   -moz-border-radius: 18px 18px 0 0;
   -webkit-border-radius: 18px;
   border-radius: 18px 18px 0 0;
@@ -1410,7 +1410,7 @@ ul li {
   width: 15%;
 }
 .b-col-inner-tree.style-c .col-inner-1, .b-col-inner-tree.style-c .col-inner-2 {
-  margin-right: 7%;
+  margin-right: 9%;
 }
 .b-col-inner-tree p.info {
   font-size: 13px;
