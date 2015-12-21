@@ -75,7 +75,7 @@
 
               <div class="col-wrapper">
 
-                <div class="b-col-inner-tree style-a">
+                <div class="b-col-inner-tree style-c">
 
                   <div class="col-inner-1">
 

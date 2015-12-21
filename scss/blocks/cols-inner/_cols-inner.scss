@@ -49,7 +49,7 @@
     margin: 0;
   }
 
-  &.style-a {
+  &.style-a, &.style-c {
 
     .col-inner-1, .col-inner-2, .col-inner-3 {
 
@@ -77,6 +77,22 @@
       }
     }
   }
+
+  &.style-c {
+
+    .col-inner-1, .col-inner-3 {
+       width: 32%;
+    }
+
+    .col-inner-2 {
+     width: 15%;
+    }
+
+    .col-inner-1, .col-inner-2 {
+      margin-right: 7%;
+    }
+  }
+
 
   p.info {
     font-size: 13px;
