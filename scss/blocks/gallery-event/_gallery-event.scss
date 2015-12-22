@@ -1,0 +1,47 @@
+.b-gallery-event {
+  @include clearfix();
+  margin: 0 auto;
+  width: 1122px;
+
+  &.style-a {
+
+    h3 {
+      padding: 5px 0 6px;
+      overflow: hidden;
+      text-align: center;
+      border-bottom: 1px solid #000000;
+
+      span {
+      color: #336666;
+      font: normal 30px/45px $voltaire-regular;
+      text-transform: uppercase;
+      display: inline-block;
+      height: 40px;
+      letter-spacing: 4px;
+      }
+    }
+
+    p {
+      width: 80%;
+      text-align: center;
+      margin: 20px auto;
+      color: #336666;
+      font-size: 14px;
+      font-family: arial;
+      line-height: 24px;
+    }
+
+    .img-event-wrapper {
+      @include clearfix();
+      text-align: center;
+
+      img {
+        border: 10px solid #fff;
+        margin-left: 5px;
+        /*display: inline-block;*/
+        float: left;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

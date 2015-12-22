@@ -22,9 +22,9 @@
 		letter-spacing: 2px;
 		line-height: 35px;
 
-		&:hover {
-			color: red;
-
-		}
+		&:hover,&.active {
+			color: #339999;
+      @include background(linear-gradient(bottom, #dfe2e2, #fffffa));
+    }
 	}
 }

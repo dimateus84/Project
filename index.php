@@ -69,6 +69,24 @@
         <a href="index/13-0297-WC-Will-Rogers-About.jpg">Preview</a>
       </p>
     </li>
+    <li>
+      <a href="13-0297-WC-Will-Rogers-Gallery.php"><img src="index/13-0297-WC-Will-Rogers-Gallery-s.jpg"
+                                                      alt="13-0297-WC-Will-Rogers-Gallery"/></a>
+
+      <p>
+        13-0297-WC-Will-Rogers-Gallery
+        <a href="index/13-0297-WC-Will-Rogers-Gallery.jpg">Preview</a>
+      </p>
+    </li>
+    <li>
+      <a href="13-0297-WC-Will-Rogers-Contact.php"><img src="index/13-0297-WC-Will-Rogers-Contact-s.jpg"
+                                                        alt="13-0297-WC-Will-Rogers-Contact"/></a>
+
+      <p>
+        13-0297-WC-Will-Rogers-Contact
+        <a href="index/13-0297-WC-Will-Rogers-Contact.jpg">Preview</a>
+      </p>
+    </li>
   </ul>
 </div>
 </body>

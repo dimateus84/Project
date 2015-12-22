@@ -182,6 +182,23 @@
       }
     }
 
+    .col-c {
+
+      .col-wrapper>div:first-child {
+        border-bottom: 1px solid #000;
+
+        p {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 auto 20px;
+        width: 90%;
+        color: #336666;
+        }
+      }
+    }
+
+
   }
 
   &.style-b {

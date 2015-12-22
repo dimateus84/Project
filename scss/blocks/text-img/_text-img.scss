@@ -11,7 +11,7 @@
     @include clearfix();
     margin: 0 auto 20px;
 
-    &.style-a, &.style-b, &.style-c {
+    &.style-a, &.style-b, &.style-c, &.style-d {
       color: #818181;
       font-family: "Arial";
       line-height: 30px;
@@ -122,7 +122,7 @@
           font-size: 15px;
           padding: 0;
 
-          .last  {
+          .last {
             padding-left: 30px;
           }
 
@@ -132,6 +132,29 @@
         }
       }
     }
+
+    &.style-d {
+
+      p {
+        margin: 0;
+      }
+
+      p + h3 {
+        margin-top: 20px;
+      }
+    }
   }
+
+  .gallery-btn-wrapper {
+    @include clearfix();
+    margin: -16px auto 20px;
+    width: 1000px;
+
+    .btn-wrapper {
+      float: left;
+      margin: 0 20px 30px 20px;
+    }
+  }
+
 }
 
