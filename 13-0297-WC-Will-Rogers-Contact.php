@@ -37,31 +37,104 @@
                   your event memorable. Thank You.</p>
                 </div>
 
-                <div class="form form-newsletter">
+                <div class="form form-contact">
                   <form action="#" method="post">
 
-                    <div class="field-full-name field-item">
+                    <div class="field-first-name field-item">
                       <div class="form-item form-type-text">
-                        <label>Your full name <span class="form-required">*</span></label>
+                        <label>First Name <span class="form-required">*</span></label>
                         <input type="text" class="form-text"/>
                       </div>
                     </div>
 
-                    <div class="field-email field-item">
+                    <div class="field-last-name field-item">
+                      <div class="form-item form-type-text">
+                        <label>Last Name <span class="form-required">*</span></label>
+                        <input type="text" class="form-text required"/>
+                      </div>
+                    </div>
+
+                    <div class="field-your-email-address field-item">
                       <div class="form-item form-type-email">
-                        <label>Email address <span class="form-required">*</span></label>
+                        <label>Your Email Address <span class="form-required">*</span></label>
                         <input type="email" class="form-text required"/>
                       </div>
                     </div>
 
-                    <div class="field-c-email field-item">
-                      <div class="form-item form-type-email">
-                        <label>Confirm email <span class="form-required">*</span></label>
-                        <input type="email" class="form-text required"/>
+                    <div class="field-your-phone-number field-item">
+                      <div class="form-item form-type-text">
+                        <label>Your Phone Number <span class="form-required">*</span></label>
+                        <input type="text" class="form-text required"/>
                       </div>
                     </div>
 
-                    <!--Birthday left-->
+                    <div class="field-type-of-event field-item">
+                      <div class="form-item form-type-select">
+                        <label>Type of Event:</label>
+
+                        <div class="select">
+                          <select class="form-select">
+                            <option>Business Meeting or Presentation</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="field-preferred-month field-item">
+                      <div class="form-item form-type-select">
+                        <label>Preferred Date:</label>
+
+                        <div class="select">
+                          <select class="form-select">
+                            <option>Month</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="field-preferred-day field-item">
+                      <div class="form-item form-type-select">
+                        <label>Day</label>
+
+                        <div class="select">
+                          <select class="form-select">
+                            <option>Day</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="field-preferred-year field-item">
+                      <div class="form-item form-type-select">
+                        <label>Year</label>
+
+                        <div class="select">
+                          <select class="form-select">
+                            <option>Year</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                    <div class="field-date-flexible field-item">
+                      <div class="form-item form-type-radio">
+                      <label>Date Flexible?</label>
+                        <div class="radio">
+                          <label class="option"><input type="radio" class="form-radio"/>Yes</label>
+                        </div>
+                        <div class="radio">
+                          <label class="option"><input type="radio" class="form-radio"/>No</label>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+
                     <div class="field-birthday-month field-item">
                       <div class="form-item form-type-text">
                         <label>Birthday</label>

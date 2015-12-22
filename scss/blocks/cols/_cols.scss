@@ -184,20 +184,21 @@
 
     .col-c {
 
-      .col-wrapper>div:first-child {
+      .col-wrapper > div:first-child {
         border-bottom: 1px solid #000;
+        margin-bottom: 30px;
 
         p {
-        font-size: 15px;
-        font-weight: bold;
-        text-align: center;
-        margin: 0 auto 20px;
-        width: 90%;
-        color: #336666;
+          font-size: 15px;
+          font-weight: bold;
+          text-align: center;
+          margin: 0 auto 20px;
+          width: 90%;
+          color: #336666;
+          font-style: italic;
         }
       }
     }
-
 
   }
 
