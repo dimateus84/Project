@@ -674,15 +674,18 @@ ul li {
 .form-contact .field-first-name, .form-contact .field-last-name, .form-contact .field-your-email-address {
   width: 48%;
 }
-.form-contact .field-your-phone-number {
-  width: 18, 5%;
+.form-contact .field-your-phone-number input {
+  width: 27%;
 }
 .form-contact .field-type-of-event, .form-contact .field-entertainment {
   width: 33%;
   margin-right: 5%;
 }
-.form-contact .field-preferred-month, .form-contact .field-date-flexible {
-  width: 14.2%;
+.form-contact .field-preferred-month input {
+  width: 14%;
+}
+.form-contact .field-date-flexible {
+  width: 14%;
 }
 .form-contact .field-preferred-day, .form-contact .field-preferred-year {
   width: 9.9%;
@@ -2524,6 +2527,149 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
 }
 @media (max-width: 767px) {
+  .form-contact {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .form-contact:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .form-contact .form-item:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .form-contact .form-item label {
+    font-size: 13px;
+    color: #336666;
+    text-transform: none;
+  }
+  .form-contact .field-item {
+    margin-bottom: 10px;
+    float: none;
+  }
+  .form-contact .field-preferred-month, .form-contact .field-preferred-day, .form-contact .field-preferred-year {
+    float: left;
+  }
+  .form-contact .field-first-name, .form-contact .field-your-email-address, .form-contact .field-last-name, .form-contact .field-other-entertainment, .form-contact .field-other-needs,
+  .form-contact .field-needs, .form-contact .field-questions-or-concerns {
+    width: 100%;
+  }
+  .form-contact .field-first-name, .form-contact .field-your-email-address, .form-contact .field-needs, .form-contact .field-number-of-guests {
+    margin-right: 0%;
+  }
+  .form-contact .field-your-phone-number {
+    width: 65%;
+  }
+  .form-contact .field-type-of-event, .form-contact .field-entertainment {
+    width: 70%;
+    margin-right: 0%;
+  }
+  .form-contact .field-preferred-month input {
+    width: 31%;
+  }
+  .form-contact .field-date-flexible {
+    width: 25%;
+  }
+  .form-contact .field-preferred-day, .form-contact .field-preferred-year {
+    width: 22%;
+  }
+  .form-contact .field-preferred-day label, .form-contact .field-preferred-year label {
+    visibility: hidden;
+  }
+  .form-contact .field-preferred-month, .form-contact .field-preferred-day, .form-contact .field-preferred-year, .form-contact .field-budget {
+    margin-right: 5%;
+  }
+  .form-contact .form-type-radio .radio {
+    margin-right: 15%;
+  }
+  .form-contact .form-type-radio > label {
+    margin-bottom: 15%;
+  }
+  .form-contact .field-number-of-guests {
+    width: 25%;
+  }
+  .form-contact .field-number-of-guests input {
+    width: 80% !important;
+  }
+  .form-contact .field-budget, .form-contact .field-budget-for-party {
+    width: 30%;
+  }
+  .form-contact .field-budget span, .form-contact .field-budget-for-party span {
+    line-height: 330%;
+    font-family: arial;
+    font-size: 12px;
+    text-transform: none;
+  }
+  .form-contact .field-budget .dollar, .form-contact .field-budget-for-party .dollar {
+    font-size: 15px;
+    line-height: 0%;
+    margin-left: 0%;
+  }
+  .form-contact .field-budget input, .form-contact .field-budget-for-party input {
+    width: 38% !important;
+    float: right;
+  }
+  .form-contact .field-budget-for-party label {
+    visibility: hidden;
+  }
+  .form-contact .select {
+    font-family: arial;
+    font-size: 12px;
+    text-transform: none;
+    height: 32px;
+    width: 100%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    overflow: hidden;
+  }
+  .form-contact .select .form-select {
+    width: 100%;
+  }
+  .form-contact .select .form-select a {
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwZTBlMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y4ZjVmNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #e0e0e0), color-stop(100%, #f8f5f4));
+    background: -moz-linear-gradient(bottom, #e0e0e0, #f8f5f4);
+    background: -webkit-linear-gradient(bottom, #e0e0e0, #f8f5f4);
+    background: linear-gradient(to top, #e0e0e0, #f8f5f4);
+  }
+  .form-contact .select .form-select a .select2-arrow {
+    border: none;
+    width: 23px;
+  }
+  .form-contact .select .form-select a .select2-arrow b {
+    background: url('../images/bg/arrows-contact.png') no-repeat #fff 100% 100% !important;
+  }
+  .form-contact .field-captcha {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .form-contact .field-captcha .captcha-img-container {
+    float: none;
+  }
+  .form-contact .field-captcha .captcha-img-container a, .form-contact .field-captcha .captcha-img-container img {
+    margin: 0 auto;
+  }
+  .form-contact .field-captcha .form-item {
+    float: none;
+  }
+  .form-contact .btn-wrapper {
+    clear: both;
+  }
+
   .site-header {
     height: 270px;
     text-align: center;
@@ -2757,8 +2903,200 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     width: 100%;
     float: none;
   }
+
+  .b-col-inner-tree {
+    position: relative;
+  }
+  .b-col-inner-tree:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .b-col-inner-tree.style-c .col-inner-1, .b-col-inner-tree.style-c .col-inner-2 {
+    width: 100%;
+    float: none;
+    font-size: 11px;
+  }
+  .b-col-inner-tree.style-c .col-inner-3 {
+    display: none;
+  }
+  .b-col-inner-tree.style-c .col-inner-1, .b-col-inner-tree.style-c .col-inner-2 {
+    margin-right: 0%;
+  }
+  .b-col-inner-tree.style-c .col-inner-2 {
+    margin-bottom: 180px;
+  }
+  .b-col-inner-tree.style-c p.info, .b-col-inner-tree.style-c .btn-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 11px;
+  }
+  .b-col-inner-tree.style-c .btn-wrapper {
+    left: 50%;
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  .b-col-inner-tree.style-c .btn-wrapper a {
+    padding: 0;
+    font-size: 11px;
+  }
+  .b-col-inner-tree.style-c p.info {
+    bottom: 50px;
+    border-top: 2px solid #c2c2c2;
+    padding-top: 20px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1249px) {
+  .form-contact {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .form-contact:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .form-contact .form-item:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .form-contact .form-item label {
+    font-size: 13px;
+    color: #336666;
+    text-transform: none;
+  }
+  .form-contact .field-item {
+    margin-bottom: 10px;
+    float: none;
+  }
+  .form-contact .field-preferred-month, .form-contact .field-preferred-day, .form-contact .field-preferred-year {
+    float: left;
+  }
+  .form-contact .field-first-name, .form-contact .field-your-email-address, .form-contact .field-last-name, .form-contact .field-other-entertainment, .form-contact .field-other-needs,
+  .form-contact .field-needs, .form-contact .field-questions-or-concerns {
+    width: 100%;
+  }
+  .form-contact .field-first-name, .form-contact .field-your-email-address, .form-contact .field-needs, .form-contact .field-number-of-guests {
+    margin-right: 0%;
+  }
+  .form-contact .field-your-phone-number {
+    width: 65%;
+  }
+  .form-contact .field-type-of-event, .form-contact .field-entertainment {
+    width: 70%;
+    margin-right: 0%;
+  }
+  .form-contact .field-preferred-month input {
+    width: 31%;
+  }
+  .form-contact .field-date-flexible {
+    width: 25%;
+  }
+  .form-contact .field-preferred-day, .form-contact .field-preferred-year {
+    width: 22%;
+  }
+  .form-contact .field-preferred-day label, .form-contact .field-preferred-year label {
+    visibility: hidden;
+  }
+  .form-contact .field-preferred-month, .form-contact .field-preferred-day, .form-contact .field-preferred-year, .form-contact .field-budget {
+    margin-right: 5%;
+  }
+  .form-contact .form-type-radio .radio {
+    margin-right: 15%;
+  }
+  .form-contact .form-type-radio > label {
+    margin-bottom: 15%;
+  }
+  .form-contact .field-number-of-guests {
+    width: 25%;
+  }
+  .form-contact .field-number-of-guests input {
+    width: 80% !important;
+  }
+  .form-contact .field-budget, .form-contact .field-budget-for-party {
+    width: 30%;
+  }
+  .form-contact .field-budget span, .form-contact .field-budget-for-party span {
+    line-height: 330%;
+    font-family: arial;
+    font-size: 12px;
+    text-transform: none;
+  }
+  .form-contact .field-budget .dollar, .form-contact .field-budget-for-party .dollar {
+    font-size: 15px;
+    line-height: 0%;
+    margin-left: 0%;
+  }
+  .form-contact .field-budget input, .form-contact .field-budget-for-party input {
+    width: 38% !important;
+    float: right;
+  }
+  .form-contact .field-budget-for-party label {
+    visibility: hidden;
+  }
+  .form-contact .select {
+    font-family: arial;
+    font-size: 12px;
+    text-transform: none;
+    height: 32px;
+    width: 100%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    overflow: hidden;
+  }
+  .form-contact .select .form-select {
+    width: 100%;
+  }
+  .form-contact .select .form-select a {
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwZTBlMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y4ZjVmNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #e0e0e0), color-stop(100%, #f8f5f4));
+    background: -moz-linear-gradient(bottom, #e0e0e0, #f8f5f4);
+    background: -webkit-linear-gradient(bottom, #e0e0e0, #f8f5f4);
+    background: linear-gradient(to top, #e0e0e0, #f8f5f4);
+  }
+  .form-contact .select .form-select a .select2-arrow {
+    border: none;
+    width: 23px;
+  }
+  .form-contact .select .form-select a .select2-arrow b {
+    background: url('../images/bg/arrows-contact.png') no-repeat #fff 100% 100% !important;
+  }
+  .form-contact .field-captcha {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .form-contact .field-captcha .captcha-img-container {
+    float: none;
+  }
+  .form-contact .field-captcha .captcha-img-container a, .form-contact .field-captcha .captcha-img-container img {
+    margin: 0 auto;
+  }
+  .form-contact .field-captcha .form-item {
+    float: none;
+  }
+  .form-contact .btn-wrapper {
+    clear: both;
+  }
+
   .site-container {
     width: 728px;
   }
@@ -2845,6 +3183,49 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .b-gallery-event.style-a .img-event-wrapper img {
     width: 100%;
     float: none;
+  }
+
+  .b-col-inner-tree {
+    position: relative;
+  }
+  .b-col-inner-tree:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .b-col-inner-tree.style-c .col-inner-1, .b-col-inner-tree.style-c .col-inner-2 {
+    width: 100%;
+    float: none;
+  }
+  .b-col-inner-tree.style-c .col-inner-3 {
+    display: none;
+  }
+  .b-col-inner-tree.style-c .col-inner-1, .b-col-inner-tree.style-c .col-inner-2 {
+    margin-right: 0%;
+  }
+  .b-col-inner-tree.style-c .col-inner-2 {
+    margin-bottom: 150px;
+  }
+  .b-col-inner-tree.style-c p.info, .b-col-inner-tree.style-c .btn-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  .b-col-inner-tree.style-c .btn-wrapper {
+    left: 50%;
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  .b-col-inner-tree.style-c p.info {
+    bottom: 50px;
+    border-top: 2px solid #c2c2c2;
+    padding-top: 20px;
   }
 }
 @media (min-width: 1250px) {

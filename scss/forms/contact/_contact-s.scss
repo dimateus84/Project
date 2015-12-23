@@ -1,0 +1,161 @@
+.form-contact {
+  width: 95%;
+  margin: 0 auto;
+  @include clearfix();
+
+  .form-item {
+    @include clearfix();
+
+    label {
+      font-size: 13px;
+      color: #336666;
+      text-transform: none;
+    }
+  }
+
+  .field-item {
+    margin-bottom: 10px;
+    float: none;
+  }
+
+  .field-preferred-month, .field-preferred-day, .field-preferred-year {
+    float: left;
+  }
+
+  .field-first-name, .field-your-email-address, .field-last-name, .field-other-entertainment, .field-other-needs ,
+  .field-needs, .field-questions-or-concerns {
+    width: 100%;
+  }
+
+  .field-first-name, .field-your-email-address, .field-needs, .field-number-of-guests {
+    margin-right: 0%;
+  }
+
+  .field-your-phone-number {
+    width: 65%;
+  }
+
+  .field-type-of-event, .field-entertainment {
+    width: 70%;
+    margin-right: 0%;
+  }
+
+  .field-preferred-month {
+
+    input {
+    width: 31%;
+    }
+  }
+
+  .field-date-flexible {
+    width: 25%;
+  }
+
+  .field-preferred-day, .field-preferred-year  {
+    width: 22%;
+
+    label {
+      visibility: hidden;
+    }
+  }
+
+  .field-preferred-month, .field-preferred-day, .field-preferred-year, .field-budget {
+    margin-right: 5%;
+  }
+
+  .form-type-radio .radio {
+    margin-right: 15%;
+  }
+
+  .form-type-radio > label {
+    margin-bottom: 15%;
+  }
+
+
+  .field-number-of-guests {
+    width: 25%;
+
+    input {
+      width: 80% !important;
+    }
+  }
+
+  .field-budget, .field-budget-for-party {
+    width: 30%;
+
+    span {
+      line-height: 330%;
+      font-family: arial;
+      font-size: 12px;
+      text-transform: none;
+    }
+
+    .dollar {
+      font-size: 15px;
+      line-height: 0%;
+      margin-left: 0%;
+    }
+
+    input {
+      width: 38% !important;
+      float: right;
+    }
+  }
+
+  .field-budget-for-party label{
+      visibility: hidden;
+  }
+
+  .select {
+    font-family: arial;
+    font-size: 12px;
+    text-transform: none;
+    height: 32px;
+    width: 100%;
+    @include border-radius(5px);
+    border: 1px solid #c4c4c4;
+    overflow: hidden;
+
+    .form-select {
+      width: 100%;
+
+      a {
+        height: 32px;
+        line-height: 32px;
+        border: none;
+        @include background(linear-gradient(bottom, #e0e0e0, #f8f5f4));
+
+        .select2-arrow {
+          border: none;
+          width: 23px;
+
+          b {
+            background: image_url("bg/arrows-contact.png") no-repeat #fff 100% 100% !important;
+          }
+        }
+      }
+    }
+  }
+
+  .field-captcha {
+    width: 60%;
+    margin: 0 auto;
+
+    .captcha-img-container {
+      float: none;
+
+      a, img {
+        margin: 0 auto;
+      }
+    }
+
+    .form-item {
+      float: none;
+    }
+  }
+
+  .btn-wrapper {
+    clear: both;
+  }
+}
+

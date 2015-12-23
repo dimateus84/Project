@@ -11,7 +11,7 @@
 //forms
 @import "forms/forms";
 @import "forms/newsletter";
-@import "forms/contact";
+@import "forms/contact/contact";
 @import "forms/gallery-event-select";
 
 //layout
@@ -39,6 +39,9 @@
 
 @media (max-width: $width-tablet - 1) {
 
+  //forms
+  @import "forms/contact/contact-s";
+
   //layout
   @import "layout/header/header-s";
   @import "layout/site-container/site-container-s";
@@ -50,9 +53,13 @@
   @import "blocks/text-img/text-img-s";
   @import "blocks/tabs/tabs-s";
   @import "blocks/gallery-event/gallery-event-s";
+  @import "blocks/cols-inner/cols-inner-s";
 }
 
 @media (min-width: $width-tablet) and (max-width: $width + 29) {
+
+  //forms
+  @import "forms/contact/contact-m";
 
   //layout
   @import "layout/site-container/site-container-m";
@@ -63,6 +70,7 @@
   @import "blocks/text-img/text-img-m";
   @import "blocks/tabs/tabs-m";
   @import "blocks/gallery-event/gallery-event-m";
+  @import "blocks/cols-inner/cols-inner-m";
 }
 
 @media (min-width: $width + 30) {

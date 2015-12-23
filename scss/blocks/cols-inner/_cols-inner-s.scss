@@ -1,0 +1,49 @@
+.b-col-inner-tree {
+  @include clearfix;
+  position: relative;
+
+  &.style-c {
+
+    .col-inner-1, .col-inner-2 {
+      width: 100%;
+      float: none;
+      font-size: 11px;
+    }
+
+    .col-inner-3 {
+      display: none;
+    }
+
+    .col-inner-1, .col-inner-2 {
+      margin-right: 0%;
+    }
+
+    .col-inner-2 {
+      margin-bottom: 180px;
+    }
+
+    p.info, .btn-wrapper {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      font-size: 11px;
+    }
+
+    .btn-wrapper {
+      left: 50%;
+      @include transform(translate(-50%, 0));
+
+      a {
+        padding: 0;
+        font-size: 11px;
+      }
+    }
+
+    p.info {
+      bottom: 50px;
+      border-top: 2px solid #c2c2c2;
+      padding-top: 20px;
+    }
+  }
+}

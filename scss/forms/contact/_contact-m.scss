@@ -1,5 +1,5 @@
 .form-contact {
-  width: 67%;
+  width: 95%;
   margin: 0 auto;
   @include clearfix();
 
@@ -14,33 +14,45 @@
   }
 
   .field-item {
-    float: left;
     margin-bottom: 10px;
+    float: none;
+  }
+
+  .field-preferred-month, .field-preferred-day, .field-preferred-year {
+    float: left;
+  }
+
+  .field-first-name, .field-your-email-address, .field-last-name, .field-other-entertainment, .field-other-needs ,
+  .field-needs, .field-questions-or-concerns {
+    width: 100%;
   }
 
   .field-first-name, .field-your-email-address, .field-needs, .field-number-of-guests {
-    margin-right: 4%;
-  }
-
-  .field-first-name, .field-last-name, .field-your-email-address {
-    width: 48%;
+    margin-right: 0%;
   }
 
   .field-your-phone-number {
-    width: 18, 5%;
+    width: 65%;
   }
 
   .field-type-of-event, .field-entertainment {
-    width: 33%;
-    margin-right: 5%;
+    width: 70%;
+    margin-right: 0%;
   }
 
-  .field-preferred-month, .field-date-flexible {
-    width: 14.2%;
+  .field-preferred-month {
+
+    input {
+    width: 31%;
+    }
+  }
+
+  .field-date-flexible {
+    width: 25%;
   }
 
   .field-preferred-day, .field-preferred-year  {
-    width: 9.9%;
+    width: 22%;
 
     label {
       visibility: hidden;
@@ -48,7 +60,7 @@
   }
 
   .field-preferred-month, .field-preferred-day, .field-preferred-year, .field-budget {
-    margin-right: 2%;
+    margin-right: 5%;
   }
 
   .form-type-radio .radio {
@@ -59,20 +71,9 @@
     margin-bottom: 15%;
   }
 
-  .field-other-entertainment {
-    width: 62%;
-  }
-
-  .field-needs {
-    width: 37%;
-  }
-
-  .field-other-needs, .field-questions-or-concerns {
-    width: 59%;
-  }
 
   .field-number-of-guests {
-    width: 18%;
+    width: 25%;
 
     input {
       width: 80% !important;
@@ -92,7 +93,7 @@
     .dollar {
       font-size: 15px;
       line-height: 0%;
-      margin-left: 13%;
+      margin-left: 0%;
     }
 
     input {
@@ -104,12 +105,6 @@
   .field-budget-for-party label{
       visibility: hidden;
   }
-
-
-
-
-
-
 
   .select {
     font-family: arial;
@@ -143,29 +138,19 @@
   }
 
   .field-captcha {
-    clear: both;
-    margin-bottom: 30px;
-    @include clearfix();
-    width: 70%;
+    width: 60%;
+    margin: 0 auto;
 
     .captcha-img-container {
-      margin-bottom: 12px;
-      float: left;
-      margin-right: 5%;
+      float: none;
 
       a, img {
-        font: 11px/17px $montserrat-regular;
-        text-transform: uppercase;
-        display: block;
-        line-height: 30px;
-        text-decoration: none;
-        color: #193739;
-        text-align: center;
+        margin: 0 auto;
       }
     }
 
     .form-item {
-      float: right;
+      float: none;
     }
   }
 
