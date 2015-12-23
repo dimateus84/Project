@@ -1,6 +1,7 @@
 .form-contact {
   width: 67%;
   margin: 0 auto;
+  @include clearfix();
 
   .form-item {
     @include clearfix();
@@ -12,12 +13,12 @@
     }
   }
 
-  .field-first-name, .field-last-name, .field-your-email-address, .field-your-phone-number, .field-type-of-event,
-  .field-preferred-month, .field-preferred-day, .field-preferred-year, .field-date-flexible {
+  .field-item {
     float: left;
+    margin-bottom: 10px;
   }
 
-  .field-first-name, .field-your-email-address {
+  .field-first-name, .field-your-email-address, .field-needs, .field-number-of-guests {
     margin-right: 4%;
   }
 
@@ -29,16 +30,16 @@
     width: 18, 5%;
   }
 
-  .field-type-of-event {
+  .field-type-of-event, .field-entertainment {
     width: 33%;
-    margin-right: 6.5%;
+    margin-right: 5%;
   }
 
   .field-preferred-month, .field-date-flexible {
     width: 14.2%;
   }
 
-  .field-preferred-day, .field-preferred-year {
+  .field-preferred-day, .field-preferred-year  {
     width: 9.9%;
 
     label {
@@ -46,7 +47,7 @@
     }
   }
 
-  .field-preferred-month, .field-preferred-day, .field-preferred-year {
+  .field-preferred-month, .field-preferred-day, .field-preferred-year, .field-budget {
     margin-right: 2%;
   }
 
@@ -58,53 +59,57 @@
     margin-bottom: 15%;
   }
 
-
-
-
-
-
-  .field-birthday-month, .field-birthday-day, .field-city, .field-state {
-    margin-right: 2%;
+  .field-other-entertainment {
+    width: 62%;
   }
 
-  .field-birthday-month, .field-birthday-day, .field-birthday-year, .field-city, .field-state, .field-zip {
-    float: left;
+  .field-needs {
+    width: 37%;
   }
 
-  .field-birthday-day, .field-birthday-year {
+  .field-other-needs, .field-questions-or-concerns {
+    width: 59%;
+  }
 
-    label {
-      visibility: hidden;
+  .field-number-of-guests {
+    width: 18%;
+
+    input {
+      width: 80% !important;
     }
   }
 
-  .field-birthday-month {
-    width: 45%;
-  }
-
-  .field-birthday-day {
-    width: 20%;
-  }
-
-  .field-birthday-year {
+  .field-budget, .field-budget-for-party {
     width: 30%;
+
+    span {
+      line-height: 330%;
+      font-family: arial;
+      font-size: 12px;
+      text-transform: none;
+    }
+
+    .dollar {
+      font-size: 15px;
+      line-height: 0%;
+      margin-left: 13%;
+    }
+
+    input {
+      width: 38% !important;
+      float: right;
+    }
   }
 
-  .field-address {
-    clear: left;
+  .field-budget-for-party label{
+      visibility: hidden;
   }
 
-  .field-city {
-    width: 50%;
-  }
 
-  .field-state {
-    width: 20%;
-  }
 
-  .field-zip {
-    width: 25%;
-  }
+
+
+
 
   .select {
     font: 15px/17px $montserrat-bold;
@@ -139,36 +144,29 @@
   }
 
   .field-captcha {
-    clear: left;
+    clear: both;
     margin-bottom: 30px;
+    @include clearfix();
+    width: 70%;
 
     .captcha-img-container {
-      @include clearfix();
       margin-bottom: 12px;
+      float: left;
+      margin-right: 5%;
 
       a, img {
-        float: left;
-        width: 50%;
         font: 11px/17px $montserrat-regular;
         text-transform: uppercase;
-        line-height: 50px;
+        display: block;
+        line-height: 30px;
         text-decoration: none;
         color: #193739;
+        text-align: center;
       }
     }
 
     .form-item {
-      @include clearfix();
-
-      label, .form-text {
-        float: left;
-        width: 50%;
-      }
-
-      label {
-        font: 11px/17px $montserrat-regular;
-        color: #929292;
-      }
+      float: right;
     }
   }
 }

@@ -116,8 +116,6 @@
                       </div>
                     </div>
 
-
-
                     <div class="field-date-flexible field-item">
                       <div class="form-item form-type-radio">
                       <label>Date Flexible?</label>
@@ -130,73 +128,77 @@
                       </div>
                     </div>
 
-
-
-
-
-
-                    <div class="field-birthday-month field-item">
-                      <div class="form-item form-type-text">
-                        <label>Birthday</label>
-                        <input type="text" placeholder="Month" class="form-text"/>
-                      </div>
-                    </div>
-
-                    <div class="field-birthday-day field-item">
-                      <div class="form-item form-type-text">
-                        <label>Day</label>
-                        <input type="text" placeholder="Day" class="form-text"/>
-                      </div>
-                    </div>
-
-                    <div class="field-birthday-year field-item">
-                      <div class="form-item form-type-text">
-                        <label>Year</label>
-                        <input type="text" placeholder="Year" class="form-text"/>
-                      </div>
-                    </div>
-
-                    <!--Birthday left/end-->
-                    <div class="field-address field-item">
-                      <div class="form-item form-type-text">
-                        <label>Address</label>
-                        <input type="text" class="form-text"/>
-                      </div>
-                    </div>
-
-                    <!--city left-->
-                    <div class="field-city field-item">
-                      <div class="form-item form-type-text">
-                        <label>City</label>
-                        <input type="text" class="form-text"/>
-                      </div>
-                    </div>
-
-                    <div class="field-state field-item">
+                    <div class="field-entertainment field-item">
                       <div class="form-item form-type-select">
-                        <label>State</label>
+                        <label>Entertainment:</label>
 
                         <div class="select">
                           <select class="form-select">
-                            <option>Ok</option>
+                            <option>DJ</option>
                           </select>
                         </div>
                       </div>
                     </div>
 
-                    <div class="field-zip field-item">
+                    <div class="field-other-entertainment field-item">
                       <div class="form-item form-type-text">
-                        <label>Year</label>
+                        <label>Other Entertainment:</label>
                         <input type="text" class="form-text"/>
                       </div>
                     </div>
+
+                    <div class="field-needs field-item">
+                      <div class="form-item form-type-text">
+                        <label>Audio and Visual Needs:</label>
+                        <input type="text" class="form-text"/>
+                      </div>
+                    </div>
+
+                    <div class="field-other-needs field-item">
+                      <div class="form-item form-type-text">
+                        <label>Other Needs:</label>
+                        <input type="text" class="form-text"/>
+                      </div>
+                    </div>
+
+                    <div class="field-number-of-guests field-item">
+                      <div class="form-item form-type-text">
+                        <label>Number of Guests:</label>
+                        <input type="text" class="form-text"/>
+                      </div>
+                    </div>
+
+                    <div class="field-budget field-item">
+                      <div class="form-item form-type-text">
+                        <label>Budget:</label>
+                        <span>Price per Person:</span><span class="dollar">$</span>
+                        <input type="text" class="form-text"/>
+                      </div>
+                    </div>
+
+                    <div class="field-budget-for-party field-item">
+                      <div class="form-item form-type-text">
+                        <label>Budget for party</label>
+                        <span>or for Party:</span><span class="dollar">$</span>
+                        <input type="text" class="form-text"/>
+                      </div>
+                    </div>
+
+                    <div class="field-questions-or-concerns field-item">
+                      <div class="form-item form-type-text">
+                        <label>Questions or concerns:</label>
+                        <textarea class="form-text-area"></textarea>
+                      </div>
+                    </div>
+
+
 
                     <!--city/end-->
                     <div class="field-captcha field-item">
 
                       <div class="captcha-img-container">
-                        <a href="#">Generate new captcha</a>
                         <img src="theme/images/tmp/captcha.jpg" alt="">
+                        <a href="#">Generate new captcha</a>
                       </div>
 
                       <div class="form-item form-type-text">

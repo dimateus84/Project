@@ -28,5 +28,11 @@
       float: left;
     }
   }
+
+  .form-text-area {
+    width: 100%;
+    @include border-radius(5px);
+    height: 95px;
+  }
 }
 
