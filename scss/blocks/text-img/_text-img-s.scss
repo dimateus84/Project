@@ -1,7 +1,7 @@
 .text-img-wrapper .b-text-img {
   width: 90%;
 
-  &.style-a, &.style-b {
+  &.style-a, &.style-b, &.style-c, &.style-d {
 
     .text {
       float: none;
@@ -16,6 +16,28 @@
 
       img {
         width: 100%;
+      }
+    }
+  }
+
+  &.style-c {
+
+    .text {
+      border-right: none;
+      border-bottom: 2px #c2c2c2 solid;
+      margin-bottom: 20px;
+
+      .link-view {
+        display: none;
+      }
+    }
+
+    .img {
+      text-align: left;
+      padding-left: 0;
+
+      ul .last {
+        padding-left: 0px;
       }
     }
   }

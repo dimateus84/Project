@@ -112,31 +112,30 @@
 
 
   .select {
-    font: 15px/17px $montserrat-bold;
-    height: 34px;
+    font-family: arial;
+    font-size: 12px;
+    text-transform: none;
+    height: 32px;
     width: 100%;
     @include border-radius(5px);
     border: 1px solid #c4c4c4;
     overflow: hidden;
-    background: image_url("bg/arrows.png") no-repeat #fff 90% 50%;
 
     .form-select {
       width: 100%;
-      height: 34px;
 
       a {
         height: 32px;
         line-height: 32px;
         border: none;
-        color: #999999;
-        background: #fff;
+        @include background(linear-gradient(bottom, #e0e0e0, #f8f5f4));
 
         .select2-arrow {
           border: none;
-          right: 3px;
+          width: 23px;
 
           b {
-            background: image_url("bg/arrows.png") no-repeat #fff 90% 50% !important;
+            background: image_url("bg/arrows-contact.png") no-repeat #fff 100% 100% !important;
           }
         }
       }
