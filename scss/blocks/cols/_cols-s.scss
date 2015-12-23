@@ -16,5 +16,13 @@
         }
       }
     }
+
+    &.style-a .col-b p {
+      width: 90%;
+    }
+
+    &.col-one.style-c {
+      display: none;
+    }
   }
 }

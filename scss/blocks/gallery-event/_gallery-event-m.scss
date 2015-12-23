@@ -1,13 +1,12 @@
 .b-gallery-event {
-  width: 95%;
+  width: 100%;
 
   &.style-a {
 
-    p {
-      width: 100%;
-    }
-
     .img-event-wrapper {
+      margin: 0 auto;
+      width: 70%;
+
       img {
         width: 100%;
         float: none;

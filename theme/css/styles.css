@@ -797,6 +797,60 @@ ul li {
 .form-contact .field-captcha .form-item {
   float: right;
 }
+.form-contact .btn-wrapper {
+  clear: both;
+}
+
+.form-gallery-event {
+  width: 45%;
+  margin: 0 auto;
+}
+.form-gallery-event .form-item:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.form-gallery-event .form-item label {
+  font-size: 15px;
+  color: #828282;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.form-gallery-event .select {
+  font-family: arial;
+  font-size: 12px;
+  text-transform: none;
+  height: 32px;
+  width: 100%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  overflow: hidden;
+}
+.form-gallery-event .select .form-select {
+  width: 100%;
+}
+.form-gallery-event .select .form-select a {
+  height: 32px;
+  line-height: 32px;
+  border: none;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwZTBlMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y4ZjVmNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #e0e0e0), color-stop(100%, #f8f5f4));
+  background: -moz-linear-gradient(bottom, #e0e0e0, #f8f5f4);
+  background: -webkit-linear-gradient(bottom, #e0e0e0, #f8f5f4);
+  background: linear-gradient(to top, #e0e0e0, #f8f5f4);
+}
+.form-gallery-event .select .form-select a .select2-arrow {
+  border: none;
+  width: 23px;
+}
+.form-gallery-event .select .form-select a .select2-arrow b {
+  background: url('../images/bg/arrows-contact.png') no-repeat #fff 100% 100% !important;
+}
 
 .site-header {
   background: url('../images/bg/header-bg.jpg') no-repeat 0 40px;
@@ -979,18 +1033,6 @@ ul li {
   border-top: 1px solid #000;
   margin-bottom: 50px;
 }
-.content-wrapper h3.wedding {
-  font-family: montserrat-bold;
-  color: #009999;
-  font-size: 35px;
-  text-transform: uppercase;
-  border-bottom: 2px solid #c6c6c6;
-  text-align: center;
-  width: 1122px;
-  margin: -20px auto 50px;
-  letter-spacing: 6px;
-  line-height: 80px;
-}
 .content-wrapper .link-view {
   display: block;
   font-size: 12px;
@@ -1017,7 +1059,6 @@ ul li {
 .btn-wrapper {
   text-align: center;
   margin-bottom: 30px;
-  clear: both;
 }
 .btn-wrapper .btn {
   display: inline-block;
@@ -1443,6 +1484,9 @@ ul li {
   float: left;
   margin: 0 20px 30px 20px;
 }
+.text-img-wrapper .form-gallery-event {
+  display: none;
+}
 
 .b-tabs {
   margin-bottom: 30px;
@@ -1564,6 +1608,19 @@ ul li {
 }
 .b-tabs .tabs_content.active.grand-dinner {
   border-top: 4px solid #be6a6a;
+}
+
+h3.wedding {
+  font-family: montserrat-bold;
+  color: #009999;
+  font-size: 35px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #c6c6c6;
+  text-align: center;
+  width: 1122px;
+  margin: -20px auto 50px;
+  letter-spacing: 6px;
+  line-height: 80px;
 }
 
 .b-col-inner-tree:after {
@@ -1690,7 +1747,6 @@ ul li {
 .b-gallery-event.style-a .img-event-wrapper img {
   border: 10px solid #fff;
   margin-left: 5px;
-  /*display: inline-block;*/
   float: left;
   margin-bottom: 10px;
 }
@@ -2633,7 +2689,17 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .site-container .b-cols .col .col-item .col-cont img {
     width: 100%;
   }
+  .site-container .b-cols.style-a .col-b p {
+    width: 90%;
+  }
+  .site-container .b-cols.col-one.style-c {
+    display: none;
+  }
 
+  .text-img-wrapper {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
   .text-img-wrapper .b-text-img {
     width: 90%;
   }
@@ -2664,6 +2730,32 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
   .text-img-wrapper .b-text-img.style-c .img ul .last {
     padding-left: 0px;
+  }
+  .text-img-wrapper .gallery-btn-wrapper {
+    display: none;
+  }
+  .text-img-wrapper .form-gallery-event {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .b-tabs {
+    display: none;
+  }
+
+  h3.wedding {
+    display: none;
+  }
+
+  .b-gallery-event {
+    width: 95%;
+  }
+  .b-gallery-event.style-a p {
+    width: 100%;
+  }
+  .b-gallery-event.style-a .img-event-wrapper img {
+    width: 100%;
+    float: none;
   }
 }
 @media (min-width: 768px) and (max-width: 1249px) {
@@ -2698,6 +2790,10 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     width: 100%;
   }
 
+  .text-img-wrapper {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
   .text-img-wrapper .b-text-img {
     width: 600px;
   }
@@ -2722,6 +2818,33 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .text-img-wrapper .b-text-img.style-c .img {
     text-align: left;
     padding-left: 0;
+  }
+  .text-img-wrapper .gallery-btn-wrapper {
+    display: none;
+  }
+  .text-img-wrapper .form-gallery-event {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .b-tabs {
+    display: none;
+  }
+
+  h3.wedding {
+    display: none;
+  }
+
+  .b-gallery-event {
+    width: 100%;
+  }
+  .b-gallery-event.style-a .img-event-wrapper {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .b-gallery-event.style-a .img-event-wrapper img {
+    width: 100%;
+    float: none;
   }
 }
 @media (min-width: 1250px) {

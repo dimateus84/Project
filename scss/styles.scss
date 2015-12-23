@@ -12,6 +12,7 @@
 @import "forms/forms";
 @import "forms/newsletter";
 @import "forms/contact";
+@import "forms/gallery-event-select";
 
 //layout
 @import "layout/header/header";
@@ -47,6 +48,8 @@
   @import "blocks/gallery/gallery-s";
   @import "blocks/cols/cols-s";
   @import "blocks/text-img/text-img-s";
+  @import "blocks/tabs/tabs-s";
+  @import "blocks/gallery-event/gallery-event-s";
 }
 
 @media (min-width: $width-tablet) and (max-width: $width + 29) {
@@ -58,6 +61,8 @@
   //blocks
   @import "blocks/cols/cols-m";
   @import "blocks/text-img/text-img-m";
+  @import "blocks/tabs/tabs-m";
+  @import "blocks/gallery-event/gallery-event-m";
 }
 
 @media (min-width: $width + 30) {
