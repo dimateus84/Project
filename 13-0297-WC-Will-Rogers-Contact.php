@@ -9,6 +9,7 @@
       <div class="content-bottom">
         <div class="text-img-wrapper">
           <div class="b-text-img style-d">
+            <div class="img"><img src="theme/images/tmp/contact-map.jpg" alt=""/></div>
             <div class="text">
               <h3>Location</h3>
               <p>4322 N. Western Avenue</p>
@@ -18,7 +19,6 @@
               <p>Monday-Friday:	9:00 am – 5:00 pm</p>
               <p>Saturday-Sunday: Closed</p>
             </div>
-            <div class="img"><img src="theme/images/tmp/contact-map.jpg" alt=""/></div>
           </div>
         </div>
 
@@ -170,16 +170,16 @@
 
                     <div class="field-budget field-item">
                       <div class="form-item form-type-text">
-                        <label>Budget:</label>
-                        <span>Price per Person:</span><span class="dollar">$</span>
+                        <label>Price per Person:</label>
+                        <span class="dollar">$</span>
                         <input type="text" class="form-text"/>
                       </div>
                     </div>
 
                     <div class="field-budget-for-party field-item">
                       <div class="form-item form-type-text">
-                        <label>Budget for party</label>
-                        <span>or for Party:</span><span class="dollar">$</span>
+                        <label>or for Party: </label>
+                        <span class="dollar">$</span>
                         <input type="text" class="form-text"/>
                       </div>
                     </div>
@@ -191,9 +191,6 @@
                       </div>
                     </div>
 
-
-
-                    <!--city/end-->
                     <div class="field-captcha field-item">
 
                       <div class="captcha-img-container">

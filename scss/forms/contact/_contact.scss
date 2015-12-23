@@ -29,7 +29,7 @@
   .field-your-phone-number {
 
     input {
-    width: 27%;
+      width: 27%;
     }
   }
 
@@ -41,7 +41,7 @@
   .field-preferred-month {
 
     input {
-    width: 14%;
+      width: 14%;
     }
   }
 
@@ -49,7 +49,7 @@
     width: 14%;
   }
 
-  .field-preferred-day, .field-preferred-year  {
+  .field-preferred-day, .field-preferred-year {
     width: 9.9%;
 
     label {
@@ -81,6 +81,10 @@
     width: 59%;
   }
 
+  .field-questions-or-concerns {
+    clear: both;
+  }
+
   .field-number-of-guests {
     width: 18%;
 
@@ -91,6 +95,14 @@
 
   .field-budget, .field-budget-for-party {
     width: 30%;
+    margin-top: 2.2%;
+
+    label {
+      float: left;
+      width: 60%;
+      margin-top: 4%;
+      color: #000;
+    }
 
     span {
       line-height: 330%;
@@ -102,17 +114,25 @@
     .dollar {
       font-size: 15px;
       line-height: 0%;
-      margin-left: 13%;
+      vertical-align: bottom;
     }
 
     input {
-      width: 38% !important;
       float: right;
+      width: 35% !important;
+
     }
   }
 
-  .field-budget-for-party label{
-      visibility: hidden;
+  .field-budget {
+    margin-top: -0.6%;
+
+    &:before {
+      content: 'Budget:';
+      color: #336666;
+      position: relative;
+      top: 2.5px;
+    }
   }
 
   .select {

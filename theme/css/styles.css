@@ -711,6 +711,9 @@ ul li {
 .form-contact .field-other-needs, .form-contact .field-questions-or-concerns {
   width: 59%;
 }
+.form-contact .field-questions-or-concerns {
+  clear: both;
+}
 .form-contact .field-number-of-guests {
   width: 18%;
 }
@@ -719,6 +722,13 @@ ul li {
 }
 .form-contact .field-budget, .form-contact .field-budget-for-party {
   width: 30%;
+  margin-top: 2.2%;
+}
+.form-contact .field-budget label, .form-contact .field-budget-for-party label {
+  float: left;
+  width: 60%;
+  margin-top: 4%;
+  color: #000;
 }
 .form-contact .field-budget span, .form-contact .field-budget-for-party span {
   line-height: 330%;
@@ -729,14 +739,20 @@ ul li {
 .form-contact .field-budget .dollar, .form-contact .field-budget-for-party .dollar {
   font-size: 15px;
   line-height: 0%;
-  margin-left: 13%;
+  vertical-align: bottom;
 }
 .form-contact .field-budget input, .form-contact .field-budget-for-party input {
-  width: 38% !important;
   float: right;
+  width: 35% !important;
 }
-.form-contact .field-budget-for-party label {
-  visibility: hidden;
+.form-contact .field-budget {
+  margin-top: -0.6%;
+}
+.form-contact .field-budget:before {
+  content: 'Budget:';
+  color: #336666;
+  position: relative;
+  top: 2.5px;
 }
 .form-contact .select {
   font-family: arial;
@@ -2602,6 +2618,13 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
   .form-contact .field-budget, .form-contact .field-budget-for-party {
     width: 30%;
+    margin-top: 2.1%;
+  }
+  .form-contact .field-budget label, .form-contact .field-budget-for-party label {
+    float: left;
+    width: 50%;
+    margin-top: 4%;
+    color: #000;
   }
   .form-contact .field-budget span, .form-contact .field-budget-for-party span {
     line-height: 330%;
@@ -2612,14 +2635,24 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .form-contact .field-budget .dollar, .form-contact .field-budget-for-party .dollar {
     font-size: 15px;
     line-height: 0%;
-    margin-left: 0%;
+    vertical-align: bottom;
   }
   .form-contact .field-budget input, .form-contact .field-budget-for-party input {
-    width: 38% !important;
     float: right;
+    width: 35% !important;
   }
   .form-contact .field-budget-for-party label {
-    visibility: hidden;
+    text-align: right;
+    padding-right: 1.5%;
+  }
+  .form-contact .field-budget {
+    margin-top: -0.6%;
+  }
+  .form-contact .field-budget:before {
+    content: 'Budget:';
+    color: #336666;
+    position: relative;
+    top: 2.5px;
   }
   .form-contact .select {
     font-family: arial;
@@ -2845,6 +2878,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .text-img-wrapper {
     padding-top: 20px;
     margin-bottom: 20px;
+    position: relative;
   }
   .text-img-wrapper .b-text-img {
     width: 90%;
@@ -3029,6 +3063,13 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
   .form-contact .field-budget, .form-contact .field-budget-for-party {
     width: 30%;
+    margin-top: 2.1%;
+  }
+  .form-contact .field-budget label, .form-contact .field-budget-for-party label {
+    float: left;
+    width: 60%;
+    margin-top: 4%;
+    color: #000;
   }
   .form-contact .field-budget span, .form-contact .field-budget-for-party span {
     line-height: 330%;
@@ -3039,14 +3080,24 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .form-contact .field-budget .dollar, .form-contact .field-budget-for-party .dollar {
     font-size: 15px;
     line-height: 0%;
-    margin-left: 0%;
+    vertical-align: bottom;
   }
   .form-contact .field-budget input, .form-contact .field-budget-for-party input {
-    width: 38% !important;
     float: right;
+    width: 35% !important;
   }
   .form-contact .field-budget-for-party label {
-    visibility: hidden;
+    text-align: right;
+    padding-right: 1.5%;
+  }
+  .form-contact .field-budget {
+    margin-top: -0.6%;
+  }
+  .form-contact .field-budget:before {
+    content: 'Budget:';
+    color: #336666;
+    position: relative;
+    top: 2.5px;
   }
   .form-contact .select {
     font-family: arial;

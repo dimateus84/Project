@@ -43,7 +43,7 @@
   .field-preferred-month {
 
     input {
-    width: 31%;
+      width: 31%;
     }
   }
 
@@ -82,6 +82,14 @@
 
   .field-budget, .field-budget-for-party {
     width: 30%;
+    margin-top: 2.1%;
+
+    label {
+      float: left;
+      width: 50%;
+      margin-top: 4%;
+      color: #000;
+    }
 
     span {
       line-height: 330%;
@@ -93,17 +101,33 @@
     .dollar {
       font-size: 15px;
       line-height: 0%;
-      margin-left: 0%;
+      vertical-align: bottom;
     }
 
     input {
-      width: 38% !important;
       float: right;
+      width: 35% !important;
+
     }
   }
 
-  .field-budget-for-party label{
-      visibility: hidden;
+  .field-budget-for-party {
+
+    label {
+      text-align: right;
+      padding-right: 1.5%;
+    }
+  }
+
+  .field-budget {
+    margin-top: -0.6%;
+
+    &:before {
+      content: 'Budget:';
+      color: #336666;
+      position: relative;
+      top: 2.5px;
+    }
   }
 
   .select {
