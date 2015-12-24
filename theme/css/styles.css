@@ -2582,7 +2582,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .form-contact .field-first-name, .form-contact .field-your-email-address, .form-contact .field-needs, .form-contact .field-number-of-guests {
     margin-right: 0%;
   }
-  .form-contact .field-your-phone-number {
+  .form-contact .field-your-phone-number, .form-contact .field-date-flexible {
     width: 65%;
   }
   .form-contact .field-type-of-event, .form-contact .field-entertainment {
@@ -2591,9 +2591,6 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
   .form-contact .field-preferred-month input {
     width: 31%;
-  }
-  .form-contact .field-date-flexible {
-    width: 25%;
   }
   .form-contact .field-preferred-day, .form-contact .field-preferred-year {
     width: 22%;
@@ -2608,16 +2605,16 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     margin-right: 15%;
   }
   .form-contact .form-type-radio > label {
-    margin-bottom: 15%;
+    margin-bottom: 5%;
   }
   .form-contact .field-number-of-guests {
-    width: 25%;
+    width: 70%;
   }
   .form-contact .field-number-of-guests input {
     width: 80% !important;
   }
   .form-contact .field-budget, .form-contact .field-budget-for-party {
-    width: 30%;
+    width: 100%;
     margin-top: 2.1%;
   }
   .form-contact .field-budget label, .form-contact .field-budget-for-party label {
@@ -2687,7 +2684,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     background: url('../images/bg/arrows-contact.png') no-repeat #fff 100% 100% !important;
   }
   .form-contact .field-captcha {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
   }
   .form-contact .field-captcha .captcha-img-container {
@@ -2697,6 +2694,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     margin: 0 auto;
   }
   .form-contact .field-captcha .form-item {
+    text-align: center;
     float: none;
   }
   .form-contact .btn-wrapper {
@@ -3053,7 +3051,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     margin-right: 15%;
   }
   .form-contact .form-type-radio > label {
-    margin-bottom: 15%;
+    margin-bottom: 5%;
   }
   .form-contact .field-number-of-guests {
     width: 25%;
@@ -3195,6 +3193,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     float: none;
     width: 100%;
     text-align: center;
+  }
+  .text-img-wrapper .b-text-img.style-a .img img, .text-img-wrapper .b-text-img.style-b .img img, .text-img-wrapper .b-text-img.style-c .img img, .text-img-wrapper .b-text-img.style-d .img img {
+    width: 100%;
   }
   .text-img-wrapper .b-text-img.style-c .text {
     border-right: none;
