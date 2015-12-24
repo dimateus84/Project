@@ -1,6 +1,6 @@
 <?php $title = '13-0297-WC-Will-Rogers-Gallery'; ?>
 <?php include 'tpl/includes/head.inc'; ?>
-<body class="page page-gallery" xmlns="http://www.w3.org/1999/html">
+<body class="page page-gallery">
 <div class="outer-wrapper">
   <?php include 'tpl/layout/header.inc'; ?>
   <div class="inner-wrapper site-container">
@@ -46,7 +46,7 @@
               </div>
             </form>
           </div>
-          </div>
+        </div>
 
         <div class="b-gallery-event style-a">
           <h3><span>Event one</span></h3>
@@ -105,7 +105,6 @@
 </div>
 
 <?php include 'tpl/layout/footer.inc'; ?>
-</div>
 </body>
 </html>
 

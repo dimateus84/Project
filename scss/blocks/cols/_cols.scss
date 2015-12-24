@@ -2,16 +2,11 @@
   @include clearfix();
   margin: 0 auto;
 
-  &.col-one {
+  &.col-one .col {
+    width: 1122px;
 
-    .col {
-      width: 1122px;
-
-      h3 {
-        span {
-          min-width: 250px;
-        }
-      }
+    h3 span {
+      min-width: 250px;
     }
   }
 
@@ -228,6 +223,7 @@
           img {
             @include border-radius(0 0 25px 25px);
             display: block;
+            width: 100%;
           }
         }
       }

@@ -63,256 +63,256 @@
 
 <div class="b-tabs">
 
-  <ul class="tabs_caption">
-    <li class="active silver"><span>Silver</span></li>
-    <li class="gold"><span>Gold</span></li>
-    <li class="platinum"><span>Platinum</span></li>
-    <li class="diamond"><span>Diamond</span></li>
-    <li class="grand-dinner"><span>Grand Dinner</span></li>
-  </ul>
+<ul class="tabs_caption">
+  <li class="active silver"><span>Silver</span></li>
+  <li class="gold"><span>Gold</span></li>
+  <li class="platinum"><span>Platinum</span></li>
+  <li class="diamond"><span>Diamond</span></li>
+  <li class="grand-dinner"><span>Grand Dinner</span></li>
+</ul>
 
-  <div class="tabs_content silver active">
-    <div class="b-col-inner-tree style-b">
-      <div class="col-inner-1">
-        <p>Reception Event Coordinator </p>
+<div class="tabs_content silver active">
+  <div class="b-col-inner-tree style-b">
+    <div class="col-inner-1">
+      <p>Reception Event Coordinator </p>
 
-        <p>Reception Timeline </p>
+      <p>Reception Timeline </p>
 
-        <p>4 Hours for Reception plus Decorating Time </p>
+      <p>4 Hours for Reception plus Decorating Time </p>
 
-        <p>Reception Set-Up & Clean-Up </p>
+      <p>Reception Set-Up & Clean-Up </p>
 
-        <p>Linen Tablecloths and Napkins </p>
+      <p>Linen Tablecloths and Napkins </p>
 
-        <p>Mirrors and Votives </p>
+      <p>Mirrors and Votives </p>
 
-        <p>Plates, Glassware and Flatware</p>
-      </div>
-      <div class="col-inner-2">
-        <p>Skirted & Draped Gift, Beverage, Buffet, Entry and Cake Table</p>
+      <p>Plates, Glassware and Flatware</p>
+    </div>
+    <div class="col-inner-2">
+      <p>Skirted & Draped Gift, Beverage, Buffet, Entry and Cake Table</p>
 
-        <p>Full Service Cake Cutting </p>
+      <p>Full Service Cake Cutting </p>
 
-        <p>Water, Coffee and Iced Tea </p>
+      <p>Water, Coffee and Iced Tea </p>
 
-        <p>Cash Bar Service </p>
+      <p>Cash Bar Service </p>
 
-        <p>Easel for Bridal Portrait </p>
+      <p>Easel for Bridal Portrait </p>
 
-        <p>Dance Floor </p>
+      <p>Dance Floor </p>
 
-        <p>Security for 5 Hours </p>
-      </div>
-      <div class="col-inner-3">
-        <p>Free Parking for your Guests</p>
+      <p>Security for 5 Hours </p>
+    </div>
+    <div class="col-inner-3">
+      <p>Free Parking for your Guests</p>
 
-        <p>Floral Arrangement for Buffet Table </p>
+      <p>Floral Arrangement for Buffet Table </p>
 
-        <p>Custom Wedding Message on Outside Marquee</p>
-        <h4>MENU</h4>
+      <p>Custom Wedding Message on Outside Marquee</p>
+      <h4>MENU</h4>
 
-        <p>Includes our Fresh Market Buffet </p>
-      </div>
+      <p>Includes our Fresh Market Buffet </p>
+    </div>
+  </div>
+</div>
+
+<div class="tabs_content gold">
+  <div class="b-col-inner-tree style-b">
+    <div class="col-inner-1">
+      <p>Reception Event Coordinator </p>
+
+      <p>Reception Timeline </p>
+
+      <p>4 Hours for Reception plus Decorating Time </p>
+
+      <p>Reception Set-Up & Clean-Up </p>
+
+      <p>Linen Tablecloths and Napkins </p>
+
+      <p>Mirrors and Votives </p>
+
+      <p>Plates, Glassware and Flatware</p>
+    </div>
+    <div class="col-inner-2">
+      <p>Skirted & Draped Gift, Beverage, Buffet, Entry and Cake Table</p>
+
+      <p>Full Service Cake Cutting </p>
+
+      <p>Water, Coffee and Iced Tea </p>
+
+      <p>Cash Bar Service </p>
+
+      <p>Easel for Bridal Portrait </p>
+
+      <p>Dance Floor </p>
+
+      <p>Security for 5 Hours </p>
+    </div>
+    <div class="col-inner-3">
+      <p>Free Parking for your Guests</p>
+
+      <p>Floral Arrangement for Buffet Table </p>
+
+      <p>Custom Wedding Message on Outside Marquee</p>
+      <h4>MENU</h4>
+
+      <p>Includes our Classic Americana Buffet </p>
+
+      <p>Chef-Attended Carving Station with a Choice of Two Meats</p>
+    </div>
+  </div>
+</div>
+
+<div class="tabs_content platinum">
+  <div class="b-col-inner-tree style-b">
+    <div class="col-inner-1">
+      <p>Reception Event Coordinator </p>
+
+      <p>Reception Timeline </p>
+
+      <p>4 Hours for Reception plus Decorating Time </p>
+
+      <p>Reception Set-Up & Clean-Up </p>
+
+      <p>Linen Tablecloths and Napkins </p>
+
+      <p>Mirrors and Votives </p>
+
+      <p>Plates, Glassware and Flatware</p>
+    </div>
+    <div class="col-inner-2">
+      <p>Skirted & Draped Gift, Beverage, Buffet, Entry and Cake Table</p>
+
+      <p>Full Service Cake Cutting </p>
+
+      <p>Water, Coffee and Iced Tea </p>
+
+      <p>Cash Bar Service </p>
+
+      <p>Easel for Bridal Portrait </p>
+
+      <p>Dance Floor </p>
+
+      <p>Security for 5 Hours </p>
+    </div>
+    <div class="col-inner-3">
+      <p>Free Parking for your Guests</p>
+
+      <p>Floral Arrangement for Buffet Table </p>
+
+      <p>Custom Wedding Message on Outside Marquee</p>
+      <h4>Plus</h4>
+
+      <p>White Chair Covers with Black or Brown Bows </p>
+
+      <p>Floor Length Color Polyester Tablecloth </p>
+
+      <p>Complimentary Bottle of Champagne for the Bride & Groom </p>
+
+      <p>Silver Champagne Bucket and Service</p>
+      <h4>MENU</h4>
+
+      <p>Includes our Specialty Hors D Oeuvres Menu</p>
+
+      <p>Chef-Attended Carving Station with a Choice of Two Meats </p>
     </div>
   </div>
 
-  <div class="tabs_content gold">
-    <div class="b-col-inner-tree style-b">
-      <div class="col-inner-1">
-        <p>Reception Event Coordinator </p>
+</div>
 
-        <p>Reception Timeline </p>
+<div class="tabs_content diamond">
+  <div class="b-col-inner-tree style-b">
+    <div class="col-inner-1">
+      <p>Reception Event Coordinator </p>
 
-        <p>4 Hours for Reception plus Decorating Time </p>
+      <p>Reception Timeline </p>
 
-        <p>Reception Set-Up & Clean-Up </p>
+      <p>4 Hours for Reception plus Decorating Time </p>
 
-        <p>Linen Tablecloths and Napkins </p>
+      <p>Reception Set-Up & Clean-Up </p>
 
-        <p>Mirrors and Votives </p>
+      <p>Linen Tablecloths and Napkins </p>
 
-        <p>Plates, Glassware and Flatware</p>
-      </div>
-      <div class="col-inner-2">
-        <p>Skirted & Draped Gift, Beverage, Buffet, Entry and Cake Table</p>
+      <p>Mirrors and Votives </p>
 
-        <p>Full Service Cake Cutting </p>
-
-        <p>Water, Coffee and Iced Tea </p>
-
-        <p>Cash Bar Service </p>
-
-        <p>Easel for Bridal Portrait </p>
-
-        <p>Dance Floor </p>
-
-        <p>Security for 5 Hours </p>
-      </div>
-      <div class="col-inner-3">
-        <p>Free Parking for your Guests</p>
-
-        <p>Floral Arrangement for Buffet Table </p>
-
-        <p>Custom Wedding Message on Outside Marquee</p>
-        <h4>MENU</h4>
-
-        <p>Includes our Classic Americana Buffet </p>
-
-        <p>Chef-Attended Carving Station with a Choice of Two Meats</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="tabs_content platinum">
-    <div class="b-col-inner-tree style-b">
-      <div class="col-inner-1">
-        <p>Reception Event Coordinator </p>
-
-        <p>Reception Timeline </p>
-
-        <p>4 Hours for Reception plus Decorating Time </p>
-
-        <p>Reception Set-Up & Clean-Up </p>
-
-        <p>Linen Tablecloths and Napkins </p>
-
-        <p>Mirrors and Votives </p>
-
-        <p>Plates, Glassware and Flatware</p>
-      </div>
-      <div class="col-inner-2">
-        <p>Skirted & Draped Gift, Beverage, Buffet, Entry and Cake Table</p>
-
-        <p>Full Service Cake Cutting </p>
-
-        <p>Water, Coffee and Iced Tea </p>
-
-        <p>Cash Bar Service </p>
-
-        <p>Easel for Bridal Portrait </p>
-
-        <p>Dance Floor </p>
-
-        <p>Security for 5 Hours </p>
-      </div>
-      <div class="col-inner-3">
-        <p>Free Parking for your Guests</p>
-
-        <p>Floral Arrangement for Buffet Table </p>
-
-        <p>Custom Wedding Message on Outside Marquee</p>
-        <h4>Plus</h4>
-
-        <p>White Chair Covers with Black or Brown Bows </p>
-
-        <p>Floor Length Color Polyester Tablecloth </p>
-
-        <p>Complimentary Bottle of Champagne for the Bride & Groom </p>
-
-        <p>Silver Champagne Bucket and Service</p>
-        <h4>MENU</h4>
-
-        <p>Includes our Specialty Hors D Oeuvres Menu</p>
-
-        <p>Chef-Attended Carving Station with a Choice of Two Meats </p>
-      </div>
+      <p>Plates, Glassware and Flatware</p>
     </div>
 
-  </div>
+    <div class="col-inner-2">
+      <p>Skirted & Draped Gift, Beverage, Buffet, Entry and Cake Table</p>
 
-  <div class="tabs_content diamond">
-    <div class="b-col-inner-tree style-b">
-      <div class="col-inner-1">
-        <p>Reception Event Coordinator </p>
+      <p>Full Service Cake Cutting </p>
 
-        <p>Reception Timeline </p>
+      <p>Water, Coffee and Iced Tea </p>
 
-        <p>4 Hours for Reception plus Decorating Time </p>
+      <p>Cash Bar Service </p>
 
-        <p>Reception Set-Up & Clean-Up </p>
+      <p>Easel for Bridal Portrait </p>
 
-        <p>Linen Tablecloths and Napkins </p>
+      <p>Dance Floor </p>
 
-        <p>Mirrors and Votives </p>
+      <p>Security for 5 Hours </p>
+    </div>
 
-        <p>Plates, Glassware and Flatware</p>
-      </div>
+    <div class="col-inner-3">
+      <p>Free Parking for your Guests</p>
 
-      <div class="col-inner-2">
-        <p>Skirted & Draped Gift, Beverage, Buffet, Entry and Cake Table</p>
+      <p>Floral Arrangement for Buffet Table </p>
 
-        <p>Full Service Cake Cutting </p>
+      <p>Custom Wedding Message on Outside Marquee</p>
+      <h4>MENU</h4>
 
-        <p>Water, Coffee and Iced Tea </p>
-
-        <p>Cash Bar Service </p>
-
-        <p>Easel for Bridal Portrait </p>
-
-        <p>Dance Floor </p>
-
-        <p>Security for 5 Hours </p>
-      </div>
-
-      <div class="col-inner-3">
-        <p>Free Parking for your Guests</p>
-
-        <p>Floral Arrangement for Buffet Table </p>
-
-        <p>Custom Wedding Message on Outside Marquee</p>
-        <h4>MENU</h4>
-
-        <p>Includes our Fresh Market Buffet </p>
-      </div>
+      <p>Includes our Fresh Market Buffet </p>
     </div>
   </div>
+</div>
 
-  <div class="tabs_content grand-dinner">
-    <div class="b-col-inner-tree style-b">
-      <div class="col-inner-1">
-        <p>Reception Event Coordinator </p>
+<div class="tabs_content grand-dinner">
+  <div class="b-col-inner-tree style-b">
+    <div class="col-inner-1">
+      <p>Reception Event Coordinator </p>
 
-        <p>Reception Timeline </p>
+      <p>Reception Timeline </p>
 
-        <p>4 Hours for Reception plus Decorating Time </p>
+      <p>4 Hours for Reception plus Decorating Time </p>
 
-        <p>Reception Set-Up & Clean-Up </p>
+      <p>Reception Set-Up & Clean-Up </p>
 
-        <p>Linen Tablecloths and Napkins </p>
+      <p>Linen Tablecloths and Napkins </p>
 
-        <p>Mirrors and Votives </p>
+      <p>Mirrors and Votives </p>
 
-        <p>Plates, Glassware and Flatware</p>
-      </div>
-      <div class="col-inner-2">
-        <p>Skirted & Draped Gift, Beverage, Buffet, Entry and Cake Table</p>
+      <p>Plates, Glassware and Flatware</p>
+    </div>
+    <div class="col-inner-2">
+      <p>Skirted & Draped Gift, Beverage, Buffet, Entry and Cake Table</p>
 
-        <p>Full Service Cake Cutting </p>
+      <p>Full Service Cake Cutting </p>
 
-        <p>Water, Coffee and Iced Tea </p>
+      <p>Water, Coffee and Iced Tea </p>
 
-        <p>Cash Bar Service </p>
+      <p>Cash Bar Service </p>
 
-        <p>Easel for Bridal Portrait </p>
+      <p>Easel for Bridal Portrait </p>
 
-        <p>Dance Floor </p>
+      <p>Dance Floor </p>
 
-        <p>Security for 5 Hours </p>
-      </div>
-      <div class="col-inner-3">
-        <p>Free Parking for your Guests</p>
+      <p>Security for 5 Hours </p>
+    </div>
+    <div class="col-inner-3">
+      <p>Free Parking for your Guests</p>
 
-        <p>Floral Arrangement for Buffet Table </p>
+      <p>Floral Arrangement for Buffet Table </p>
 
-        <p>Custom Wedding Message on Outside Marquee</p>
-        <h4>MENU</h4>
+      <p>Custom Wedding Message on Outside Marquee</p>
+      <h4>MENU</h4>
 
-        <p>Includes our Classic Americana Buffet </p>
+      <p>Includes our Classic Americana Buffet </p>
 
-        <p>Chef-Attended Carving Station with a Choice of Two Meats</p>
-      </div>
+      <p>Chef-Attended Carving Station with a Choice of Two Meats</p>
     </div>
   </div>
+</div>
 
 </div>
 

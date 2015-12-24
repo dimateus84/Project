@@ -56,7 +56,6 @@
               <div class="col-wrapper">
                 <a href="#"><img src="theme/images/tmp/view-gallery.jpg" alt=""/></a>
 
-
               </div>
             </div>
 

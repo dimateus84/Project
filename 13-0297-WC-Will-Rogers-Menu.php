@@ -29,6 +29,7 @@
       <div class="content-bottom">
         <div class="text-img-wrapper">
           <div class="b-text-img style-a">
+            <div class="img"><img src="theme/images/tmp/cooker.jpg" alt=""/></div>
             <div class="text">
               <h3>Inspired by Chef Kurt Fleischfresser</h3>
 
@@ -42,7 +43,6 @@
                 consectetur ac, vestibulum at eros.
               </p>
             </div>
-            <div class="img"><img src="theme/images/tmp/cooker.jpg" alt=""/></div>
           </div>
         </div>
 

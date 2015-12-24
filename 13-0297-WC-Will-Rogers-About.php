@@ -80,6 +80,7 @@
                   <div class="col-inner-1">
 
                     <h4>Think of Us</h4>
+
                     <p>Before you plan your wedding, business meeting, reunion, birthday, tradeshow or private party.
                     </p>
 
@@ -89,7 +90,8 @@
                       ensure your special event will be remembered.
                     </p>
 
-                    <p class="info">For additional information, request an estimate or make reservations, please use the request
+                    <p class="info">For additional information, request an estimate or make reservations, please use the
+                      request
                       form below, or call 405.604.3015. We will get back to you soon.
                     </p>
 
@@ -102,6 +104,7 @@
                   <div class="col-inner-2 col-in-b">
 
                     <h4>Services</h4>
+
                     <p>Full Service Bar</p>
 
                     <p>WSeating up to 300</p>
@@ -132,7 +135,9 @@
                   <div class="col-inner-3">
 
                     <h4>Our Location</h4>
-                    <p>Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. </p>
+
+                    <p>Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed
+                      consectetur. </p>
 
                     <img src="theme/images/tmp/map-about.jpg" alt="map"/>
 
@@ -154,7 +159,6 @@
 </div>
 
 <?php include 'tpl/layout/footer.inc'; ?>
-</div>
 </body>
 </html>
 
