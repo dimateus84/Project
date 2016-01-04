@@ -57,11 +57,15 @@
           </p>
 
           <div class="img-event-wrapper">
-            <img src="theme/images/tmp/gallery-event-one-1.jpg" alt="1"/>
-            <img src="theme/images/tmp/gallery-event-one-2.jpg" alt="2"/>
-            <img src="theme/images/tmp/gallery-event-one-3.jpg" alt="3"/>
-            <img src="theme/images/tmp/gallery-event-one-4.jpg" alt="4"/>
-            <img src="theme/images/tmp/gallery-event-one-5.jpg" alt="5"/>
+            <div class="event-one">
+              <img src="theme/images/tmp/gallery-event-one-1.jpg" alt="1"/>
+              <img src="theme/images/tmp/gallery-event-one-2.jpg" alt="2"/>
+            </div>
+            <div class="event-one">
+              <img src="theme/images/tmp/gallery-event-one-3.jpg" alt="3"/>
+              <img src="theme/images/tmp/gallery-event-one-4.jpg" alt="4"/>
+              <img src="theme/images/tmp/gallery-event-one-5.jpg" alt="5"/>
+            </div>
           </div>
 
         </div>
@@ -75,10 +79,14 @@
           </p>
 
           <div class="img-event-wrapper">
-            <img src="theme/images/tmp/gallery-event-two-1.jpg" alt="1"/>
-            <img src="theme/images/tmp/gallery-event-two-2.jpg" alt="2"/>
-            <img src="theme/images/tmp/gallery-event-two-3.jpg" alt="3"/>
-            <img src="theme/images/tmp/gallery-event-two-4.jpg" alt="4"/>
+            <div class="event-two">
+              <img src="theme/images/tmp/gallery-event-two-1.jpg" alt="1"/>
+            </div>
+            <div class="event-two">
+              <img src="theme/images/tmp/gallery-event-two-2.jpg" alt="2"/>
+              <img src="theme/images/tmp/gallery-event-two-3.jpg" alt="3"/>
+              <img src="theme/images/tmp/gallery-event-two-4.jpg" alt="4"/>
+            </div>
           </div>
 
         </div>
@@ -92,9 +100,13 @@
           </p>
 
           <div class="img-event-wrapper">
-            <img src="theme/images/tmp/gallery-event-tree-1.jpg" alt="1"/>
-            <img src="theme/images/tmp/gallery-event-tree-2.jpg" alt="2"/>
-            <img src="theme/images/tmp/gallery-event-tree-3.jpg" alt="3"/>
+            <div class="event-tree">
+              <img src="theme/images/tmp/gallery-event-tree-1.jpg" alt="1"/>
+            </div>
+            <div class="event-tree">
+              <img src="theme/images/tmp/gallery-event-tree-2.jpg" alt="2"/>
+              <img src="theme/images/tmp/gallery-event-tree-3.jpg" alt="3"/>
+            </div>
           </div>
 
         </div>

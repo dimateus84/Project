@@ -7,6 +7,40 @@
       margin: 0 auto;
       width: 70%;
 
+      .event-two {
+        float: left;
+
+        &:nth-child(1) {
+          width: 100%;
+        }
+
+        &:nth-child(2) {
+          width: 100%;
+
+          :nth-child(3) {
+            margin-left: 0%;
+            margin-right: 0;
+            margin-top: 0%;
+          }
+        }
+      }
+
+      .event-tree {
+        float: left;
+
+        &:nth-child(1) {
+          width: 100%;
+        }
+
+        &:nth-child(2) {
+          width: 100%;
+
+          :nth-child(1) {
+            margin-bottom: 0%;
+          }
+        }
+      }
+
       img {
         width: 100%;
         float: none;
