@@ -1,17 +1,5 @@
 .form-contact {
   width: 95%;
-  margin: 0 auto;
-  @include clearfix();
-
-  .form-item {
-    @include clearfix();
-
-    label {
-      font-size: 13px;
-      color: #336666;
-      text-transform: none;
-    }
-  }
 
   .field-item {
     margin-bottom: 10px;
@@ -116,48 +104,6 @@
     label {
       text-align: right;
       padding-right: 1.5%;
-    }
-  }
-
-  .field-budget {
-    margin-top: -0.6%;
-
-    &:before {
-      content: 'Budget:';
-      color: #336666;
-      position: relative;
-      top: 2.5px;
-    }
-  }
-
-  .select {
-    font-family: arial;
-    font-size: 12px;
-    text-transform: none;
-    height: 32px;
-    width: 100%;
-    @include border-radius(5px);
-    border: 1px solid #c4c4c4;
-    overflow: hidden;
-
-    .form-select {
-      width: 100%;
-
-      a {
-        height: 32px;
-        line-height: 32px;
-        border: none;
-        @include background(linear-gradient(bottom, #e0e0e0, #f8f5f4));
-
-        .select2-arrow {
-          border: none;
-          width: 23px;
-
-          b {
-            background: image_url("bg/arrows-contact.png") no-repeat #fff 100% 100% !important;
-          }
-        }
-      }
     }
   }
 

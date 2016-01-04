@@ -94,8 +94,7 @@
   }
 
   .field-budget, .field-budget-for-party {
-    width: 30%;
-    margin-top: 2.2%;
+    width: 45%;
 
     label {
       float: left;
@@ -124,15 +123,11 @@
     }
   }
 
-  .field-budget {
-    margin-top: -0.6%;
-
-    &:before {
-      content: 'Budget:';
-      color: #336666;
-      position: relative;
-      top: 2.5px;
-    }
+  fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #336666;
   }
 
   .select {
