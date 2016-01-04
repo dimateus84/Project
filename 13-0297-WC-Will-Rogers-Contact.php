@@ -178,7 +178,7 @@
             <div class="field-budget field-item">
               <div class="form-item form-type-text">
                 <label>Price per Person:</label>
-                <span class="dollar">$</span>
+                <span class="field-prefix">$</span>
                 <input type="text" class="form-text"/>
               </div>
             </div>
@@ -186,7 +186,7 @@
             <div class="field-budget-for-party field-item">
               <div class="form-item form-type-text">
                 <label>or for Party: </label>
-                <span class="dollar">$</span>
+                <span class="field-prefix">$</span>
                 <input type="text" class="form-text"/>
               </div>
             </div>
