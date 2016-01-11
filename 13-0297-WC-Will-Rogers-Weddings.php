@@ -59,9 +59,9 @@
   </div>
 </div>
 
-<h3 class="wedding">Wedding Packages</h3>
-
 <div class="b-tabs">
+
+<h3 class="wedding">Wedding Packages</h3>
 
 <ul class="tabs_caption">
   <li class="active silver"><span>Silver</span></li>

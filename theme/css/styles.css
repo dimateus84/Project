@@ -1526,6 +1526,18 @@ ul li {
 .b-tabs {
   margin-bottom: 30px;
 }
+.b-tabs h3 {
+  font-family: montserrat-bold;
+  color: #009999;
+  font-size: 35px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #c6c6c6;
+  text-align: center;
+  width: 1122px;
+  margin: -20px auto 50px;
+  letter-spacing: 6px;
+  line-height: 80px;
+}
 .b-tabs .tabs_caption {
   margin: 0 auto;
   display: table;
@@ -1643,19 +1655,6 @@ ul li {
 }
 .b-tabs .tabs_content.active.grand-dinner {
   border-top: 4px solid #be6a6a;
-}
-
-h3.wedding {
-  font-family: montserrat-bold;
-  color: #009999;
-  font-size: 35px;
-  text-transform: uppercase;
-  border-bottom: 2px solid #c6c6c6;
-  text-align: center;
-  width: 1122px;
-  margin: -20px auto 50px;
-  letter-spacing: 6px;
-  line-height: 80px;
 }
 
 .b-col-inner-tree:after {
@@ -2838,7 +2837,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
 
   .site-container {
-    width: 99%;
+    /*width: 99%;*/
   }
   .site-container .b-cols {
     width: 100%;
@@ -2905,10 +2904,6 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
 
   .b-tabs {
-    display: none;
-  }
-
-  h3.wedding {
     display: none;
   }
 
@@ -3114,9 +3109,6 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     font: 12px montserrat-regular;
   }
 
-  .b-cols.col-three {
-    width: 342px;
-  }
   .b-cols.col-one {
     width: 100%;
   }
@@ -3125,6 +3117,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
   .b-cols.col-two .col {
     width: 100%;
+  }
+  .b-cols.col-three {
+    width: 342px;
   }
 
   .text-img-wrapper {
@@ -3168,10 +3163,6 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
 
   .b-tabs {
-    display: none;
-  }
-
-  h3.wedding {
     display: none;
   }
 
@@ -3258,10 +3249,6 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
 }
 @media (min-width: 1152px) {
   .site-container {
-    width: 1122px;
-  }
-
-  .b-cols {
     width: 1122px;
   }
 
