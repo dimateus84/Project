@@ -4,7 +4,7 @@
   margin-bottom: 50px;
   margin-top: -50px;
 
-  .b-text-img:before, .gallery-btn-wrapper:before, {
+  .b-text-img:before, .gallery-btns-wrapper:before, {
     content: '';
     width: 4000px;
     bottom: 0;
@@ -157,7 +157,7 @@
     }
   }
 
-  .gallery-btn-wrapper {
+  .gallery-btns-wrapper {
     @include clearfix();
     margin: -16px auto 20px;
     width: 1000px;

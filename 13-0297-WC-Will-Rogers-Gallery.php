@@ -9,7 +9,7 @@
       </div>
       <div class="content-bottom">
         <div class="text-img-wrapper">
-          <div class="gallery-btn-wrapper">
+          <div class="gallery-btns-wrapper">
             <div class="btn-wrapper">
               <a class="btn active" href="#">View All</a>
             </div>
