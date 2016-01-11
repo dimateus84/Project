@@ -25,7 +25,6 @@
   function init() {
     initFlexslider();
     initFullWidthBlock('.content-top');
-    initFullWidthBlock('.text-img-wrapper');
     initSelect();
     initMobileNav('.nav');
     initMobileNav('.top-menu');

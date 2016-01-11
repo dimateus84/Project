@@ -1,11 +1,23 @@
 .text-img-wrapper {
   position: relative;
-  left: 50%;
-  padding-top: 66px;
-  background: image_url("bg/text-img-bg.jpg") 0% 100%;
+  padding: 66px 0 10px 0;
   margin-bottom: 50px;
-  border-bottom: 2px #c2c2c2 solid;
   margin-top: -50px;
+
+  .b-text-img:before, .gallery-btn-wrapper:before, {
+    content: '';
+    width: 4000px;
+    bottom: 0;
+    left: 50%;
+    @include transform(translate(-50%, 0));
+    margin-top: -66px;
+    display: block;
+    height: 100%;
+    position: absolute;
+    background: image_url("bg/text-img-bg.jpg") 0% 100%;
+    z-index: -1;
+    border-bottom: 2px #c2c2c2 solid;
+  }
 
   .b-text-img {
     @include clearfix();
