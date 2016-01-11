@@ -156,20 +156,5 @@
       }
     }
   }
-
-  .gallery-btns-wrapper {
-    @include clearfix();
-    margin: -16px auto 20px;
-    width: 1000px;
-
-    .btn-wrapper {
-      float: left;
-      margin: 0 20px 30px 20px;
-    }
-  }
-
-  .form-gallery-event {
-    display: none;
-  }
 }
 

@@ -12,7 +12,6 @@
 @import "forms/forms";
 @import "forms/newsletter";
 @import "forms/contact/contact";
-@import "forms/gallery-event-select";
 @import "forms/gallery-btns/gallery-btns";
 
 //layout
@@ -42,6 +41,7 @@
 
   //forms
   @import "forms/contact/contact-s";
+  @import "forms/gallery-btns/gallery-btns-s";
 
   //layout
   @import "layout/header/header-s";
@@ -61,6 +61,7 @@
 
   //forms
   @import "forms/contact/contact-m";
+  @import "forms/gallery-btns/gallery-btns-m";
 
   //layout
   @import "layout/site-container/site-container-m";

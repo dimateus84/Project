@@ -17,7 +17,7 @@
                 <div class="field-view-all field-item">
                   <div class="form-item form-type-radio">
 
-                    <input id="view-all" type="radio" name="radio" checked hidden />
+                    <input id="view-all" type="radio" name="radio" checked hidden/>
                     <label for="view-all">view-all</label>
 
                   </div>
@@ -26,7 +26,7 @@
                 <div class="field-weddings field-item">
                   <div class="form-item form-type-radio">
 
-                    <input id="weddings" type="radio" name="radio" hidden />
+                    <input id="weddings" type="radio" name="radio" hidden/>
                     <label for="weddings">Weddings</label>
 
                   </div>
@@ -35,7 +35,7 @@
                 <div class="field-business field-item">
                   <div class="form-item form-type-radio">
 
-                    <input id="business" type="radio" name="radio" hidden />
+                    <input id="business" type="radio" name="radio" hidden/>
                     <label for="business">Business</label>
 
                   </div>
@@ -44,7 +44,7 @@
                 <div class="field-party field-item">
                   <div class="form-item form-type-radio">
 
-                    <input id="party" type="radio" name="radio" hidden />
+                    <input id="party" type="radio" name="radio" hidden/>
                     <label for="party">Party</label>
 
                   </div>
@@ -53,7 +53,7 @@
                 <div class="field-presentation field-item">
                   <div class="form-item form-type-radio">
 
-                    <input id="presentation" type="radio" name="radio" hidden />
+                    <input id="presentation" type="radio" name="radio" hidden/>
                     <label for="presentation">Presentation</label>
 
                   </div>
@@ -61,41 +61,6 @@
               </form>
             </div>
 
-            <div class="btn-wrapper">
-              <a class="btn active" href="#">View All</a>
-            </div>
-            <div class="btn-wrapper">
-              <a class="btn" href="#">Weddings</a>
-            </div>
-            <div class="btn-wrapper">
-              <a class="btn" href="#">Business</a>
-            </div>
-            <div class="btn-wrapper">
-              <a class="btn" href="#">Party</a>
-            </div>
-            <div class="btn-wrapper">
-              <a class="btn" href="#">Presentation</a>
-            </div>
-          </div>
-
-          <div class="form form-gallery-event">
-            <form action="#" method="post">
-              <div class="field-select-gallery field-item">
-                <div class="form-item form-type-select">
-                  <label>Select gallery:</label>
-
-                  <div class="select">
-                    <select class="form-select">
-                      <option>View All</option>
-                      <option>Weddings</option>
-                      <option>Business</option>
-                      <option>Party</option>
-                      <option>Presentation</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </form>
           </div>
         </div>
 

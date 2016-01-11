@@ -1,0 +1,9 @@
+.gallery-btns-wrapper {
+  @include clearfix();
+  margin: -5px auto 0px;;
+
+  .form-gallery-btns .form-item {
+    float: none;
+    margin: 0 0 12px;;
+  }
+}

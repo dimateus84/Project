@@ -1,11 +1,10 @@
 .gallery-btns-wrapper {
   @include clearfix();
   margin: -16px auto 20px;
-  width: 1000px;
 
   .form-gallery-btns .form-item {
     float: left;
-    margin: 0 20px 30px 20px;
+    margin: 0 32px 30px 32px;
     text-align: center;
 
     input[type="radio"] {

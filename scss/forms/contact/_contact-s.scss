@@ -20,7 +20,8 @@
   }
 
   .field-your-phone-number, .field-date-flexible  {
-    width: 65%;
+    width: 85%;
+    clear: left;
   }
 
   .field-type-of-event, .field-entertainment {
@@ -44,7 +45,7 @@
   }
 
   .field-preferred-month, .field-preferred-day, .field-preferred-year, .field-budget {
-    margin-right: 5%;
+    margin-right: 3%;
   }
 
   .form-type-radio .radio {
@@ -65,7 +66,7 @@
   }
 
   .field-budget, .field-budget-for-party {
-    width: 80%;
+    width: 95%;
     margin-top: 2.1%;
 
     label {
