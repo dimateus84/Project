@@ -1128,6 +1128,9 @@ ul li {
 .b-cols.col-two .col.col-2 {
   margin: 0;
 }
+.b-cols.col-two .col h3 span {
+  min-width: 250px;
+}
 .b-cols.col-three .col {
   float: left;
   margin-right: 46px;

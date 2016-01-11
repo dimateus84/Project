@@ -14,6 +14,10 @@
     &.col-2 {
       margin: 0;
     }
+
+    h3 span {
+      min-width: 250px;
+    }
   }
 
   &.col-three .col {
