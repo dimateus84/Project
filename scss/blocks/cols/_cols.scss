@@ -2,12 +2,8 @@
   @include clearfix();
   margin: 0 auto;
 
-  &.col-one .col {
-    width: 1122px;
-
-    h3 span {
-      min-width: 250px;
-    }
+  &.col-one .col h3 span {
+    min-width: 250px;
   }
 
   &.col-two .col {
