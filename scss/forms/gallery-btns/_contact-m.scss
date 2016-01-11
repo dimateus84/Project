@@ -1,0 +1,131 @@
+.form-contact {
+  width: 95%;
+
+  .field-item {
+    margin-bottom: 10px;
+    float: none;
+  }
+
+  .field-preferred-month, .field-preferred-day, .field-preferred-year {
+    float: left;
+  }
+
+  .field-first-name, .field-your-email-address, .field-last-name, .field-other-entertainment, .field-other-needs ,
+  .field-needs, .field-questions-or-concerns {
+    width: 100%;
+  }
+
+  .field-first-name, .field-your-email-address, .field-needs, .field-number-of-guests {
+    margin-right: 0%;
+  }
+
+  .field-your-phone-number {
+    width: 65%;
+  }
+
+  .field-type-of-event, .field-entertainment {
+    width: 70%;
+    margin-right: 0%;
+  }
+
+  .field-preferred-month {
+
+    input {
+    width: 31%;
+    }
+  }
+
+  .field-date-flexible {
+    width: 25%;
+  }
+
+  .field-preferred-day, .field-preferred-year  {
+    width: 22%;
+
+    label {
+      visibility: hidden;
+    }
+  }
+
+  .field-preferred-month, .field-preferred-day, .field-preferred-year, .field-budget {
+    margin-right: 5%;
+  }
+
+  .form-type-radio .radio {
+    margin-right: 15%;
+  }
+
+  .form-type-radio > label {
+    margin-bottom: 5%;
+  }
+
+
+  .field-number-of-guests {
+    width: 25%;
+
+    input {
+      width: 80% !important;
+    }
+  }
+
+  .field-budget, .field-budget-for-party {
+    width: 30%;
+    margin-top: 2.1%;
+
+    label {
+      float: left;
+      width: 60%;
+      margin-top: 4%;
+      color: #000;
+    }
+
+    span {
+      line-height: 330%;
+      font-family: arial;
+      font-size: 12px;
+      text-transform: none;
+    }
+
+    .field-prefix {
+      font-size: 15px;
+      line-height: 0%;
+      vertical-align: bottom;
+    }
+
+    input {
+      float: right;
+      width: 35% !important;
+
+    }
+  }
+
+  .field-budget-for-party {
+
+    label {
+      text-align: right;
+      padding-right: 1.5%;
+    }
+  }
+
+  .field-captcha {
+    width: 60%;
+    margin: 0 auto;
+
+    .captcha-img-container {
+      float: none;
+
+      a, img {
+        margin: 0 auto;
+      }
+    }
+
+    .form-item {
+      float: none;
+    }
+  }
+
+  .btn-wrapper {
+    clear: both;
+  }
+}
+
