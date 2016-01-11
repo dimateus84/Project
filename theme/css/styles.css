@@ -1,17 +1,3 @@
-@charset "UTF-8";
-/*
-@include font-face("Montserrat-bold", font-files(
-		"montserrat-bold-webfont.woff",
-		"montserrat-bold-webfont.ttf",
-		"montserrat-bold-webfont.svg"
-),
-	"montserrat-bold-webfont.eot" */
-/* ð¥Ðéð¢ð¥Ðüð©ÐéðÁð╗Ðîð¢Ðïð╣ ð┐ÐâÐéÐî ð║ .eot Ðäð░ð╣ð╗Ðâ ð┤ð╗ÐÅ IE */
-                                                                      /*
-
-);
-
-*/
 @font-face {
   font-family: 'voltaire-regular';
   src: url("../fonts/voltaire-regular-webfont.eot");
@@ -1515,7 +1501,6 @@ ul li {
   text-transform: uppercase;
   border-bottom: 2px solid #c6c6c6;
   text-align: center;
-  width: 1122px;
   margin: -20px auto 50px;
   letter-spacing: 6px;
   line-height: 80px;
@@ -1524,7 +1509,6 @@ ul li {
   margin: 0 auto;
   display: table;
   padding: 0;
-  width: 1122px;
 }
 .b-tabs .tabs_caption li {
   display: table-cell;
@@ -1611,7 +1595,6 @@ ul li {
 }
 .b-tabs .tabs_content {
   display: none;
-  width: 1122px;
   margin: 0 auto;
   padding: 30px;
   border: 1px solid #314c4e;
@@ -1716,7 +1699,6 @@ ul li {
 
 .b-gallery-event {
   margin: 0 auto;
-  width: 1122px;
 }
 .b-gallery-event:after {
   content: " ";
@@ -2899,9 +2881,6 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     display: none;
   }
 
-  .b-gallery-event {
-    width: 95%;
-  }
   .b-gallery-event.style-a p {
     width: 100%;
   }
@@ -3167,9 +3146,6 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
     display: none;
   }
 
-  .b-gallery-event {
-    width: 100%;
-  }
   .b-gallery-event.style-a .img-event-wrapper {
     margin: 0 auto;
     width: 70%;
@@ -3251,9 +3227,5 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
 @media (min-width: 1152px) {
   .site-container {
     width: 1122px;
-  }
-
-  .text-img-wrapper .b-text-img {
-    width: 1110px;
   }
 }
