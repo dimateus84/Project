@@ -1,7 +1,7 @@
 .b-cols {
   width: 100%;
 
-  &.col-two .col{
+  &.col-two .col, &.col-three .col{
     width: 100%;
   }
 
@@ -24,6 +24,13 @@
 
   &.col-one.style-c {
     display: none;
+  }
+
+  .field-captcha.field-item div {
+
+    a, label {
+      font-size: 9px;
+    }
   }
 }
 

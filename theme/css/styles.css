@@ -731,6 +731,7 @@ ul li {
   width: 35% !important;
 }
 .form-contact fieldset {
+  width: 75%;
   border: none;
   margin: 0;
   padding: 0;
@@ -2607,6 +2608,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .form-contact .field-number-of-guests input {
     width: 80% !important;
   }
+  .form-contact fieldset {
+    width: 100%;
+  }
   .form-contact .field-budget, .form-contact .field-budget-for-party {
     width: 95%;
     margin-top: 2.1%;
@@ -2823,7 +2827,7 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   .b-cols {
     width: 100%;
   }
-  .b-cols.col-two .col {
+  .b-cols.col-two .col, .b-cols.col-three .col {
     width: 100%;
   }
   .b-cols .col {
@@ -2841,6 +2845,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
   .b-cols.col-one.style-c {
     display: none;
+  }
+  .b-cols .field-captcha.field-item div a, .b-cols .field-captcha.field-item div label {
+    font-size: 9px;
   }
 
   .text-img-wrapper {
@@ -3018,6 +3025,9 @@ html[dir="rtl"] .select2-container-multi .select2-search-choice-close {
   }
   .form-contact .field-number-of-guests input {
     width: 80% !important;
+  }
+  .form-contact fieldset {
+    width: 100%;
   }
   .form-contact .field-budget, .form-contact .field-budget-for-party {
     width: 30%;
